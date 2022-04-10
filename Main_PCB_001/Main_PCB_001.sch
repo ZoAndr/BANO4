@@ -1,0 +1,502 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TPS40211QDGQRQ1:TPS40211QDGQRQ1 IC?
+U 1 1 62486FEA
+P 5700 2850
+F 0 "IC?" H 6400 3115 50  0000 C CNN
+F 1 "TPS40211QDGQRQ1" H 6400 3024 50  0000 C CNN
+F 2 "SOP50P490X110-11N" H 6950 2950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/tps40211-q1" H 6950 2850 50  0001 L CNN
+F 4 "4.5V to 52V Wide Input range current mode boost controller with 260 mV reference voltage" H 6950 2750 50  0001 L CNN "Description"
+F 5 "1.1" H 6950 2650 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 6950 2550 50  0001 L CNN "Manufacturer_Name"
+F 7 "TPS40211QDGQRQ1" H 6950 2450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-TPS40211QDGQRQ1" H 6950 2350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS40211QDGQRQ1?qs=XGzIaZb%2FFYKjJ5OLwHPUhQ%3D%3D" H 6950 2250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "TPS40211QDGQRQ1" H 6950 2150 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/tps40211qdgqrq1/texas-instruments?region=nac" H 6950 2050 50  0001 L CNN "Arrow Price/Stock"
+	1    5700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62488AAF
+P 3500 2400
+F 0 "R?" H 3570 2446 50  0000 L CNN
+F 1 "R" H 3570 2355 50  0000 L CNN
+F 2 "" V 3430 2400 50  0001 C CNN
+F 3 "~" H 3500 2400 50  0001 C CNN
+	1    3500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62489F98
+P 3200 1550
+F 0 "R?" H 3270 1596 50  0000 L CNN
+F 1 "R" H 3270 1505 50  0000 L CNN
+F 2 "" V 3130 1550 50  0001 C CNN
+F 3 "~" H 3200 1550 50  0001 C CNN
+	1    3200 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6248B6D6
+P 7650 3050
+F 0 "R?" H 7720 3096 50  0000 L CNN
+F 1 "R" H 7720 3005 50  0000 L CNN
+F 2 "" V 7580 3050 50  0001 C CNN
+F 3 "~" H 7650 3050 50  0001 C CNN
+	1    7650 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6248B6DC
+P 8150 3400
+F 0 "R?" H 8220 3446 50  0000 L CNN
+F 1 "R" H 8220 3355 50  0000 L CNN
+F 2 "" V 8080 3400 50  0001 C CNN
+F 3 "~" H 8150 3400 50  0001 C CNN
+	1    8150 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6248B6E2
+P 6150 2100
+F 0 "R?" H 6220 2146 50  0000 L CNN
+F 1 "R" H 6220 2055 50  0000 L CNN
+F 2 "" V 6080 2100 50  0001 C CNN
+F 3 "~" H 6150 2100 50  0001 C CNN
+	1    6150 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6248BA16
+P 9300 3700
+F 0 "R?" H 9370 3746 50  0000 L CNN
+F 1 "R" H 9370 3655 50  0000 L CNN
+F 2 "" V 9230 3700 50  0001 C CNN
+F 3 "~" H 9300 3700 50  0001 C CNN
+	1    9300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6248BBC2
+P 4350 3700
+F 0 "C?" H 4465 3746 50  0000 L CNN
+F 1 "C" H 4465 3655 50  0000 L CNN
+F 2 "" H 4388 3550 50  0001 C CNN
+F 3 "~" H 4350 3700 50  0001 C CNN
+	1    4350 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6248D0B9
+P 3950 3700
+F 0 "R?" H 4020 3746 50  0000 L CNN
+F 1 "R" H 4020 3655 50  0000 L CNN
+F 2 "" V 3880 3700 50  0001 C CNN
+F 3 "~" H 3950 3700 50  0001 C CNN
+	1    3950 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6248D421
+P 4750 2100
+F 0 "C?" H 4865 2146 50  0000 L CNN
+F 1 "C" H 4865 2055 50  0000 L CNN
+F 2 "" H 4788 1950 50  0001 C CNN
+F 3 "~" H 4750 2100 50  0001 C CNN
+	1    4750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6248DCE7
+P 7400 2250
+F 0 "C?" H 7515 2296 50  0000 L CNN
+F 1 "C" H 7515 2205 50  0000 L CNN
+F 2 "" H 7438 2100 50  0001 C CNN
+F 3 "~" H 7400 2250 50  0001 C CNN
+	1    7400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6248DCED
+P 7800 2250
+F 0 "C?" H 7915 2296 50  0000 L CNN
+F 1 "C" H 7915 2205 50  0000 L CNN
+F 2 "" H 7838 2100 50  0001 C CNN
+F 3 "~" H 7800 2250 50  0001 C CNN
+	1    7800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6248F4B5
+P 4150 3400
+F 0 "C?" H 4265 3446 50  0000 L CNN
+F 1 "C" H 4265 3355 50  0000 L CNN
+F 2 "" H 4188 3250 50  0001 C CNN
+F 3 "~" H 4150 3400 50  0001 C CNN
+	1    4150 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6248F4BB
+P 5050 2700
+F 0 "C?" H 5165 2746 50  0000 L CNN
+F 1 "C" H 5165 2655 50  0000 L CNN
+F 2 "" H 5088 2550 50  0001 C CNN
+F 3 "~" H 5050 2700 50  0001 C CNN
+	1    5050 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6248F4C1
+P 8850 1750
+F 0 "C?" H 8965 1796 50  0000 L CNN
+F 1 "C" H 8965 1705 50  0000 L CNN
+F 2 "" H 8888 1600 50  0001 C CNN
+F 3 "~" H 8850 1750 50  0001 C CNN
+	1    8850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6248F4C7
+P 7500 3550
+F 0 "C?" H 7615 3596 50  0000 L CNN
+F 1 "C" H 7615 3505 50  0000 L CNN
+F 2 "" H 7538 3400 50  0001 C CNN
+F 3 "~" H 7500 3550 50  0001 C CNN
+	1    7500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3700 4100 3700
+Wire Wire Line
+	4500 3700 4500 3400
+Wire Wire Line
+	4500 3400 4300 3400
+Wire Wire Line
+	4000 3400 3800 3400
+Wire Wire Line
+	3800 3400 3800 3700
+Wire Wire Line
+	7100 3050 7500 3050
+Wire Wire Line
+	8000 3400 7850 3400
+Wire Wire Line
+	7100 3150 7350 3150
+Wire Wire Line
+	7350 3150 7350 3400
+Wire Wire Line
+	7350 3400 7500 3400
+Connection ~ 7500 3400
+Wire Wire Line
+	7100 2850 7100 2100
+Wire Wire Line
+	7100 2100 7400 2100
+Wire Wire Line
+	7800 2100 7400 2100
+Connection ~ 7400 2100
+$Comp
+L power:GND #PWR?
+U 1 1 624A0463
+P 7800 2500
+F 0 "#PWR?" H 7800 2250 50  0001 C CNN
+F 1 "GND" H 7805 2327 50  0000 C CNN
+F 2 "" H 7800 2500 50  0001 C CNN
+F 3 "" H 7800 2500 50  0001 C CNN
+	1    7800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 624A0DD0
+P 7400 2500
+F 0 "#PWR?" H 7400 2250 50  0001 C CNN
+F 1 "GND" H 7405 2327 50  0000 C CNN
+F 2 "" H 7400 2500 50  0001 C CNN
+F 3 "" H 7400 2500 50  0001 C CNN
+	1    7400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 624A1A9C
+P 7100 3300
+F 0 "#PWR?" H 7100 3050 50  0001 C CNN
+F 1 "GND" H 7105 3127 50  0000 C CNN
+F 2 "" H 7100 3300 50  0001 C CNN
+F 3 "" H 7100 3300 50  0001 C CNN
+	1    7100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 624A1AA2
+P 6400 3850
+F 0 "#PWR?" H 6400 3600 50  0001 C CNN
+F 1 "GND" H 6405 3677 50  0000 C CNN
+F 2 "" H 6400 3850 50  0001 C CNN
+F 3 "" H 6400 3850 50  0001 C CNN
+	1    6400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 624A2C8D
+P 9300 3950
+F 0 "#PWR?" H 9300 3700 50  0001 C CNN
+F 1 "GND" H 9305 3777 50  0000 C CNN
+F 2 "" H 9300 3950 50  0001 C CNN
+F 3 "" H 9300 3950 50  0001 C CNN
+	1    9300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 624A317E
+P 8850 2000
+F 0 "#PWR?" H 8850 1750 50  0001 C CNN
+F 1 "GND" H 8855 1827 50  0000 C CNN
+F 2 "" H 8850 2000 50  0001 C CNN
+F 3 "" H 8850 2000 50  0001 C CNN
+	1    8850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 624A380A
+P 3000 1650
+F 0 "#PWR?" H 3000 1400 50  0001 C CNN
+F 1 "GND" H 3005 1477 50  0000 C CNN
+F 2 "" H 3000 1650 50  0001 C CNN
+F 3 "" H 3000 1650 50  0001 C CNN
+	1    3000 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1550 3000 1550
+Wire Wire Line
+	3000 1550 3000 1650
+Wire Wire Line
+	3350 1550 3500 1550
+Wire Wire Line
+	3500 2550 3500 3400
+Wire Wire Line
+	3500 3400 3800 3400
+Connection ~ 3800 3400
+$Comp
+L power:GND #PWR?
+U 1 1 624A5B44
+P 4500 2200
+F 0 "#PWR?" H 4500 1950 50  0001 C CNN
+F 1 "GND" H 4505 2027 50  0000 C CNN
+F 2 "" H 4500 2200 50  0001 C CNN
+F 3 "" H 4500 2200 50  0001 C CNN
+	1    4500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 624A63B7
+P 4800 2800
+F 0 "#PWR?" H 4800 2550 50  0001 C CNN
+F 1 "GND" H 4805 2627 50  0000 C CNN
+F 2 "" H 4800 2800 50  0001 C CNN
+F 3 "" H 4800 2800 50  0001 C CNN
+	1    4800 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3700 3800 3900
+Wire Wire Line
+	3800 3900 5400 3900
+Wire Wire Line
+	5400 3900 5400 3250
+Wire Wire Line
+	5400 3250 5700 3250
+Connection ~ 3800 3700
+Wire Wire Line
+	5700 3150 5200 3150
+Wire Wire Line
+	5200 3150 5200 3400
+Wire Wire Line
+	5200 3400 4500 3400
+Connection ~ 4500 3400
+Wire Wire Line
+	4600 2100 4500 2100
+Wire Wire Line
+	4500 2100 4500 2200
+Wire Wire Line
+	4900 2700 4800 2700
+Wire Wire Line
+	4800 2700 4800 2800
+Wire Wire Line
+	5200 2700 5350 2700
+Wire Wire Line
+	5350 2700 5350 2950
+Wire Wire Line
+	5350 2950 5700 2950
+Wire Wire Line
+	4900 2100 5550 2100
+Wire Wire Line
+	5550 2850 5700 2850
+$Comp
+L power:GND #PWR?
+U 1 1 624AD5FC
+P 7500 3800
+F 0 "#PWR?" H 7500 3550 50  0001 C CNN
+F 1 "GND" H 7505 3627 50  0000 C CNN
+F 2 "" H 7500 3800 50  0001 C CNN
+F 3 "" H 7500 3800 50  0001 C CNN
+	1    7500 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3700 7500 3800
+Wire Wire Line
+	9300 3850 9300 3950
+Wire Wire Line
+	6400 3750 6400 3850
+Wire Wire Line
+	7100 3250 7100 3300
+Wire Wire Line
+	6000 2100 5550 2100
+Wire Wire Line
+	6300 2100 7100 2100
+Connection ~ 7100 2100
+Connection ~ 5550 2100
+Wire Wire Line
+	5550 2100 5550 2850
+Wire Wire Line
+	3500 1550 3500 2250
+Wire Wire Line
+	8850 1900 8850 2000
+Wire Wire Line
+	7400 2400 7400 2500
+Wire Wire Line
+	7800 2400 7800 2500
+$Comp
+L SS36:SS36 D?
+U 1 1 624B854D
+P 9300 1500
+F 0 "D?" V 9654 1630 50  0000 L CNN
+F 1 "SS36" V 9745 1630 50  0000 L CNN
+F 2 "DIOM7959X262N" H 9800 1650 50  0001 L CNN
+F 3 "https://docs.rs-online.com/a290/0900766b8002669b.pdf" H 9800 1550 50  0001 L CNN
+F 4 "Rectifier Diode, Schottky, 60 Volt, DO-214AB / SMC" H 9800 1450 50  0001 L CNN "Description"
+F 5 "2.62" H 9800 1350 50  0001 L CNN "Height"
+F 6 "Vishay" H 9800 1250 50  0001 L CNN "Manufacturer_Name"
+F 7 "SS36" H 9800 1150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 9800 1050 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 9800 950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 9800 850 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 9800 750 50  0001 L CNN "Arrow Price/Stock"
+	1    9300 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L SI3440ADV-T1-GE3:SI3440ADV-T1-GE3 IC?
+U 1 1 624BCBCE
+P 8300 2850
+F 0 "IC?" H 8800 3115 50  0000 C CNN
+F 1 "SI3440ADV-T1-GE3" H 8800 3024 50  0000 C CNN
+F 2 "SOT95P284X110-6N" H 9150 2950 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/si3440adv-1766662.pdf" H 9150 2850 50  0001 L CNN
+F 4 "MOSFET 150V Vds 20V Vgs TSOP-6" H 9150 2750 50  0001 L CNN "Description"
+F 5 "1.1" H 9150 2650 50  0001 L CNN "Height"
+F 6 "Vishay" H 9150 2550 50  0001 L CNN "Manufacturer_Name"
+F 7 "SI3440ADV-T1-GE3" H 9150 2450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "78-SI3440ADV-T1-GE3" H 9150 2350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI3440ADV-T1-GE3?qs=MLItCLRbWszROruTqjp9nA%3D%3D" H 9150 2250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SI3440ADV-T1-GE3" H 9150 2150 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/si3440adv-t1-ge3/vishay?region=nac" H 9150 2050 50  0001 L CNN "Arrow Price/Stock"
+	1    8300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BZT52-C5V1J:BZT52-C5V1J Z?
+U 1 1 624BF160
+P 9800 1600
+F 0 "Z?" V 10054 1730 50  0000 L CNN
+F 1 "BZT52-C5V1J" V 10145 1730 50  0000 L CNN
+F 2 "SOD3616X130N" H 10200 1750 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf" H 10200 1650 50  0001 L CNN
+F 4 "Zener Diodes BZT52-C5V1/SOD123 SOD2" H 10200 1550 50  0001 L CNN "Description"
+F 5 "1.3" H 10200 1450 50  0001 L CNN "Height"
+F 6 "Nexperia" H 10200 1350 50  0001 L CNN "Manufacturer_Name"
+F 7 "BZT52-C5V1J" H 10200 1250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "N/A" H 10200 1150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 10200 1050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "BZT52-C5V1J" H 10200 950 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/bzt52-c5v1j/nexperia" H 10200 850 50  0001 L CNN "Arrow Price/Stock"
+	1    9800 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 3050 9300 3400
+Wire Wire Line
+	8300 3400 9300 3400
+Connection ~ 9300 3400
+Wire Wire Line
+	9300 3400 9300 3550
+Wire Wire Line
+	9300 2950 9300 2850
+Wire Wire Line
+	8300 2950 8300 2850
+Wire Wire Line
+	8300 2850 8300 2500
+Wire Wire Line
+	8300 2500 9300 2500
+Wire Wire Line
+	9300 2500 9300 2850
+Connection ~ 8300 2850
+Connection ~ 9300 2850
+Wire Wire Line
+	9300 2500 9300 2200
+Connection ~ 9300 2500
+Wire Wire Line
+	9800 1600 9300 1600
+Wire Wire Line
+	8850 1600 9300 1600
+Connection ~ 9300 1600
+Wire Wire Line
+	7850 3400 7850 4250
+Wire Wire Line
+	7850 4250 9800 4250
+Wire Wire Line
+	9800 4250 9800 2200
+Connection ~ 7850 3400
+Wire Wire Line
+	7850 3400 7500 3400
+Wire Wire Line
+	8300 3050 7800 3050
+$EndSCHEMATC
