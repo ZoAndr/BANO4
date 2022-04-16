@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001\Main_PCB_001.kicad_sch</source>
-    <date>10.04.2022 16:41:59</date>
+    <source>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001\Main_PCB_001.kicad_sch</source>
+    <date>16.04.2022 19:42:19</date>
     <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -233,34 +233,34 @@
     </comp>
     <comp ref="D1">
       <value>WireHole_1p5</value>
-      <footprint>Connector_Wire_User_001:WireHole_1p5</footprint>
+      <footprint>libraries:WireHole_1p5</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2a58bdc5-d191-4f92-b747-b42730ec1d12</tstamps>
+      <tstamps>5737afb7-2ca9-42d3-818e-4a8d58f1bfb1</tstamps>
     </comp>
     <comp ref="D2">
       <value>WireHole_1p5</value>
-      <footprint>Connector_Wire_User_001:WireHole_1p5</footprint>
+      <footprint>libraries:WireHole_1p5</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3284361f-2836-48bd-a694-202d364e3e6d</tstamps>
+      <tstamps>fdcf5a0b-5cc4-4a64-a579-df5462e72f5e</tstamps>
     </comp>
     <comp ref="D3">
       <value>WireHole_1p5</value>
-      <footprint>Connector_Wire_User_001:WireHole_1p5</footprint>
+      <footprint>libraries:WireHole_1p5</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ec82edfb-fce7-4ab1-8236-276433a0da39</tstamps>
+      <tstamps>a5704062-c423-49cd-af3a-ff4be8d176cc</tstamps>
     </comp>
     <comp ref="D4">
       <value>Wire_Pad_01</value>
-      <footprint>Connector_Wire_User_001:Wire_Pad_01</footprint>
+      <footprint>libraries:Wire_Pad_01</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -269,7 +269,7 @@
     </comp>
     <comp ref="D5">
       <value>Wire_Pad_01</value>
-      <footprint>Connector_Wire_User_001:Wire_Pad_01</footprint>
+      <footprint>libraries:Wire_Pad_01</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -278,7 +278,7 @@
     </comp>
     <comp ref="D6">
       <value>Wire_Pad_01</value>
-      <footprint>Connector_Wire_User_001:Wire_Pad_01</footprint>
+      <footprint>libraries:Wire_Pad_01</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -287,7 +287,7 @@
     </comp>
     <comp ref="D7">
       <value>Wire_Pad_01</value>
-      <footprint>Connector_Wire_User_001:Wire_Pad_01</footprint>
+      <footprint>libraries:Wire_Pad_01</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -296,7 +296,7 @@
     </comp>
     <comp ref="D8">
       <value>Wire_Pad_01</value>
-      <footprint>Connector_Wire_User_001:Wire_Pad_01</footprint>
+      <footprint>libraries:Wire_Pad_01</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -305,7 +305,7 @@
     </comp>
     <comp ref="D9">
       <value>Wire_Pad_01</value>
-      <footprint>Connector_Wire_User_001:Wire_Pad_01</footprint>
+      <footprint>libraries:Wire_Pad_01</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -314,7 +314,7 @@
     </comp>
     <comp ref="D10">
       <value>SS36</value>
-      <footprint>DIOM7959X262N</footprint>
+      <footprint>libraries:DIOM7959X262N</footprint>
       <datasheet>https://docs.rs-online.com/a290/0900766b8002669b.pdf</datasheet>
       <fields>
         <field name="Description">Rectifier Diode, Schottky, 60 Volt, DO-214AB / SMC</field>
@@ -338,7 +338,7 @@
     </comp>
     <comp ref="D11">
       <value>Wire_Pad_01</value>
-      <footprint>Connector_Wire_User_001:Wire_Pad_01</footprint>
+      <footprint>libraries:Wire_Pad_01</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -347,7 +347,7 @@
     </comp>
     <comp ref="D12">
       <value>SS36</value>
-      <footprint>DIOM7959X262N</footprint>
+      <footprint>libraries:DIOM7959X262N</footprint>
       <datasheet>https://docs.rs-online.com/a290/0900766b8002669b.pdf</datasheet>
       <fields>
         <field name="Description">Rectifier Diode, Schottky, 60 Volt, DO-214AB / SMC</field>
@@ -371,7 +371,7 @@
     </comp>
     <comp ref="D13">
       <value>Wire_Pad_01</value>
-      <footprint>Connector_Wire_User_001:Wire_Pad_01</footprint>
+      <footprint>libraries:Wire_Pad_01</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -380,7 +380,7 @@
     </comp>
     <comp ref="D14">
       <value>Wire_Pad_01</value>
-      <footprint>Connector_Wire_User_001:Wire_Pad_01</footprint>
+      <footprint>libraries:Wire_Pad_01</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -389,25 +389,25 @@
     </comp>
     <comp ref="D15">
       <value>Wire_Pad_01</value>
-      <footprint>Connector_Wire_User_001:Wire_Pad_01</footprint>
+      <footprint>libraries:Wire_Pad_01</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>266dfb96-be3e-4e37-a3b8-5d1f419d64a6</tstamps>
     </comp>
-    <comp ref="D16">
+    <comp ref="D20">
       <value>WireHole_1p5</value>
-      <footprint>Connector_Wire_User_001:WireHole_1p5</footprint>
+      <footprint>libraries:WireHole_1p5</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>369c0552-f1c5-4459-8ee1-070ef7aeb5b3</tstamps>
+      <tstamps>7ffaf412-974d-4eab-86fd-7eec7991b7d2</tstamps>
     </comp>
     <comp ref="IC1">
       <value>FDN8601</value>
-      <footprint>SOT95P251X112-3N</footprint>
+      <footprint>libraries:SOT95P251X112-3N</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/FDN8601-D.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">FDN8601</field>
@@ -435,7 +435,7 @@
     </comp>
     <comp ref="IC2">
       <value>FDN8601</value>
-      <footprint>SOT95P251X112-3N</footprint>
+      <footprint>libraries:SOT95P251X112-3N</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/FDN8601-D.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">FDN8601</field>
@@ -463,7 +463,7 @@
     </comp>
     <comp ref="IC3">
       <value>TPS40211QDGQRQ1</value>
-      <footprint>SOP50P490X110-11N</footprint>
+      <footprint>libraries:SOP50P490X110-11N</footprint>
       <datasheet>http://www.ti.com/lit/gpn/tps40211-q1</datasheet>
       <fields>
         <field name="Arrow Part Number">TPS40211QDGQRQ1</field>
@@ -491,7 +491,7 @@
     </comp>
     <comp ref="IC4">
       <value>PAM2863ECR</value>
-      <footprint>SOIC127P600X175-9N</footprint>
+      <footprint>libraries:SOIC127P600X175-9N</footprint>
       <datasheet>https://componentsearchengine.com/Datasheets/1/PAM2863ECR.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">PAM2863ECR</field>
@@ -518,36 +518,8 @@
       <tstamps>1c8481ee-7456-4c14-8028-f99f3d2d1785</tstamps>
     </comp>
     <comp ref="IC5">
-      <value>SI3440ADV-T1-GE3</value>
-      <footprint>SOT95P284X110-6N</footprint>
-      <datasheet>https://eu.mouser.com/datasheet/2/427/si3440adv-1766662.pdf</datasheet>
-      <fields>
-        <field name="Arrow Part Number">SI3440ADV-T1-GE3</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/si3440adv-t1-ge3/vishay?region=nac</field>
-        <field name="Description">MOSFET 150V Vds 20V Vgs TSOP-6</field>
-        <field name="Height">1.1</field>
-        <field name="Manufacturer_Name">Vishay</field>
-        <field name="Manufacturer_Part_Number">SI3440ADV-T1-GE3</field>
-        <field name="Mouser Part Number">78-SI3440ADV-T1-GE3</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI3440ADV-T1-GE3?qs=MLItCLRbWszROruTqjp9nA%3D%3D</field>
-      </fields>
-      <libsource lib="SI3440ADV-T1-GE3" part="SI3440ADV-T1-GE3" description="MOSFET 150V Vds 20V Vgs TSOP-6"/>
-      <property name="Description" value="MOSFET 150V Vds 20V Vgs TSOP-6"/>
-      <property name="Height" value="1.1"/>
-      <property name="Manufacturer_Name" value="Vishay"/>
-      <property name="Manufacturer_Part_Number" value="SI3440ADV-T1-GE3"/>
-      <property name="Mouser Part Number" value="78-SI3440ADV-T1-GE3"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI3440ADV-T1-GE3?qs=MLItCLRbWszROruTqjp9nA%3D%3D"/>
-      <property name="Arrow Part Number" value="SI3440ADV-T1-GE3"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/si3440adv-t1-ge3/vishay?region=nac"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000624bcbce</tstamps>
-    </comp>
-    <comp ref="IC6">
       <value>FDN8601</value>
-      <footprint>SOT95P251X112-3N</footprint>
+      <footprint>libraries:SOT95P251X112-3N</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/FDN8601-D.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">FDN8601</field>
@@ -573,9 +545,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>56718553-b9ca-4e20-8d97-165aa023ce68</tstamps>
     </comp>
-    <comp ref="IC7">
+    <comp ref="IC6">
       <value>ZXTR2105FQ-7</value>
-      <footprint>SOT96P240X110-3N</footprint>
+      <footprint>libraries:SOT96P240X110-3N</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ZXTR2105F.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">ZXTR2105FQ-7</field>
@@ -603,7 +575,7 @@
     </comp>
     <comp ref="L1">
       <value>TFM201610ALC-R47MTAA</value>
-      <footprint>INDC2016X80N</footprint>
+      <footprint>libraries:INDC2016X80N</footprint>
       <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
@@ -631,7 +603,7 @@
     </comp>
     <comp ref="L2">
       <value>TFM201610ALC-R47MTAA</value>
-      <footprint>INDC2016X80N</footprint>
+      <footprint>libraries:INDC2016X80N</footprint>
       <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
@@ -659,7 +631,7 @@
     </comp>
     <comp ref="L3">
       <value>SRP4020TA-100M</value>
-      <footprint>INDPM4441X200N</footprint>
+      <footprint>libraries:INDPM4441X200N</footprint>
       <datasheet>http://www.bourns.com/docs/Product-Datasheets/SRP4020TA.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">SRP4020TA-100M</field>
@@ -687,7 +659,7 @@
     </comp>
     <comp ref="L4">
       <value>SRP5030T-100M</value>
-      <footprint>INDPM5752X300N</footprint>
+      <footprint>libraries:INDPM5752X300N</footprint>
       <datasheet>https://componentsearchengine.com/Datasheets/2/SRP5030T-100M.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">SRP5030T-100M</field>
@@ -715,7 +687,7 @@
     </comp>
     <comp ref="L5">
       <value>TFM201610ALC-R47MTAA</value>
-      <footprint>INDC2016X80N</footprint>
+      <footprint>libraries:INDC2016X80N</footprint>
       <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
@@ -743,7 +715,7 @@
     </comp>
     <comp ref="L6">
       <value>TFM201610ALC-R47MTAA</value>
-      <footprint>INDC2016X80N</footprint>
+      <footprint>libraries:INDC2016X80N</footprint>
       <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
@@ -771,7 +743,7 @@
     </comp>
     <comp ref="L7">
       <value>SRP7050AA-220M</value>
-      <footprint>INDPM7366X500N</footprint>
+      <footprint>libraries:INDPM7366X500N</footprint>
       <datasheet>https://www.bourns.com/docs/Product-Datasheets/SRP7050AA.pdf</datasheet>
       <fields>
         <field name="Description">Shielded Power Inductor 22uH</field>
@@ -797,7 +769,7 @@
     </comp>
     <comp ref="L8">
       <value>SRP4020TA-100M</value>
-      <footprint>INDPM4441X200N</footprint>
+      <footprint>libraries:INDPM4441X200N</footprint>
       <datasheet>http://www.bourns.com/docs/Product-Datasheets/SRP4020TA.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">SRP4020TA-100M</field>
@@ -825,7 +797,7 @@
     </comp>
     <comp ref="L9">
       <value>TFM201610ALC-R47MTAA</value>
-      <footprint>INDC2016X80N</footprint>
+      <footprint>libraries:INDC2016X80N</footprint>
       <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
@@ -853,7 +825,7 @@
     </comp>
     <comp ref="L10">
       <value>TFM201610ALC-R47MTAA</value>
-      <footprint>INDC2016X80N</footprint>
+      <footprint>libraries:INDC2016X80N</footprint>
       <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
@@ -997,9 +969,45 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8349eccb-b292-4a19-9c61-e0404e85237b</tstamps>
     </comp>
+    <comp ref="U2">
+      <value>Mounting_Hole_M2</value>
+      <footprint>mount_holes:Hole_screw_M2</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57556b59-4d7a-4ba9-858c-ec002949dad2</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>Mounting_Hole_M2</value>
+      <footprint>mount_holes:Hole_screw_M2</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18a71c6f-f4fe-477d-aa68-18f6530241ad</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>Mounting_Hole_M2</value>
+      <footprint>mount_holes:Hole_screw_M2</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c220b6db-3af5-4338-ac23-b6cf9b2ae321</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>Mounting_Hole_M2</value>
+      <footprint>mount_holes:Hole_screw_M2</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d8639bd-2584-4882-93ae-f43e4d336281</tstamps>
+    </comp>
     <comp ref="Z1">
       <value>BZT52-C12J</value>
-      <footprint>BZT52C12J</footprint>
+      <footprint>libraries:BZT52C12J</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">BZT52-C12J</field>
@@ -1027,7 +1035,7 @@
     </comp>
     <comp ref="Z2">
       <value>BZT52-C12J</value>
-      <footprint>BZT52C12J</footprint>
+      <footprint>libraries:BZT52C12J</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">BZT52-C12J</field>
@@ -1055,7 +1063,7 @@
     </comp>
     <comp ref="Z3">
       <value>BZT52-C5V1J</value>
-      <footprint>SOD3616X130N</footprint>
+      <footprint>libraries:SOD3616X130N</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">BZT52-C5V1J</field>
@@ -1111,7 +1119,7 @@
         <field name="Value">WireHole_1p5</field>
       </fields>
       <pins>
-        <pin num="" name="" type="input"/>
+        <pin num="1" name="Conn" type="bidirectional"/>
       </pins>
     </libpart>
     <libpart lib="Connectors_for_Wire" part="Wire_Pad_01">
@@ -1120,7 +1128,7 @@
         <field name="Value">Wire_Pad_01</field>
       </fields>
       <pins>
-        <pin num="" name="" type="input"/>
+        <pin num="1" name="Conn" type="unspecified"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -1252,6 +1260,15 @@
         <pin num="11" name="EP" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Mounting_Holes" part="Mounting_Hole_M2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Mounting_Hole_M2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Mnt" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="PAM2863ECR" part="PAM2863ECR">
       <description>Step-down LED Driver 1MHz 40V 2A SOP-8EP DiodesZetex PAM2863ECR LED Driver IC, 4.5  40 V dc 2A 8-Pin SOP</description>
       <docs>https://componentsearchengine.com/Datasheets/1/PAM2863ECR.pdf</docs>
@@ -1279,32 +1296,6 @@
         <pin num="7" name="PGND_1" type="passive"/>
         <pin num="8" name="PGND_2" type="passive"/>
         <pin num="9" name="EP" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="SI3440ADV-T1-GE3" part="SI3440ADV-T1-GE3">
-      <description>MOSFET 150V Vds 20V Vgs TSOP-6</description>
-      <docs>https://eu.mouser.com/datasheet/2/427/si3440adv-1766662.pdf</docs>
-      <fields>
-        <field name="Reference">IC</field>
-        <field name="Value">SI3440ADV-T1-GE3</field>
-        <field name="Footprint">SOT95P284X110-6N</field>
-        <field name="Datasheet">https://eu.mouser.com/datasheet/2/427/si3440adv-1766662.pdf</field>
-        <field name="Description">MOSFET 150V Vds 20V Vgs TSOP-6</field>
-        <field name="Height">1.1</field>
-        <field name="Manufacturer_Name">Vishay</field>
-        <field name="Manufacturer_Part_Number">SI3440ADV-T1-GE3</field>
-        <field name="Mouser Part Number">78-SI3440ADV-T1-GE3</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI3440ADV-T1-GE3?qs=MLItCLRbWszROruTqjp9nA%3D%3D</field>
-        <field name="Arrow Part Number">SI3440ADV-T1-GE3</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/si3440adv-t1-ge3/vishay?region=nac</field>
-      </fields>
-      <pins>
-        <pin num="1" name="D_1" type="passive"/>
-        <pin num="2" name="D_2" type="passive"/>
-        <pin num="3" name="G" type="passive"/>
-        <pin num="4" name="S" type="passive"/>
-        <pin num="5" name="D_3" type="passive"/>
-        <pin num="6" name="D_4" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="SRP4020TA-100M" part="SRP4020TA-100M">
@@ -1437,46 +1428,43 @@
   </libparts>
   <libraries>
     <library logical="BZT52-C12J">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/BZT52-C12J.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/BZT52-C12J.lib</uri>
     </library>
     <library logical="Connectors_for_Wire">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/Connectors_for_Wire.kicad_sym</uri>
+      <uri>C:/Projects/BANO/BANO4/BANO4/Main_PCB_001/libraries/Connectors_for_Wire.kicad_sym</uri>
     </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="FDN8601">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/FDN8601.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/FDN8601.lib</uri>
     </library>
     <library logical="MCU_Microchip_ATtiny">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Microchip_ATtiny.kicad_sym</uri>
     </library>
     <library logical="Main_PCB_001-rescue">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/Main_PCB_001-rescue.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/Main_PCB_001-rescue.lib</uri>
+    </library>
+    <library logical="Mounting_Holes">
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/Mounting_Holes.kicad_sym</uri>
     </library>
     <library logical="PAM2863ECR">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/PAM2863ECR.lib</uri>
-    </library>
-    <library logical="SI3440ADV-T1-GE3">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SI3440ADV-T1-GE3.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/PAM2863ECR.lib</uri>
     </library>
     <library logical="SRP4020TA-100M">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SRP4020TA-100M.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/SRP4020TA-100M.lib</uri>
     </library>
     <library logical="SRP5030T-100M">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SRP5030T-100M.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/SRP5030T-100M.lib</uri>
     </library>
     <library logical="SRP7050AA-220M">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SRP7050AA-220M.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/SRP7050AA-220M.lib</uri>
     </library>
     <library logical="SS36">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SS36.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/SS36.lib</uri>
     </library>
     <library logical="TFM201610ALC-R47MTAA">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/TFM201610ALC-R47MTAA.lib</uri>
-    </library>
-    <library logical="ZXTR2105FQ-7">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001\libraries\ZXTR2105FQ-7.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/TFM201610ALC-R47MTAA.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -1510,17 +1498,21 @@
       <node ref="IC4" pin="7" pinfunction="PGND_1" pintype="passive"/>
       <node ref="IC4" pin="8" pinfunction="PGND_2" pintype="passive"/>
       <node ref="IC4" pin="9" pinfunction="EP" pintype="passive"/>
-      <node ref="IC7" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="IC6" pin="1" pinfunction="GND" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="Mnt" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="Mnt" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="Mnt" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="Mnt" pintype="input"/>
       <node ref="Z1" pin="2" pintype="passive"/>
       <node ref="Z2" pin="2" pintype="passive"/>
     </net>
     <net code="2" name="Net-(C1-Pad1)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="D2" pin="" pintype="input"/>
+      <node ref="D2" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="L1" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
@@ -1604,41 +1596,41 @@
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="D1" pin="" pintype="input"/>
+      <node ref="D1" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="L10" pin="1" pintype="passive"/>
       <node ref="L2" pin="1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
     <net code="18" name="Net-(C22-Pad1)">
       <node ref="C22" pin="1" pintype="passive"/>
-      <node ref="IC7" pin="2" pinfunction="VOUT" pintype="passive"/>
+      <node ref="IC6" pin="2" pinfunction="VOUT" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
     </net>
     <net code="19" name="Net-(C23-Pad1)">
       <node ref="C23" pin="1" pintype="passive"/>
-      <node ref="IC7" pin="3" pinfunction="VIN" pintype="passive"/>
+      <node ref="IC6" pin="3" pinfunction="VIN" pintype="passive"/>
       <node ref="L10" pin="2" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(D3-Pad)">
-      <node ref="D3" pin="" pintype="input"/>
+    <net code="20" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="IC1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="IC2" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(D4-Pad)">
-      <node ref="D4" pin="" pintype="input"/>
+    <net code="21" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(D5-Pad)">
-      <node ref="D5" pin="" pintype="input"/>
-      <node ref="D6" pin="" pintype="input"/>
+    <net code="22" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="D6" pin="1" pinfunction="Conn" pintype="unspecified"/>
     </net>
-    <net code="23" name="Net-(D7-Pad)">
-      <node ref="D7" pin="" pintype="input"/>
-      <node ref="D8" pin="" pintype="input"/>
+    <net code="23" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="D8" pin="1" pinfunction="Conn" pintype="unspecified"/>
     </net>
-    <net code="24" name="Net-(D9-Pad)">
-      <node ref="D9" pin="" pintype="input"/>
+    <net code="24" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="L5" pin="1" pintype="passive"/>
     </net>
     <net code="25" name="Net-(D10-Pad2)">
@@ -1647,29 +1639,26 @@
       <node ref="IC4" pin="6" pinfunction="LX_2" pintype="passive"/>
       <node ref="L8" pin="1" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(D11-Pad)">
-      <node ref="D11" pin="" pintype="input"/>
+    <net code="26" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="IC4" pin="2" pinfunction="ISENSE" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
     <net code="27" name="Net-(D12-Pad2)">
       <node ref="D12" pin="2" pintype="passive"/>
-      <node ref="IC5" pin="1" pinfunction="D_1" pintype="passive"/>
-      <node ref="IC5" pin="2" pinfunction="D_2" pintype="passive"/>
-      <node ref="IC5" pin="5" pinfunction="D_3" pintype="passive"/>
-      <node ref="IC5" pin="6" pinfunction="D_4" pintype="passive"/>
+      <node ref="IC5" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="L7" pin="2" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(D13-Pad)">
-      <node ref="D13" pin="" pintype="input"/>
-      <node ref="D14" pin="" pintype="input"/>
+    <net code="28" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="D14" pin="1" pinfunction="Conn" pintype="unspecified"/>
     </net>
-    <net code="29" name="Net-(D15-Pad)">
-      <node ref="D15" pin="" pintype="input"/>
+    <net code="29" name="Net-(D15-Pad1)">
+      <node ref="D15" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="L9" pin="2" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(D16-Pad)">
-      <node ref="D16" pin="" pintype="input"/>
+    <net code="30" name="Net-(D20-Pad1)">
+      <node ref="D20" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="R12" pin="2" pintype="passive"/>
     </net>
     <net code="31" name="Net-(IC1-Pad1)">
@@ -1690,12 +1679,12 @@
       <node ref="IC3" pin="8" pinfunction="GDRV" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="35" name="Net-(IC5-Pad3)">
-      <node ref="IC5" pin="3" pinfunction="G" pintype="passive"/>
+    <net code="35" name="Net-(IC5-Pad1)">
+      <node ref="IC5" pin="1" pinfunction="G" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="36" name="Net-(IC5-Pad4)">
-      <node ref="IC5" pin="4" pinfunction="S" pintype="passive"/>
+    <net code="36" name="Net-(IC5-Pad2)">
+      <node ref="IC5" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
     </net>
@@ -1713,25 +1702,16 @@
     <net code="40" name="unconnected-(IC4-Pad4)">
       <node ref="IC4" pin="4" pinfunction="VSET" pintype="passive"/>
     </net>
-    <net code="41" name="unconnected-(IC6-Pad1)">
-      <node ref="IC6" pin="1" pinfunction="G" pintype="passive"/>
-    </net>
-    <net code="42" name="unconnected-(IC6-Pad2)">
-      <node ref="IC6" pin="2" pinfunction="S" pintype="passive"/>
-    </net>
-    <net code="43" name="unconnected-(IC6-Pad3)">
-      <node ref="IC6" pin="3" pinfunction="D" pintype="passive"/>
-    </net>
-    <net code="44" name="unconnected-(U1-Pad1)">
+    <net code="41" name="unconnected-(U1-Pad1)">
       <node ref="U1" pin="1" pinfunction="~{RESET}/PB5" pintype="bidirectional"/>
     </net>
-    <net code="45" name="unconnected-(U1-Pad2)">
+    <net code="42" name="unconnected-(U1-Pad2)">
       <node ref="U1" pin="2" pinfunction="XTAL1/PB3" pintype="bidirectional"/>
     </net>
-    <net code="46" name="unconnected-(U1-Pad3)">
+    <net code="43" name="unconnected-(U1-Pad3)">
       <node ref="U1" pin="3" pinfunction="XTAL2/PB4" pintype="bidirectional"/>
     </net>
-    <net code="47" name="unconnected-(U1-Pad7)">
+    <net code="44" name="unconnected-(U1-Pad7)">
       <node ref="U1" pin="7" pinfunction="PB2" pintype="bidirectional"/>
     </net>
   </nets>

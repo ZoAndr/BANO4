@@ -6,7 +6,6 @@
   (lib (name "BZT52-C56J")(type "Legacy")(uri "${KIPRJMOD}/libraries/BZT52-C56J.lib")(options "")(descr ""))
   (lib (name "SRP5030T-100M")(type "Legacy")(uri "${KIPRJMOD}/libraries/SRP5030T-100M.lib")(options "")(descr ""))
   (lib (name "SRP7050AA-220M")(type "Legacy")(uri "${KIPRJMOD}/libraries/SRP7050AA-220M.lib")(options "")(descr ""))
-  (lib (name "Connectors_for_Wire")(type "KiCad")(uri "${KIPRJMOD}/libraries/Connectors_for_Wire.kicad_sym")(options "")(descr ""))
   (lib (name "ATTINY25-20SH")(type "Legacy")(uri "${KIPRJMOD}/libraries/ATTINY25-20SH.lib")(options "")(descr ""))
   (lib (name "BZT52-C5V1J")(type "Legacy")(uri "${KIPRJMOD}/libraries/BZT52-C5V1J.lib")(options "")(descr ""))
   (lib (name "BZT52-C12J")(type "Legacy")(uri "${KIPRJMOD}/libraries/BZT52-C12J.lib")(options "")(descr ""))
