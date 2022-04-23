@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS310F-HF
+D DIODE SCHOTTKY 3A 100V SMAF
+K
+F https://componentsearchengine.com/Datasheets/1/SS310F-HF.pdf
+$ENDCMP
+#
+#End Doc Library
