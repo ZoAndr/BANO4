@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001\Main_PCB_001.kicad_sch</source>
-    <date>23.04.2022 5:49:58</date>
+    <source>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001\Main_PCB_001.kicad_sch</source>
+    <date>24.04.2022 8:39:33</date>
     <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -134,7 +134,7 @@
     </comp>
     <comp ref="C13">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -176,15 +176,6 @@
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7f6406d5-11e2-4f5c-8900-abb61cb12a0c</tstamps>
-    </comp>
-    <comp ref="C18">
-      <value>C</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f578b530-5ba9-4c02-bd0d-6b9808b7fc70</tstamps>
     </comp>
     <comp ref="C20">
       <value>C</value>
@@ -897,7 +888,7 @@
     </comp>
     <comp ref="R10">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -1391,43 +1382,43 @@
   </libparts>
   <libraries>
     <library logical="BZT52-C12J">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/BZT52-C12J.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/BZT52-C12J.lib</uri>
     </library>
     <library logical="Connectors_for_Wire">
-      <uri>C:/Users/HLC031/Documents/KiCad/6.0/symbols/Connectors_for_Wire.kicad_sym</uri>
+      <uri>C:/Projects/BANO/BANO4/BANO4/Main_PCB_001/libraries/Connectors_for_Wire.kicad_sym</uri>
     </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="FDN8601">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/FDN8601.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/FDN8601.lib</uri>
     </library>
     <library logical="MCU_Microchip_ATtiny">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Microchip_ATtiny.kicad_sym</uri>
     </library>
     <library logical="Main_PCB_001-rescue">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/Main_PCB_001-rescue.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/Main_PCB_001-rescue.lib</uri>
+    </library>
+    <library logical="Mounting_Holes">
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/Mounting_Holes.kicad_sym</uri>
     </library>
     <library logical="PAM2863ECR">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/PAM2863ECR.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/PAM2863ECR.lib</uri>
     </library>
     <library logical="SRP4020TA-100M">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SRP4020TA-100M.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/SRP4020TA-100M.lib</uri>
     </library>
     <library logical="SRP5030T-100M">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SRP5030T-100M.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/SRP5030T-100M.lib</uri>
     </library>
     <library logical="SRP7050AA-220M">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SRP7050AA-220M.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/SRP7050AA-220M.lib</uri>
     </library>
     <library logical="SS36">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SS36.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/SS36.lib</uri>
     </library>
     <library logical="TFM201610ALC-R47MTAA">
-      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/TFM201610ALC-R47MTAA.lib</uri>
-    </library>
-    <library logical="ZXTR2105FQ-7">
-      <uri>C:/Projects/BANO4/P001_BANO4/P001_BANO4/Electric_Part/Main_PCB_001/libraries/ZXTR2105FQ-7.lib</uri>
+      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/TFM201610ALC-R47MTAA.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -1441,7 +1432,6 @@
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C16" pin="2" pintype="passive"/>
       <node ref="C17" pin="2" pintype="passive"/>
-      <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C21" pin="2" pintype="passive"/>
@@ -1543,7 +1533,6 @@
     </net>
     <net code="15" name="Net-(C17-Pad1)">
       <node ref="C17" pin="1" pintype="passive"/>
-      <node ref="C18" pin="1" pintype="passive"/>
       <node ref="D12" pin="1" pintype="passive"/>
       <node ref="L6" pin="2" pintype="passive"/>
       <node ref="Z3" pin="1" pintype="passive"/>
