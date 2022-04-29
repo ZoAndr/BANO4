@@ -14,5 +14,5 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0a1d0cbe-85ab-4f0f-b3b1-fcef21dfb600)
   )
-  (pad "1" smd roundrect (at 0 0) (size 2 2.286) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 34a11a07-8b7f-45d2-96e3-89fd43e62756))
+  (pad "1" smd roundrect (at 0 0) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 34a11a07-8b7f-45d2-96e3-89fd43e62756))
 )

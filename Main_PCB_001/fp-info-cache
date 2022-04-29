@@ -1,4 +1,4 @@
-20193922096100327
+20197225228825483
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85715,6 +85715,13 @@ Zener Diode
 2
 2
 libraries
+SODFL4626X120N
+SS26F-HF
+Diode
+0
+2
+2
+libraries
 SOIC127P600X175-9N
 SOP-8(EP)
 Integrated Circuit
@@ -85785,6 +85792,13 @@ Wire_Pad_01
 1
 1
 mount_holes
+Hole_screw_M1p2
+
+
+0
+1
+1
+mount_holes
 Hole_screw_M2
 
 
@@ -85803,5 +85817,5 @@ Hole_screw_M3
 
 
 0
-0
-0
+1
+1
