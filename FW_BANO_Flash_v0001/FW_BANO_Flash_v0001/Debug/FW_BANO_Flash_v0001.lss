@@ -1,0 +1,272 @@
+
+FW_BANO_Flash_v0001.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000150  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00800060  00800060  000001c4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000002  00800060  00800060  000001c4  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  000001c4  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  000001f4  2**2
+                  CONTENTS, READONLY
+  5 .debug_aranges 00000028  00000000  00000000  00000230  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   000000ac  00000000  00000000  00000258  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 00000072  00000000  00000000  00000304  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   0000008b  00000000  00000000  00000376  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  00000054  00000000  00000000  00000404  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    000001a9  00000000  00000000  00000458  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    00000063  00000000  00000000  00000601  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 00000018  00000000  00000000  00000664  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0e c0       	rjmp	.+28     	; 0x1e <__ctors_end>
+   2:	1b c0       	rjmp	.+54     	; 0x3a <__bad_interrupt>
+   4:	1a c0       	rjmp	.+52     	; 0x3a <__bad_interrupt>
+   6:	19 c0       	rjmp	.+50     	; 0x3a <__bad_interrupt>
+   8:	23 c0       	rjmp	.+70     	; 0x50 <__vector_4>
+   a:	17 c0       	rjmp	.+46     	; 0x3a <__bad_interrupt>
+   c:	16 c0       	rjmp	.+44     	; 0x3a <__bad_interrupt>
+   e:	15 c0       	rjmp	.+42     	; 0x3a <__bad_interrupt>
+  10:	14 c0       	rjmp	.+40     	; 0x3a <__bad_interrupt>
+  12:	13 c0       	rjmp	.+38     	; 0x3a <__bad_interrupt>
+  14:	12 c0       	rjmp	.+36     	; 0x3a <__bad_interrupt>
+  16:	11 c0       	rjmp	.+34     	; 0x3a <__bad_interrupt>
+  18:	10 c0       	rjmp	.+32     	; 0x3a <__bad_interrupt>
+  1a:	0f c0       	rjmp	.+30     	; 0x3a <__bad_interrupt>
+  1c:	0e c0       	rjmp	.+28     	; 0x3a <__bad_interrupt>
+
+0000001e <__ctors_end>:
+  1e:	11 24       	eor	r1, r1
+  20:	1f be       	out	0x3f, r1	; 63
+  22:	cf ed       	ldi	r28, 0xDF	; 223
+  24:	cd bf       	out	0x3d, r28	; 61
+
+00000026 <__do_clear_bss>:
+  26:	20 e0       	ldi	r18, 0x00	; 0
+  28:	a0 e6       	ldi	r26, 0x60	; 96
+  2a:	b0 e0       	ldi	r27, 0x00	; 0
+  2c:	01 c0       	rjmp	.+2      	; 0x30 <.do_clear_bss_start>
+
+0000002e <.do_clear_bss_loop>:
+  2e:	1d 92       	st	X+, r1
+
+00000030 <.do_clear_bss_start>:
+  30:	a2 36       	cpi	r26, 0x62	; 98
+  32:	b2 07       	cpc	r27, r18
+  34:	e1 f7       	brne	.-8      	; 0x2e <.do_clear_bss_loop>
+  36:	02 d0       	rcall	.+4      	; 0x3c <main>
+  38:	89 c0       	rjmp	.+274    	; 0x14c <_exit>
+
+0000003a <__bad_interrupt>:
+  3a:	e2 cf       	rjmp	.-60     	; 0x0 <__vectors>
+
+0000003c <main>:
+
+#define DDR_SYNC  0x04
+#define DDR_FLASH 0x02
+
+int main() {
+TCCR1 = (1<<CS02)|(1<<CS00);
+  3c:	85 e0       	ldi	r24, 0x05	; 5
+  3e:	80 bf       	out	0x30, r24	; 48
+TIFR = (1<<TOV1);
+  40:	84 e0       	ldi	r24, 0x04	; 4
+  42:	88 bf       	out	0x38, r24	; 56
+TIMSK = (1<<TOIE1);
+  44:	89 bf       	out	0x39, r24	; 57
+// DDRB = 1;
+// PORTB = 1;
+DDRB = (DDR_SYNC | DDR_FLASH);
+  46:	96 e0       	ldi	r25, 0x06	; 6
+  48:	97 bb       	out	0x17, r25	; 23
+PORTB = DDR_SYNC;
+  4a:	88 bb       	out	0x18, r24	; 24
+
+
+sei();
+  4c:	78 94       	sei
+#include <avr/interrupt.h>
+
+#define DDR_SYNC  0x04
+#define DDR_FLASH 0x02
+
+int main() {
+  4e:	ff cf       	rjmp	.-2      	; 0x4e <__SREG__+0xf>
+
+00000050 <__vector_4>:
+
+//PINB2/PORTB2 - Sync
+//PORTB4 - Flash Out
+
+ISR(TIMER1_OVF_vect) 
+{
+  50:	1f 92       	push	r1
+  52:	0f 92       	push	r0
+  54:	0f b6       	in	r0, 0x3f	; 63
+  56:	0f 92       	push	r0
+  58:	11 24       	eor	r1, r1
+  5a:	2f 93       	push	r18
+  5c:	3f 93       	push	r19
+  5e:	8f 93       	push	r24
+  60:	9f 93       	push	r25
+    static int cntr = 0;
+
+    if( (cntr == FLS_INTVL * 0) || (cntr == (FLS_INTVL * 1)) || (cntr == (FLS_INTVL * 2)) )
+  62:	80 91 60 00 	lds	r24, 0x0060
+  66:	90 91 61 00 	lds	r25, 0x0061
+  6a:	00 97       	sbiw	r24, 0x00	; 0
+  6c:	31 f0       	breq	.+12     	; 0x7a <__vector_4+0x2a>
+  6e:	8c 33       	cpi	r24, 0x3C	; 60
+  70:	91 05       	cpc	r25, r1
+  72:	19 f0       	breq	.+6      	; 0x7a <__vector_4+0x2a>
+  74:	88 37       	cpi	r24, 0x78	; 120
+  76:	91 05       	cpc	r25, r1
+  78:	99 f4       	brne	.+38     	; 0xa0 <__vector_4+0x50>
+    {
+//        DDRB  |= DDR_FLASH;
+        PORTB |= DDR_FLASH;
+  7a:	c1 9a       	sbi	0x18, 1	; 24
+
+        if(cntr == FLS_INTVL * 0){PORTB |= DDR_SYNC; DDRB |= DDR_SYNC;}
+  7c:	80 91 60 00 	lds	r24, 0x0060
+  80:	90 91 61 00 	lds	r25, 0x0061
+  84:	89 2b       	or	r24, r25
+  86:	11 f4       	brne	.+4      	; 0x8c <__vector_4+0x3c>
+  88:	c2 9a       	sbi	0x18, 2	; 24
+  8a:	ba 9a       	sbi	0x17, 2	; 23
+
+        cntr ++;
+  8c:	80 91 60 00 	lds	r24, 0x0060
+  90:	90 91 61 00 	lds	r25, 0x0061
+  94:	01 96       	adiw	r24, 0x01	; 1
+  96:	90 93 61 00 	sts	0x0061, r25
+  9a:	80 93 60 00 	sts	0x0060, r24
+  9e:	4d c0       	rjmp	.+154    	; 0x13a <__stack+0x5b>
+    }
+    else if( (cntr == FLS_INTVL * 0 + FLS_DLY) || (cntr == (FLS_INTVL * 1 + FLS_DLY)) || (cntr == (FLS_INTVL * 2 + FLS_DLY)) )
+  a0:	8f 30       	cpi	r24, 0x0F	; 15
+  a2:	91 05       	cpc	r25, r1
+  a4:	31 f0       	breq	.+12     	; 0xb2 <__vector_4+0x62>
+  a6:	8b 34       	cpi	r24, 0x4B	; 75
+  a8:	91 05       	cpc	r25, r1
+  aa:	19 f0       	breq	.+6      	; 0xb2 <__vector_4+0x62>
+  ac:	87 38       	cpi	r24, 0x87	; 135
+  ae:	91 05       	cpc	r25, r1
+  b0:	69 f4       	brne	.+26     	; 0xcc <__vector_4+0x7c>
+    {
+        // DDRB &= ~DDR_SYNC;
+        PORTB &= ~(DDR_FLASH | DDR_SYNC);
+  b2:	88 b3       	in	r24, 0x18	; 24
+  b4:	89 7f       	andi	r24, 0xF9	; 249
+  b6:	88 bb       	out	0x18, r24	; 24
+        cntr ++;
+  b8:	80 91 60 00 	lds	r24, 0x0060
+  bc:	90 91 61 00 	lds	r25, 0x0061
+  c0:	01 96       	adiw	r24, 0x01	; 1
+  c2:	90 93 61 00 	sts	0x0061, r25
+  c6:	80 93 60 00 	sts	0x0060, r24
+  ca:	37 c0       	rjmp	.+110    	; 0x13a <__stack+0x5b>
+    }
+    else if(  cntr == FLS_PAUSE  )
+  cc:	84 3f       	cpi	r24, 0xF4	; 244
+  ce:	21 e0       	ldi	r18, 0x01	; 1
+  d0:	92 07       	cpc	r25, r18
+  d2:	61 f4       	brne	.+24     	; 0xec <__stack+0xd>
+    {
+		DDRB &= 0xFB; //~(DDR_SYNC);
+  d4:	ba 98       	cbi	0x17, 2	; 23
+        PORTB &= ~(DDR_SYNC);
+  d6:	c2 98       	cbi	0x18, 2	; 24
+        cntr ++;
+  d8:	80 91 60 00 	lds	r24, 0x0060
+  dc:	90 91 61 00 	lds	r25, 0x0061
+  e0:	01 96       	adiw	r24, 0x01	; 1
+  e2:	90 93 61 00 	sts	0x0061, r25
+  e6:	80 93 60 00 	sts	0x0060, r24
+  ea:	27 c0       	rjmp	.+78     	; 0x13a <__stack+0x5b>
+    }
+    else if(  (cntr > FLS_PAUSE)  &&  (cntr < (FLS_PAUSE + SYNC_PERIOD))  )
+  ec:	9c 01       	movw	r18, r24
+  ee:	25 5f       	subi	r18, 0xF5	; 245
+  f0:	31 40       	sbci	r19, 0x01	; 1
+  f2:	23 36       	cpi	r18, 0x63	; 99
+  f4:	31 05       	cpc	r19, r1
+  f6:	98 f4       	brcc	.+38     	; 0x11e <__stack+0x3f>
+    {
+
+        if((PINB & DDR_SYNC)== DDR_SYNC)
+  f8:	b2 9b       	sbis	0x16, 2	; 22
+  fa:	0b c0       	rjmp	.+22     	; 0x112 <__stack+0x33>
+        {
+            DDRB |= (DDR_SYNC);
+  fc:	ba 9a       	sbi	0x17, 2	; 23
+            PORTB |= (DDR_FLASH | DDR_SYNC);
+  fe:	88 b3       	in	r24, 0x18	; 24
+ 100:	86 60       	ori	r24, 0x06	; 6
+ 102:	88 bb       	out	0x18, r24	; 24
+            cntr = 1;
+ 104:	81 e0       	ldi	r24, 0x01	; 1
+ 106:	90 e0       	ldi	r25, 0x00	; 0
+ 108:	90 93 61 00 	sts	0x0061, r25
+ 10c:	80 93 60 00 	sts	0x0060, r24
+ 110:	14 c0       	rjmp	.+40     	; 0x13a <__stack+0x5b>
+    	}
+        else
+        {
+            cntr ++;
+ 112:	01 96       	adiw	r24, 0x01	; 1
+ 114:	90 93 61 00 	sts	0x0061, r25
+ 118:	80 93 60 00 	sts	0x0060, r24
+ 11c:	0e c0       	rjmp	.+28     	; 0x13a <__stack+0x5b>
+        }
+    }
+    else if(cntr >= (FLS_PAUSE + SYNC_PERIOD))
+ 11e:	88 35       	cpi	r24, 0x58	; 88
+ 120:	22 e0       	ldi	r18, 0x02	; 2
+ 122:	92 07       	cpc	r25, r18
+ 124:	2c f0       	brlt	.+10     	; 0x130 <__stack+0x51>
+    {
+        // DDRB = 1;
+        cntr = 0;
+ 126:	10 92 61 00 	sts	0x0061, r1
+ 12a:	10 92 60 00 	sts	0x0060, r1
+ 12e:	05 c0       	rjmp	.+10     	; 0x13a <__stack+0x5b>
+    }
+    else
+    {
+        cntr ++;
+ 130:	01 96       	adiw	r24, 0x01	; 1
+ 132:	90 93 61 00 	sts	0x0061, r25
+ 136:	80 93 60 00 	sts	0x0060, r24
+    }
+
+}
+ 13a:	9f 91       	pop	r25
+ 13c:	8f 91       	pop	r24
+ 13e:	3f 91       	pop	r19
+ 140:	2f 91       	pop	r18
+ 142:	0f 90       	pop	r0
+ 144:	0f be       	out	0x3f, r0	; 63
+ 146:	0f 90       	pop	r0
+ 148:	1f 90       	pop	r1
+ 14a:	18 95       	reti
+
+0000014c <_exit>:
+ 14c:	f8 94       	cli
+
+0000014e <__stop_program>:
+ 14e:	ff cf       	rjmp	.-2      	; 0x14e <__stop_program>
