@@ -2977,7 +2977,7 @@
     (property "Value" "WireHole_1p5" (id 1) (at 40.64 82.5501 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "libraries:WireHole_1p5" (id 2) (at 44.45 82.55 0)
+    (property "Footprint" "" (id 2) (at 44.45 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 44.45 82.55 0)
@@ -3227,7 +3227,7 @@
     (property "Value" "WireHole_1p5" (id 1) (at 457.2 101.5999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "libraries:WireHole_1p5" (id 2) (at 453.39 101.6 0)
+    (property "Footprint" "" (id 2) (at 453.39 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 453.39 101.6 0)
@@ -3439,7 +3439,7 @@
     (property "Value" "WireHole_1p5" (id 1) (at 40.64 260.3501 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "libraries:WireHole_1p5" (id 2) (at 44.45 260.35 0)
+    (property "Footprint" "" (id 2) (at 44.45 260.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 44.45 260.35 0)
@@ -3953,7 +3953,7 @@
     (property "Value" "WireHole_1p5" (id 1) (at 40.64 228.6001 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "libraries:WireHole_1p5" (id 2) (at 44.45 228.6 0)
+    (property "Footprint" "" (id 2) (at 44.45 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 44.45 228.6 0)
@@ -4100,13 +4100,13 @@
       (reference "C23") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/5737afb7-2ca9-42d3-818e-4a8d58f1bfb1"
-      (reference "D1") (unit 1) (value "WireHole_1p5") (footprint "libraries:WireHole_1p5")
+      (reference "D1") (unit 1) (value "WireHole_1p5") (footprint "libraries:WireHole_1p2")
     )
     (path "/fdcf5a0b-5cc4-4a64-a579-df5462e72f5e"
-      (reference "D2") (unit 1) (value "WireHole_1p5") (footprint "libraries:WireHole_1p5")
+      (reference "D2") (unit 1) (value "WireHole_1p5") (footprint "libraries:WireHole_1p2")
     )
     (path "/a5704062-c423-49cd-af3a-ff4be8d176cc"
-      (reference "D3") (unit 1) (value "WireHole_1p5") (footprint "libraries:WireHole_1p5")
+      (reference "D3") (unit 1) (value "WireHole_1p5") (footprint "libraries:WireHole_1p2")
     )
     (path "/df9f7caa-4e64-4153-b6e2-37c443369569"
       (reference "D4") (unit 1) (value "Wire_Pad_01") (footprint "libraries:Wire_Pad_01")
@@ -4145,7 +4145,7 @@
       (reference "D15") (unit 1) (value "Wire_Pad_01") (footprint "libraries:Wire_Pad_01")
     )
     (path "/7ffaf412-974d-4eab-86fd-7eec7991b7d2"
-      (reference "D20") (unit 1) (value "WireHole_1p5") (footprint "libraries:WireHole_1p5")
+      (reference "D20") (unit 1) (value "WireHole_1p5") (footprint "libraries:WireHole_1p2")
     )
     (path "/2c2af9fe-d6ab-4cfa-802b-05c089d70c5d"
       (reference "IC1") (unit 1) (value "FDN8601") (footprint "libraries:SOT95P251X112-3N")

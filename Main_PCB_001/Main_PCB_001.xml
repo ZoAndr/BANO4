@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001\Main_PCB_001.kicad_sch</source>
-    <date>29.04.2022 18:22:39</date>
+    <source>C:\Projects\BANO\From20220617\Main_PCB_001\Main_PCB_001.kicad_sch</source>
+    <date>17.06.2022 12:58:16</date>
     <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -170,7 +170,7 @@
     </comp>
     <comp ref="D1">
       <value>WireHole_1p5</value>
-      <footprint>libraries:WireHole_1p5</footprint>
+      <footprint>libraries:WireHole_1p2</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -179,7 +179,7 @@
     </comp>
     <comp ref="D2">
       <value>WireHole_1p5</value>
-      <footprint>libraries:WireHole_1p5</footprint>
+      <footprint>libraries:WireHole_1p2</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -188,7 +188,7 @@
     </comp>
     <comp ref="D3">
       <value>WireHole_1p5</value>
-      <footprint>libraries:WireHole_1p5</footprint>
+      <footprint>libraries:WireHole_1p2</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -335,7 +335,7 @@
     </comp>
     <comp ref="D20">
       <value>WireHole_1p5</value>
-      <footprint>libraries:WireHole_1p5</footprint>
+      <footprint>libraries:WireHole_1p2</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -1281,7 +1281,7 @@
   </libparts>
   <libraries>
     <library logical="BZT52-C12J">
-      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/BZT52-C12J.lib</uri>
+      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/BZT52-C12J.lib</uri>
     </library>
     <library logical="Connectors_for_Wire">
       <uri>C:/Projects/BANO/BANO4/BANO4/Main_PCB_001/libraries/Connectors_for_Wire.kicad_sym</uri>
@@ -1290,34 +1290,34 @@
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="FDN8601">
-      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/FDN8601.lib</uri>
+      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/FDN8601.lib</uri>
     </library>
     <library logical="MCU_Microchip_ATtiny">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Microchip_ATtiny.kicad_sym</uri>
     </library>
     <library logical="Main_PCB_001-rescue">
-      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/Main_PCB_001-rescue.lib</uri>
+      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/Main_PCB_001-rescue.lib</uri>
     </library>
     <library logical="Mounting_Holes">
-      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/Mounting_Holes.kicad_sym</uri>
+      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/Mounting_Holes.kicad_sym</uri>
     </library>
     <library logical="PAM2863ECR">
-      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/PAM2863ECR.lib</uri>
+      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/PAM2863ECR.lib</uri>
     </library>
     <library logical="SRP4020TA-100M">
-      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/SRP4020TA-100M.lib</uri>
+      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/SRP4020TA-100M.lib</uri>
     </library>
     <library logical="SRP5030T-100M">
-      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/SRP5030T-100M.lib</uri>
+      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/SRP5030T-100M.lib</uri>
     </library>
     <library logical="SRP7050AA-220M">
-      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/SRP7050AA-220M.lib</uri>
+      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/SRP7050AA-220M.lib</uri>
     </library>
     <library logical="SS36">
-      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/SS36.lib</uri>
+      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/SS36.lib</uri>
     </library>
     <library logical="TFM201610ALC-R47MTAA">
-      <uri>C:\Projects\BANO\BANO4\BANO4\Main_PCB_001/libraries/TFM201610ALC-R47MTAA.lib</uri>
+      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/TFM201610ALC-R47MTAA.lib</uri>
     </library>
   </libraries>
   <nets>
