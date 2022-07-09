@@ -1,0 +1,1 @@
+https://github.com/Bouni/kicad-jlcpcb-tools
