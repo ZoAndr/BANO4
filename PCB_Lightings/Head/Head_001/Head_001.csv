@@ -1,0 +1,4 @@
+Comment,Designator,Footprint,LCSC
+"LED_Cree_XHP50_6V","D1,D2,D3,D4,D5,D8","LED:LED_Cree-XHP35",""
+"Conn_Hole_0p7","D6,D7,D9,D10","Wire_holes:WireHole_0p7",""
+"Mounting_Hole_M2","U1,U2","mount_holes:Hole_screw_M1p2",""

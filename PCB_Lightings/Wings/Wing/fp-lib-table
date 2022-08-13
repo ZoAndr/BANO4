@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "KiCad_Libraries")(type "KiCad")(uri "C:/KiCad_Libraries")(options "")(descr ""))
+  (lib (name "Wire_holes")(type "KiCad")(uri "C:/KiCad_Libraries/Wire_holes")(options "")(descr ""))
+)

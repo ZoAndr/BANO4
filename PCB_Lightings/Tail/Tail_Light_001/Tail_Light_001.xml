@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Projects\BANO\From20220709\PCB_Lightings\Tail\Tail_Light_001\Tail_Light_001.kicad_sch</source>
+    <date>13.08.2022 17:58:14</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Tail_Light_001.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED_Cree_XHP50_6V</value>
+      <footprint>LED:LED_Cree-XHP35</footprint>
+      <datasheet>http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf</datasheet>
+      <libsource lib="LED" part="LED_Cree_XHP50_6V" description="XLamp® XHP50 LED, 6V footprint (2x2 serial LEDs in parallel)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tail_Light_001.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbb5d0a6-c2e7-4691-a7bc-668f10f5233b</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Conn_Hole_0p7</value>
+      <footprint>Wire_holes:WireHole_0p7</footprint>
+      <libsource lib="Connectors_for_Wire" part="Conn_Hole_0p7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tail_Light_001.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3d26242-a421-4c49-b5e4-303d229ee278</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Conn_Hole_0p7</value>
+      <footprint>Wire_holes:WireHole_0p7</footprint>
+      <libsource lib="Connectors_for_Wire" part="Conn_Hole_0p7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tail_Light_001.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d367d758-906e-4b06-a594-af38b1aae9d9</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Mounting_Hole_M2</value>
+      <footprint>mount_holes:Hole_screw_M2</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tail_Light_001.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70e57ff7-dda3-4a63-9ef7-e01b0d02b31d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>Mounting_Hole_M2</value>
+      <footprint>mount_holes:Hole_screw_M2</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Tail_Light_001.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58ef33e6-6b08-4f13-b4d6-d6e0cab8569c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connectors_for_Wire" part="Conn_Hole_0p7">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Conn_Hole_0p7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="LED_Cree_XHP50_6V">
+      <description>XLamp® XHP50 LED, 6V footprint (2x2 serial LEDs in parallel)</description>
+      <docs>http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf</docs>
+      <footprints>
+        <fp>LED?Cree?XHP50?6V*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Cree_XHP50_6V</field>
+        <field name="Footprint">LED_SMD:LED_Cree-XHP50_6V</field>
+        <field name="Datasheet">http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mounting_Holes" part="Mounting_Hole_M2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Mounting_Hole_M2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Mnt" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connectors_for_Wire">
+      <uri>C:/KiCad_Libraries/Wire_holes/Connectors_for_Wire.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/LED.kicad_sym</uri>
+    </library>
+    <library logical="Mounting_Holes">
+      <uri>C:/KiCad_Libraries/Wire_holes/Mounting_Holes.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pintype="input"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3" pinfunction="PAD" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="Mnt" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="Mnt" pintype="input"/>
+    </net>
+  </nets>
+</export>

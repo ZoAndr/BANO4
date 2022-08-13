@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Connectors_for_Wire")(type "KiCad")(uri "C:/KiCad_Libraries/Wire_holes/Connectors_for_Wire.kicad_sym")(options "")(descr ""))
+  (lib (name "Mounting_Holes")(type "KiCad")(uri "C:/KiCad_Libraries/Wire_holes/Mounting_Holes.kicad_sym")(options "")(descr ""))
+)
