@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AON7407
+D MOSFET P-CH 20V 14.5A 8DFN
+K
+F http://aosmd.com/res/data_sheets/AON7407.pdf
+$ENDCMP
+#
+#End Doc Library

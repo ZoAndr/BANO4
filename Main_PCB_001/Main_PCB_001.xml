@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Projects\BANO\From20220617\Main_PCB_001\Main_PCB_001.kicad_sch</source>
-    <date>17.06.2022 12:58:16</date>
+    <source>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001\Main_PCB_001.kicad_sch</source>
+    <date>22.10.2022 18:18:29</date>
     <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,6 +24,15 @@
     </sheet>
   </design>
   <components>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9f201c8-5b77-4554-a402-a301b6087745</tstamps>
+    </comp>
     <comp ref="C4">
       <value>C</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
@@ -454,34 +463,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1c8481ee-7456-4c14-8028-f99f3d2d1785</tstamps>
     </comp>
-    <comp ref="IC5">
-      <value>FDN8601</value>
-      <footprint>libraries:SOT95P251X112-3N</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/FDN8601-D.pdf</datasheet>
-      <fields>
-        <field name="Arrow Part Number">FDN8601</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/fdn8601/on-semiconductor</field>
-        <field name="Description">FDN8601, N-channel MOSFET Transistor, 2.7 A 100 V, 3-Pin SuperSOT3</field>
-        <field name="Height">1.12</field>
-        <field name="Manufacturer_Name">ON Semiconductor</field>
-        <field name="Manufacturer_Part_Number">FDN8601</field>
-        <field name="Mouser Part Number">512-FDN8601</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDN8601?qs=GCVmsggAYMQxsrEidktdfA%3D%3D</field>
-      </fields>
-      <libsource lib="FDN8601" part="FDN8601" description="FDN8601, N-channel MOSFET Transistor, 2.7 A 100 V, 3-Pin SuperSOT3"/>
-      <property name="Description" value="FDN8601, N-channel MOSFET Transistor, 2.7 A 100 V, 3-Pin SuperSOT3"/>
-      <property name="Height" value="1.12"/>
-      <property name="Manufacturer_Name" value="ON Semiconductor"/>
-      <property name="Manufacturer_Part_Number" value="FDN8601"/>
-      <property name="Mouser Part Number" value="512-FDN8601"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDN8601?qs=GCVmsggAYMQxsrEidktdfA%3D%3D"/>
-      <property name="Arrow Part Number" value="FDN8601"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/fdn8601/on-semiconductor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>56718553-b9ca-4e20-8d97-165aa023ce68</tstamps>
-    </comp>
     <comp ref="IC6">
       <value>ZXTR2105FQ-7</value>
       <footprint>libraries:SOT96P240X110-3N</footprint>
@@ -704,6 +685,33 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a7eddcde-8d7e-4971-9ca5-9a8b5bd12e55</tstamps>
     </comp>
+    <comp ref="Q1">
+      <value>AON7407</value>
+      <footprint>libraries:DFN_3X3_EP</footprint>
+      <datasheet>http://aosmd.com/res/data_sheets/AON7407.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">AON7407</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/aon7407/alpha-and-omega-semiconductor?region=nac</field>
+        <field name="Description">MOSFET P-CH 20V 14.5A 8DFN</field>
+        <field name="Manufacturer_Name">Alpha &amp; Omega Semiconductors</field>
+        <field name="Manufacturer_Part_Number">AON7407</field>
+      </fields>
+      <libsource lib="AON7407" part="AON7407" description="MOSFET P-CH 20V 14.5A 8DFN"/>
+      <property name="Description" value="MOSFET P-CH 20V 14.5A 8DFN"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Alpha &amp; Omega Semiconductors"/>
+      <property name="Manufacturer_Part_Number" value="AON7407"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value="AON7407"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/aon7407/alpha-and-omega-semiconductor?region=nac"/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f38f985b-7960-44e2-abca-acaebf696387</tstamps>
+    </comp>
     <comp ref="R1">
       <value>R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
@@ -916,8 +924,8 @@
     </comp>
     <comp ref="Z3">
       <value>BZT52-C5V1J</value>
-      <footprint>libraries:SOD3616X130N</footprint>
-      <datasheet>https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf</datasheet>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm3z2v4.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">BZT52-C5V1J</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/bzt52-c5v1j/nexperia</field>
@@ -928,7 +936,7 @@
         <field name="Mouser Part Number">N/A</field>
         <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
       </fields>
-      <libsource lib="Main_PCB_001-rescue" part="BZT52-C5V1J-BZT52-C5V1J" description=""/>
+      <libsource lib="Diode" part="MM3Zxx" description="300mW Zener Diode, SOD-323F"/>
       <property name="Description" value="Zener Diodes BZT52-C5V1/SOD123 SOD2"/>
       <property name="Height" value="1.3"/>
       <property name="Manufacturer_Name" value="Nexperia"/>
@@ -944,6 +952,31 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="AON7407" part="AON7407">
+      <description>MOSFET P-CH 20V 14.5A 8DFN</description>
+      <docs>http://aosmd.com/res/data_sheets/AON7407.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AON7407</field>
+        <field name="Footprint">DFN_3X3_EP</field>
+        <field name="Datasheet">http://aosmd.com/res/data_sheets/AON7407.pdf</field>
+        <field name="Description">MOSFET P-CH 20V 14.5A 8DFN</field>
+        <field name="Manufacturer_Name">Alpha &amp; Omega Semiconductors</field>
+        <field name="Manufacturer_Part_Number">AON7407</field>
+        <field name="Arrow Part Number">AON7407</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/aon7407/alpha-and-omega-semiconductor?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S_1" type="passive"/>
+        <pin num="2" name="S_2" type="passive"/>
+        <pin num="3" name="S_3" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D_1" type="passive"/>
+        <pin num="6" name="D_2" type="passive"/>
+        <pin num="7" name="D_3" type="passive"/>
+        <pin num="8" name="D_4" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="BZT52-C12J" part="BZT52-C12J">
       <description>Zener Diodes BZT52-C12/SOD123/SOD2</description>
       <docs>https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf</docs>
@@ -1016,6 +1049,23 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Diode" part="MM3Zxx">
+      <description>300mW Zener Diode, SOD-323F</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm3z2v4.pdf</docs>
+      <footprints>
+        <fp>D?SOD?323F*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MM3Zxx</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323F</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm3z2v4.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="FDN8601" part="FDN8601">
       <description>FDN8601, N-channel MOSFET Transistor, 2.7 A 100 V, 3-Pin SuperSOT3</description>
       <docs>https://www.onsemi.com/pub/Collateral/FDN8601-D.pdf</docs>
@@ -1060,27 +1110,6 @@
         <pin num="6" name="PB1" type="bidirectional"/>
         <pin num="7" name="PB2" type="bidirectional"/>
         <pin num="8" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="Main_PCB_001-rescue" part="BZT52-C5V1J-BZT52-C5V1J">
-      <docs>https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf</docs>
-      <fields>
-        <field name="Reference">Z</field>
-        <field name="Value">BZT52-C5V1J-BZT52-C5V1J</field>
-        <field name="Footprint">SOD3616X130N</field>
-        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf</field>
-        <field name="Description">Zener Diodes BZT52-C5V1/SOD123 SOD2</field>
-        <field name="Height">1.3</field>
-        <field name="Manufacturer_Name">Nexperia</field>
-        <field name="Manufacturer_Part_Number">BZT52-C5V1J</field>
-        <field name="Mouser Part Number">N/A</field>
-        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
-        <field name="Arrow Part Number">BZT52-C5V1J</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/bzt52-c5v1j/nexperia</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Main_PCB_001-rescue" part="TPS40211QDGQRQ1-TPS40211QDGQRQ1">
@@ -1280,48 +1309,55 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="AON7407">
+      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/AON7407.lib</uri>
+    </library>
     <library logical="BZT52-C12J">
-      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/BZT52-C12J.lib</uri>
+      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/BZT52-C12J.lib</uri>
     </library>
     <library logical="Connectors_for_Wire">
-      <uri>C:/Projects/BANO/BANO4/BANO4/Main_PCB_001/libraries/Connectors_for_Wire.kicad_sym</uri>
+      <uri>C:/Users/HLC031/Documents/KiCad/6.0/symbols/Connectors_for_Wire.kicad_sym</uri>
     </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
     <library logical="FDN8601">
-      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/FDN8601.lib</uri>
+      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/FDN8601.lib</uri>
     </library>
     <library logical="MCU_Microchip_ATtiny">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Microchip_ATtiny.kicad_sym</uri>
     </library>
     <library logical="Main_PCB_001-rescue">
-      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/Main_PCB_001-rescue.lib</uri>
-    </library>
-    <library logical="Mounting_Holes">
-      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/Mounting_Holes.kicad_sym</uri>
+      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/Main_PCB_001-rescue.lib</uri>
     </library>
     <library logical="PAM2863ECR">
-      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/PAM2863ECR.lib</uri>
+      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/PAM2863ECR.lib</uri>
     </library>
     <library logical="SRP4020TA-100M">
-      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/SRP4020TA-100M.lib</uri>
+      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SRP4020TA-100M.lib</uri>
     </library>
     <library logical="SRP5030T-100M">
-      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/SRP5030T-100M.lib</uri>
+      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SRP5030T-100M.lib</uri>
     </library>
     <library logical="SRP7050AA-220M">
-      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/SRP7050AA-220M.lib</uri>
+      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SRP7050AA-220M.lib</uri>
     </library>
     <library logical="SS36">
-      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/SS36.lib</uri>
+      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/SS36.lib</uri>
     </library>
     <library logical="TFM201610ALC-R47MTAA">
-      <uri>C:\Projects\BANO\From20220617\Main_PCB_001/libraries/TFM201610ALC-R47MTAA.lib</uri>
+      <uri>C:\Projects\BANO4\P001_BANO4\P001_BANO4\Electric_Part\Main_PCB_001/libraries/TFM201610ALC-R47MTAA.lib</uri>
+    </library>
+    <library logical="ZXTR2105FQ-7">
+      <uri>C:/Projects/BANO4/P001_BANO4/P001_BANO4/Electric_Part/Main_PCB_001/libraries/ZXTR2105FQ-7.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
@@ -1414,7 +1450,7 @@
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="IC3" pin="7" pinfunction="ISNS" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="Z3" pin="2" pintype="passive"/>
+      <node ref="Z3" pin="2" pinfunction="A" pintype="passive"/>
     </net>
     <net code="13" name="Net-(C16-Pad1)">
       <node ref="C16" pin="1" pintype="passive"/>
@@ -1425,7 +1461,7 @@
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="D12" pin="1" pintype="passive"/>
       <node ref="L6" pin="2" pintype="passive"/>
-      <node ref="Z3" pin="1" pintype="passive"/>
+      <node ref="Z3" pin="1" pinfunction="K" pintype="passive"/>
     </net>
     <net code="15" name="Net-(C20-Pad1)">
       <node ref="C20" pin="1" pintype="passive"/>
@@ -1473,8 +1509,11 @@
     </net>
     <net code="24" name="Net-(D12-Pad2)">
       <node ref="D12" pin="2" pintype="passive"/>
-      <node ref="IC5" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="L7" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="D_3" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="D_4" pintype="passive"/>
     </net>
     <net code="25" name="Net-(D13-Pad1)">
       <node ref="D13" pin="1" pinfunction="Conn" pintype="unspecified"/>
@@ -1506,25 +1545,28 @@
       <node ref="IC3" pin="8" pinfunction="GDRV" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(IC5-Pad1)">
-      <node ref="IC5" pin="1" pinfunction="G" pintype="passive"/>
+    <net code="32" name="Net-(IC3-Pad9)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="9" pinfunction="BP" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(R8-Pad2)">
+      <node ref="Q1" pin="4" pinfunction="G" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="33" name="Net-(IC5-Pad2)">
-      <node ref="IC5" pin="2" pinfunction="S" pintype="passive"/>
+    <net code="34" name="Net-(R10-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S_3" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="34" name="Net-(R11-Pad2)">
+    <net code="35" name="Net-(R11-Pad2)">
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="PB1" pintype="bidirectional"/>
     </net>
-    <net code="35" name="Net-(R12-Pad1)">
+    <net code="36" name="Net-(R12-Pad1)">
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="PB2" pintype="bidirectional"/>
-    </net>
-    <net code="36" name="unconnected-(IC3-Pad9)">
-      <node ref="IC3" pin="9" pinfunction="BP" pintype="passive"/>
     </net>
     <net code="37" name="unconnected-(IC4-Pad4)">
       <node ref="IC4" pin="4" pinfunction="VSET" pintype="passive"/>

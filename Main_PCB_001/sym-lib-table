@@ -14,4 +14,5 @@
   (lib (name "SRP4020TA-100M")(type "Legacy")(uri "${KIPRJMOD}/libraries/SRP4020TA-100M.lib")(options "")(descr ""))
   (lib (name "TFM201610ALC-R47MTAA")(type "Legacy")(uri "${KIPRJMOD}/libraries/TFM201610ALC-R47MTAA.lib")(options "")(descr ""))
   (lib (name "TPS40211QDGQRQ1")(type "Legacy")(uri "${KIPRJMOD}/libraries/TPS40211QDGQRQ1.lib")(options "")(descr ""))
+  (lib (name "AON7407")(type "Legacy")(uri "${KIPRJMOD}/libraries/AON7407.lib")(options "")(descr ""))
 )
