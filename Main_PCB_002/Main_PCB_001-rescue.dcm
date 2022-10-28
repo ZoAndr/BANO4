@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BZT52-C5V1J-BZT52-C5V1J
+F https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf
+$ENDCMP
+#
+$CMP TPS40211QDGQRQ1-TPS40211QDGQRQ1
+F http://www.ti.com/lit/gpn/tps40211-q1
+$ENDCMP
+#
+#End Doc Library

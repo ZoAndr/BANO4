@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRP5030T-100M
+D Bourns SRP5030T Series Shielded Wire-wound SMD Inductor with a Iron Core, 10 uH +/-20% 2.75A Idc
+K
+F https://componentsearchengine.com/Datasheets/2/SRP5030T-100M.pdf
+$ENDCMP
+#
+#End Doc Library
