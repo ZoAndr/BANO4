@@ -7,7 +7,7 @@ Shape Version=11.00
 Screen=1920,1080
 MCAPVersion=12.2.0.5
 Key ID=Demo
-NLCnt=81
+NLCnt=80
 TXCnt=0
 
 [shapedef]
@@ -156,8 +156,8 @@ Current=32,16,16,16
 Name=Resistor
 Definition=Resistor
 Shape=Resistor
-Mask=7425
-Used=169
+Mask=6913
+Used=163
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -168,8 +168,8 @@ Pin="Minus",0,0,-14,-4
 Name=Diode
 Definition=Diode
 Shape=Diode
-Mask=5889
-Used=13
+Mask=5377
+Used=10
 memo=Diode
 Label Offset=17,10,12,12
 PinCnt=2
@@ -180,8 +180,7 @@ Pin="Cathode",0,0,-20,-8
 Name=NMOS
 Definition=NMOS
 Shape=NMOS
-Mask=5632
-Used=1
+Mask=5376
 memo=NMOS
 Label Offset=29,1,7,25
 PinCnt=4
@@ -195,7 +194,7 @@ Name=Ground
 Definition=Ground
 Shape=Ground
 Mask=1793
-Used=275
+Used=273
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -217,8 +216,8 @@ Pin="Minus",0,0,-20,-6
 Name=NPN
 Definition=NPN
 Shape=NPN
-Mask=4097
-Used=12
+Mask=5633
+Used=11
 memo=NPN Transistor
 Label Offset=37,-17,-14,33
 PinCnt=3
@@ -231,7 +230,6 @@ Name=TLC339_TI
 Definition=Subckt
 Shape=Opamp5
 Mask=4224
-Used=1
 memo=Quad Micropower LinCMOS Comparator
 Label Offset=51,34,-8,44
 PinCnt=5
@@ -246,7 +244,7 @@ Name=Capacitor
 Definition=Capacitor
 Shape=Capacitor
 Mask=7425
-Used=26
+Used=24
 memo=Capacitor
 Label Offset=16,12,12,12
 PinCnt=2
@@ -381,7 +379,7 @@ V=TO-220AB
 Pxs=544,376,632,376
 
 [Wire]
-Pxs=208,376,216,376
+Pxs=208,376,224,376
 
 [Wire]
 Pxs=352,368,352,376
@@ -393,13 +391,10 @@ Pxs=184,272,184,328
 Pxs=184,376,184,392
 
 [Wire]
-Pxs=184,392,216,392
+Pxs=184,392,208,392
 
 [Wire]
-Pxs=216,376,216,392
-
-[Wire]
-Pxs=216,376,224,376
+Pxs=208,376,208,392
 
 [Wire]
 Pxs=776,376,776,392
@@ -847,11 +842,6 @@ Pxs=496,56,832,56
 [Wire]
 Pxs=496,104,496,120
 
-[Node Offsets]
-Section=0
-;Node,Page,GridX,GridY,OffsetX,OffsetY
-Offset=8,0,544,200,-23,-9
-
 [Schematic]
 CurrentSection 0=0
 CurrentSection 1=0
@@ -1049,7 +1039,7 @@ Scale 0=1
 Scale 1=1
 Scale 2=1
 Scale 3=1
-Px=452,181
+Px=758,117
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1113,7 +1103,6 @@ Type=Text
 Print=False
 Enable=True
 Name=Models
-SB 0=38,192
 Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
 Comment Color=#008000
 WinBackGround Color=#FFFFFF

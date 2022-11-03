@@ -7,7 +7,7 @@ Shape Version=11.00
 Screen=1920,1080
 MCAPVersion=12.2.0.5
 Key ID=Demo
-NLCnt=81
+NLCnt=80
 TXCnt=0
 
 [shapedef]
@@ -381,7 +381,7 @@ V=TO-220AB
 Pxs=544,376,632,376
 
 [Wire]
-Pxs=208,376,216,376
+Pxs=208,376,224,376
 
 [Wire]
 Pxs=352,368,352,376
@@ -393,13 +393,10 @@ Pxs=184,272,184,328
 Pxs=184,376,184,392
 
 [Wire]
-Pxs=184,392,216,392
+Pxs=184,392,208,392
 
 [Wire]
-Pxs=216,376,216,392
-
-[Wire]
-Pxs=216,376,224,376
+Pxs=208,376,208,392
 
 [Wire]
 Pxs=776,376,776,392
@@ -847,6 +844,11 @@ Pxs=496,56,832,56
 [Wire]
 Pxs=496,104,496,120
 
+[Node Offsets]
+Section=0
+;Node,Page,GridX,GridY,OffsetX,OffsetY
+Offset=8,0,544,200,-23,-9
+
 [Schematic]
 CurrentSection 0=0
 CurrentSection 1=0
@@ -1044,7 +1046,7 @@ Scale 0=1
 Scale 1=1
 Scale 2=1
 Scale 3=1
-Px=501,120
+Px=215,386
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1108,7 +1110,7 @@ Type=Text
 Print=False
 Enable=True
 Name=Models
-SB 0=44,186
+SB 0=38,192
 Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
 Comment Color=#008000
 WinBackGround Color=#FFFFFF
@@ -1326,6 +1328,12 @@ Text=*** MEGA RAD HARD NMOS 100V .18 Ohm 32A
 Text=.MODEL IRHF7130 NMOS (CBD=1.44812n CGDO=1.22158n CGSO=4.95574n GAMMA=0 GDSNOI=0
 Text=+ JS=10n KP=20u L=2u LAMBDA=167.474f NLEV=0 NSUB=0 PHI=600m RDS=4MEG RG=13.4271
 Text=+ TOX=0 TPG=1 UO=600 VTO=3.22238 W=148.463m)
+Text=*** From file C:\MC12\library\PH_DIODE.LIB
+Text=.MODEL BZX585-B5V6 D (BV=5.6 CJO=1.961E-10 FC=0.5 IBV=0.005 IS=1.033E-15
+Text=+ M=0.423 N=1.001 RS=0.387 VJ=0.9187)
+Text=*** From file C:\MC12\library\PH_DIODE.LIB
+Text=.MODEL BZX585-B5V1 D (BV=5.1 CJO=2.402E-10 FC=0.5 IBV=0.005 IS=1.033E-15
+Text=+ M=0.3578 N=1.001 RS=0.387 VJ=0.7934)
 
 [InfoPage]
 InfoPage=True
