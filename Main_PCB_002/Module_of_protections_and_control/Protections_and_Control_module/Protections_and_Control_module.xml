@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Projects\BANO4\From_20221103\Main_PCB_002\Module_of_protections_and_control\Protections_and_Control_module\Protections_and_Control_module.kicad_sch</source>
+    <date>03.11.2022 18:03:56</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Protections_and_Control_module.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>023f6e64-c54a-4d0e-876e-633c83be4118</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7bf0c55-6a8f-463e-ab43-990a1be3919b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1aaa853f-2cc9-484b-8403-42a52518a2a3</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10b5e62a-dff2-4e38-afb7-583904604faf</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ca0c818-f93a-49ed-83b2-94b1278933cf</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4f2bf3d-644c-4c58-b636-d7160fa3ac75</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5406632-76fa-404c-bd6a-e512658a0fb1</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>218653e1-8c77-44cb-a398-05d9240366bb</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cb3ccef-bbd1-470b-9ea4-748dc3846b7e</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>518851bf-1fbd-4422-a168-270af074603a</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>963617ad-75e0-4cbd-96fa-6cfa7eca014e</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47259002-19c0-48c6-89f9-5c36674cccc4</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79af8aab-a94a-4726-aca3-fc3dec1314d1</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2f96f4e-d95d-4c20-90ff-804397e6e6ba</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8333ca2-6919-4fe3-9f28-bacc852923df</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>WireHole_1p5</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>900d1692-0219-45dc-af87-3e4c56b55796</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>WireHole_1p5</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a8fd63e-8a1e-41f2-b818-251dc9e2655e</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>WireHole_1p5</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69005d17-0054-40a9-96ab-b2b6a9e04af0</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>WireHole_1p5</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d717649-4399-49c5-94ac-eb1cc7836f8d</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>BZV55B47</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BZV55B47" description="47V, 500mW, 2%, Zener diode, MiniMELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc34f9e1-786a-4623-861e-537763325e0b</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>BZV55B47</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BZV55B47" description="47V, 500mW, 2%, Zener diode, MiniMELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91330219-69fa-4abf-8c63-5dc239145653</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>BZV55B47</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BZV55B47" description="47V, 500mW, 2%, Zener diode, MiniMELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d0aa1d0-4e24-41f7-81c1-3b1adeeee883</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>D_Zener</value>
+      <footprint>libraries:SOD2513X120N</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42408dc9-b858-4fa8-a8d7-53a448cfa66c</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>BZV55B47</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BZV55B47" description="47V, 500mW, 2%, Zener diode, MiniMELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f86bd4f-c6e4-4570-a497-f431fd1f73b0</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>WireHole_1p5</value>
+      <footprint>Flat_Wires_Pads:Flat_Wire_Pad_7X2mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15b96e46-54c5-473b-b1fd-f581fc85cbd9</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>WireHole_1p5</value>
+      <footprint>Flat_Wires_Pads:Flat_Wire_Pad_7X2mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad7a9518-4d10-49f1-9ac1-718b69e7ee31</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>WireHole_1p5</value>
+      <footprint>Flat_Wires_Pads:Flat_Wire_Pad_7X2mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c54befb0-e502-464a-aa61-629feec765e0</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>WireHole_1p5</value>
+      <footprint>Flat_Wires_Pads:Flat_Wire_Pad_7X2mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7bd5f87-fbf2-4652-afdb-e38784082f46</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>WireHole_1p5</value>
+      <footprint>Flat_Wires_Pads:Flat_Wire_Pad_7X2mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63ace593-9960-4666-bb08-47e6f085cee8</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>WireHole_1p5</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a923bb61-58c2-4811-9863-8b0e16892b59</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>WireHole_1p5</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d47a1a2-7ed7-453f-8bcd-6a73af20049c</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>WireHole_1p5</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea439d1d-603e-4ca3-9144-f9ed1208d515</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>WireHole_1p5</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7125e3e-4f2e-4dcd-a1ea-d29c78d71f99</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>TFM201610ALC-R47MTAA</value>
+      <footprint>libraries:INDPM4442X200N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk</field>
+        <field name="Description">Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">TFM201610ALC-R47MTAA</field>
+        <field name="Mouser Part Number">810-TFM201610ALCR47M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D</field>
+      </fields>
+      <libsource lib="TFM201610ALC-R47MTAA" part="TFM201610ALC-R47MTAA" description="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Description" value="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Height" value="0.8"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Mouser Part Number" value="810-TFM201610ALCR47M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D"/>
+      <property name="Arrow Part Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c406e113-f410-4518-81d1-261013bf8755</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>TFM201610ALC-R47MTAA</value>
+      <footprint>libraries:INDPM4442X200N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk</field>
+        <field name="Description">Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">TFM201610ALC-R47MTAA</field>
+        <field name="Mouser Part Number">810-TFM201610ALCR47M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D</field>
+      </fields>
+      <libsource lib="TFM201610ALC-R47MTAA" part="TFM201610ALC-R47MTAA" description="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Description" value="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Height" value="0.8"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Mouser Part Number" value="810-TFM201610ALCR47M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D"/>
+      <property name="Arrow Part Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab7a5904-43d3-44ba-9d24-927be84d86db</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>TFM201610ALC-R47MTAA</value>
+      <footprint>libraries:INDPM4442X200N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk</field>
+        <field name="Description">Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">TFM201610ALC-R47MTAA</field>
+        <field name="Mouser Part Number">810-TFM201610ALCR47M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D</field>
+      </fields>
+      <libsource lib="TFM201610ALC-R47MTAA" part="TFM201610ALC-R47MTAA" description="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Description" value="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Height" value="0.8"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Mouser Part Number" value="810-TFM201610ALCR47M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D"/>
+      <property name="Arrow Part Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>551a3348-08e6-4625-9dd8-0cbb22ed0507</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>TFM201610ALC-R47MTAA</value>
+      <footprint>libraries:INDPM4442X200N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk</field>
+        <field name="Description">Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">TFM201610ALC-R47MTAA</field>
+        <field name="Mouser Part Number">810-TFM201610ALCR47M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D</field>
+      </fields>
+      <libsource lib="TFM201610ALC-R47MTAA" part="TFM201610ALC-R47MTAA" description="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Description" value="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Height" value="0.8"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Mouser Part Number" value="810-TFM201610ALCR47M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D"/>
+      <property name="Arrow Part Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d931565-58d9-4b91-a19a-3c39cfc36f4d</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>TFM201610ALC-R47MTAA</value>
+      <footprint>libraries:INDPM4442X200N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk</field>
+        <field name="Description">Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">TFM201610ALC-R47MTAA</field>
+        <field name="Mouser Part Number">810-TFM201610ALCR47M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D</field>
+      </fields>
+      <libsource lib="TFM201610ALC-R47MTAA" part="TFM201610ALC-R47MTAA" description="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Description" value="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Height" value="0.8"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Mouser Part Number" value="810-TFM201610ALCR47M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D"/>
+      <property name="Arrow Part Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>002881fb-9d0a-459f-9e4a-20f84d5711e2</tstamps>
+    </comp>
+    <comp ref="L6">
+      <value>TFM201610ALC-R47MTAA</value>
+      <footprint>libraries:INDC2112X105N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk</field>
+        <field name="Description">Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">TFM201610ALC-R47MTAA</field>
+        <field name="Mouser Part Number">810-TFM201610ALCR47M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D</field>
+      </fields>
+      <libsource lib="TFM201610ALC-R47MTAA" part="TFM201610ALC-R47MTAA" description="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Description" value="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Height" value="0.8"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Mouser Part Number" value="810-TFM201610ALCR47M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D"/>
+      <property name="Arrow Part Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2683b99-bb18-4d41-a0c5-df26e16e4210</tstamps>
+    </comp>
+    <comp ref="L7">
+      <value>TFM201610ALC-R47MTAA</value>
+      <footprint>libraries:INDC2112X105N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk</field>
+        <field name="Description">Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">TFM201610ALC-R47MTAA</field>
+        <field name="Mouser Part Number">810-TFM201610ALCR47M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D</field>
+      </fields>
+      <libsource lib="TFM201610ALC-R47MTAA" part="TFM201610ALC-R47MTAA" description="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Description" value="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Height" value="0.8"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Mouser Part Number" value="810-TFM201610ALCR47M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D"/>
+      <property name="Arrow Part Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>153cf5da-2e7a-421c-aaa9-01a8330552b3</tstamps>
+    </comp>
+    <comp ref="L8">
+      <value>TFM201610ALC-R47MTAA</value>
+      <footprint>libraries:INDC2112X105N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk</field>
+        <field name="Description">Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">TFM201610ALC-R47MTAA</field>
+        <field name="Mouser Part Number">810-TFM201610ALCR47M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D</field>
+      </fields>
+      <libsource lib="TFM201610ALC-R47MTAA" part="TFM201610ALC-R47MTAA" description="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Description" value="Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125"/>
+      <property name="Height" value="0.8"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Mouser Part Number" value="810-TFM201610ALCR47M"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D"/>
+      <property name="Arrow Part Number" value="TFM201610ALC-R47MTAA"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec0cac25-c02e-4511-8b97-1cc1cebae6dd</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AON7407</value>
+      <footprint>libraries:DFN_3X3_EP</footprint>
+      <datasheet>http://aosmd.com/res/data_sheets/AON7407.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">AON7407</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/aon7407/alpha-and-omega-semiconductor?region=nac</field>
+        <field name="Description">MOSFET P-CH 20V 14.5A 8DFN</field>
+        <field name="Manufacturer_Name">Alpha &amp; Omega Semiconductors</field>
+        <field name="Manufacturer_Part_Number">AON7407</field>
+      </fields>
+      <libsource lib="AON7407" part="AON7407" description="MOSFET P-CH 20V 14.5A 8DFN"/>
+      <property name="Description" value="MOSFET P-CH 20V 14.5A 8DFN"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Alpha &amp; Omega Semiconductors"/>
+      <property name="Manufacturer_Part_Number" value="AON7407"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value="AON7407"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/aon7407/alpha-and-omega-semiconductor?region=nac"/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>159a27fe-b695-431b-a463-5b0a4d3a687f</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>AON7407</value>
+      <footprint>libraries:DFN_3X3_EP</footprint>
+      <datasheet>http://aosmd.com/res/data_sheets/AON7407.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">AON7407</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/aon7407/alpha-and-omega-semiconductor?region=nac</field>
+        <field name="Description">MOSFET P-CH 20V 14.5A 8DFN</field>
+        <field name="Manufacturer_Name">Alpha &amp; Omega Semiconductors</field>
+        <field name="Manufacturer_Part_Number">AON7407</field>
+      </fields>
+      <libsource lib="AON7407" part="AON7407" description="MOSFET P-CH 20V 14.5A 8DFN"/>
+      <property name="Description" value="MOSFET P-CH 20V 14.5A 8DFN"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Alpha &amp; Omega Semiconductors"/>
+      <property name="Manufacturer_Part_Number" value="AON7407"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value="AON7407"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/aon7407/alpha-and-omega-semiconductor?region=nac"/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3eae3f2-b258-4bb6-b800-e6f910fbd2ea</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS123</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30366.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="BSS123" description="0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30a2ce46-86bf-447c-8695-a4417f3780f8</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS123</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30366.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="BSS123" description="0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3399ffa8-8abe-4948-804d-5e4dcd7b100c</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>AON7407</value>
+      <footprint>libraries:DFN_3X3_EP</footprint>
+      <datasheet>http://aosmd.com/res/data_sheets/AON7407.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">AON7407</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/aon7407/alpha-and-omega-semiconductor?region=nac</field>
+        <field name="Description">MOSFET P-CH 20V 14.5A 8DFN</field>
+        <field name="Manufacturer_Name">Alpha &amp; Omega Semiconductors</field>
+        <field name="Manufacturer_Part_Number">AON7407</field>
+      </fields>
+      <libsource lib="AON7407" part="AON7407" description="MOSFET P-CH 20V 14.5A 8DFN"/>
+      <property name="Description" value="MOSFET P-CH 20V 14.5A 8DFN"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Alpha &amp; Omega Semiconductors"/>
+      <property name="Manufacturer_Part_Number" value="AON7407"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value="AON7407"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/aon7407/alpha-and-omega-semiconductor?region=nac"/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89bd6cc3-b713-473e-b12d-61092fc0c51c</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>AON7407</value>
+      <footprint>libraries:DFN_3X3_EP</footprint>
+      <datasheet>http://aosmd.com/res/data_sheets/AON7407.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">AON7407</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/aon7407/alpha-and-omega-semiconductor?region=nac</field>
+        <field name="Description">MOSFET P-CH 20V 14.5A 8DFN</field>
+        <field name="Manufacturer_Name">Alpha &amp; Omega Semiconductors</field>
+        <field name="Manufacturer_Part_Number">AON7407</field>
+      </fields>
+      <libsource lib="AON7407" part="AON7407" description="MOSFET P-CH 20V 14.5A 8DFN"/>
+      <property name="Description" value="MOSFET P-CH 20V 14.5A 8DFN"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Alpha &amp; Omega Semiconductors"/>
+      <property name="Manufacturer_Part_Number" value="AON7407"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value="AON7407"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/aon7407/alpha-and-omega-semiconductor?region=nac"/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4b8e3c5-94cb-43d4-9147-8b88d4c6732e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70a4e797-9b9d-456b-9828-a204fd87f7bc</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a70454b-7c40-4d65-a9f9-7ea2b6895e5c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dd7346b-952c-4d51-a889-eb14b173ed5c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb4c600c-e31a-4da1-864e-a8e28439ce9a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e9115bb-efb9-4f2a-8a43-269de384cff2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f544f6ad-dd6c-425e-8366-0bf14c62973f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e600d5e-e599-4dc8-bb47-74136e626239</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4aa99c22-1201-41ce-b22c-c4264d96b5b4</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6468dffd-62ff-4f5d-abb2-1532865c76b1</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7bbee7c-7ee0-4edc-9a19-38d4fe6d4814</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb17923b-f581-4cee-b6b2-2db0def048df</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cdaf74c-bd9d-4293-9612-c30a4bca9a30</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f76f4233-905d-4cb5-a153-eed7fe8e458e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TL331</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl331.pdf</datasheet>
+      <libsource lib="Comparator" part="TL331" description="Single Differential Comparator with Open-Collector Output, SOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d920596-9336-4b0b-bd87-10040db92874</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ATtiny25-20S</value>
+      <footprint>Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny25-20S" description="20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, SOIC-8W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Protections_and_Control_module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb7f3caf-4343-4dcb-b7b2-5479c850c4a2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AON7407" part="AON7407">
+      <description>MOSFET P-CH 20V 14.5A 8DFN</description>
+      <docs>http://aosmd.com/res/data_sheets/AON7407.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AON7407</field>
+        <field name="Footprint">DFN_3X3_EP</field>
+        <field name="Datasheet">http://aosmd.com/res/data_sheets/AON7407.pdf</field>
+        <field name="Description">MOSFET P-CH 20V 14.5A 8DFN</field>
+        <field name="Manufacturer_Name">Alpha &amp; Omega Semiconductors</field>
+        <field name="Manufacturer_Part_Number">AON7407</field>
+        <field name="Arrow Part Number">AON7407</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/aon7407/alpha-and-omega-semiconductor?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S_1" type="passive"/>
+        <pin num="2" name="S_2" type="passive"/>
+        <pin num="3" name="S_3" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D_1" type="passive"/>
+        <pin num="6" name="D_2" type="passive"/>
+        <pin num="7" name="D_3" type="passive"/>
+        <pin num="8" name="D_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Comparator" part="TL331">
+      <description>Single Differential Comparator with Open-Collector Output, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl331.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL331</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl331.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="input"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="" type="open_collector"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connectors_for_Wire" part="WireHole_1p5">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WireHole_1p5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Conn" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BZV55B47">
+      <description>47V, 500mW, 2%, Zener diode, MiniMELF</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf</docs>
+      <footprints>
+        <fp>D*MiniMELF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BZV55B47</field>
+        <field name="Footprint">Diode_SMD:D_MiniMELF</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny25-20S">
+      <description>20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, SOIC-8W</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.3x5.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny25-20S</field>
+        <field name="Footprint">Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}/PB5" type="bidirectional"/>
+        <pin num="2" name="XTAL1/PB3" type="bidirectional"/>
+        <pin num="3" name="XTAL2/PB4" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="AREF/PB0" type="bidirectional"/>
+        <pin num="6" name="PB1" type="bidirectional"/>
+        <pin num="7" name="PB2" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="TFM201610ALC-R47MTAA" part="TFM201610ALC-R47MTAA">
+      <description>Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">TFM201610ALC-R47MTAA</field>
+        <field name="Footprint">INDC2016X80N</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</field>
+        <field name="Description">Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">TFM201610ALC-R47MTAA</field>
+        <field name="Mouser Part Number">810-TFM201610ALCR47M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/TFM201610ALC-R47MTAA?qs=MLItCLRbWsy9rkE7tyNMeg%3D%3D</field>
+        <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tfm201610alc-r47mtaa/tdk</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS123">
+      <description>0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.diodes.com/assets/Datasheets/ds30366.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS123</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.diodes.com/assets/Datasheets/ds30366.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AON7407">
+      <uri>C:\Projects\BANO4\From_20221103\Main_PCB_002\Module_of_protections_and_control\Protections_and_Control_module/libraries/AON7407.lib</uri>
+    </library>
+    <library logical="Comparator">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Comparator.kicad_sym</uri>
+    </library>
+    <library logical="Connectors_for_Wire">
+      <uri>C:/Users/HLC031/Documents/KiCad/6.0/symbols/Connectors_for_Wire.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Microchip_ATtiny.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D17" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D18" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D2" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D4" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="D_3" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="D_4" pintype="passive"/>
+      <node ref="Q2" pin="5" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q2" pin="7" pinfunction="D_3" pintype="passive"/>
+      <node ref="Q2" pin="8" pinfunction="D_4" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="L4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="L3" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="5" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="L5" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S_3" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="L4" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="Q5" pin="5" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q5" pin="6" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q5" pin="7" pinfunction="D_3" pintype="passive"/>
+      <node ref="Q5" pin="8" pinfunction="D_4" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="L5" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="Q6" pin="5" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q6" pin="6" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q6" pin="7" pinfunction="D_3" pintype="passive"/>
+      <node ref="Q6" pin="8" pinfunction="D_4" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="L6" pin="1" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="L6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D14-Pad1)">
+      <node ref="D14" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="L8" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D15-Pad1)">
+      <node ref="D15" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="L7" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(L7-Pad1)">
+      <node ref="L7" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(L8-Pad1)">
+      <node ref="L8" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(Q6-Pad4)">
+      <node ref="Q6" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pintype="open_collector"/>
+    </net>
+    <net code="26" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="~{RESET}/PB5" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(U2-Pad2)">
+      <node ref="U2" pin="2" pinfunction="XTAL1/PB3" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="XTAL2/PB4" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="AREF/PB0" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

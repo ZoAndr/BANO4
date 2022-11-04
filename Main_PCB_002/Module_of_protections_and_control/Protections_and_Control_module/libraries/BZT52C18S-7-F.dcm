@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BZT52C18S-7-F
+D Diode Zener Single 18V 6% 200mW SOD323
+K
+F https://www.diodes.com/assets/Datasheets/ds30093.pdf
+$ENDCMP
+#
+#End Doc Library
