@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM5164QDDATQ1
+D 6-V to 100-V input, 1-A synchronous DC-DC buck converter with ultra-low IQ
+K
+F http://www.ti.com/lit/gpn/LM5164-Q1
+$ENDCMP
+#
+#End Doc Library
