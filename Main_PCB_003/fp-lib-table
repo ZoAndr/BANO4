@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "Flat_Wires_Pads")(type "KiCad")(uri "C:/Projects/BANO4/From_20221103/Main_PCB_002/Module_of_protections_and_control/Protections_and_Control_module/libraries/Flat_Wires_Pads.pretty")(options "")(descr ""))
+  (lib (name "Flat_Wires_Pads")(type "KiCad")(uri "${KIPRJMOD}/libraries/Flat_Wires_Pads.pretty")(options "")(descr ""))
 )
