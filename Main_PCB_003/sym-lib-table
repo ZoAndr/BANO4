@@ -17,4 +17,5 @@
   (lib (name "AON7407")(type "Legacy")(uri "${KIPRJMOD}/libraries/AON7407.lib")(options "")(descr ""))
   (lib (name "INA138NA_250")(type "Legacy")(uri "${KIPRJMOD}/libraries/INA138NA_250.lib")(options "")(descr ""))
   (lib (name "LM5164QDDATQ1")(type "Legacy")(uri "${KIPRJMOD}/libraries/LM5164QDDATQ1.lib")(options "")(descr ""))
+  (lib (name "XDS_Semi")(type "KiCad")(uri "${KIPRJMOD}/libraries/XDS_Semi.kicad_sym")(options "")(descr ""))
 )

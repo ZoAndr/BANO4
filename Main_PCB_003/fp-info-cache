@@ -1,4 +1,4 @@
-20217227811527182
+20212240031876114
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52290,13 +52290,6 @@ Control_PAD_1.5mm
 1
 1
 Flat_Wires_Pads
-Flat_Wire_Pad_3.5X2mm
-
-
-0
-1
-1
-Flat_Wires_Pads
 Flat_Wire_Pad_7X2.54
 
 
@@ -52319,27 +52312,6 @@ Flat_Wire_Pad_10X2.54
 1
 Flat_Wires_Pads
 Programmator_Pad
-
-
-0
-1
-1
-Flat_Wires_Pads
-Wire_Hole_0.8mm
-
-
-0
-1
-1
-Flat_Wires_Pads
-Wire_Hole_1.2mm
-
-
-0
-1
-1
-Flat_Wires_Pads
-Wire_Hole_1mm
 
 
 0
@@ -85756,6 +85728,13 @@ varistor SIOV
 0
 2
 2
+XDS_Semi
+TX6211
+
+
+0
+8
+8
 libraries
 BZT52C12J
 BZT52-C12J-3
