@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Projects\BANO\From20221028\Main_PCB_003\Main_PCB_001.kicad_sch</source>
-    <date>27.11.2022 7:00:20</date>
+    <date>27.11.2022 20:10:09</date>
     <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -212,6 +212,15 @@
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cdb5ec47-38b7-4d32-b409-84382ebabf5c</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>789d3f5b-3534-4e8a-89c9-ca398e75eeeb</tstamps>
     </comp>
     <comp ref="D1">
       <value>WireHole_1p5</value>
@@ -720,7 +729,7 @@
     </comp>
     <comp ref="L4">
       <value>TFM201610ALC-R47MTAA</value>
-      <footprint>libraries:INDC2016X80N</footprint>
+      <footprint>libraries:WPN252010UR47MT</footprint>
       <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">TFM201610ALC-R47MTAA</field>
@@ -922,7 +931,7 @@
     </comp>
     <comp ref="R5">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -958,7 +967,7 @@
     </comp>
     <comp ref="R9">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -967,7 +976,7 @@
     </comp>
     <comp ref="R10">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_001.kicad_sch"/>
@@ -1485,6 +1494,7 @@
       <node ref="IC1" pin="2" pinfunction="SS" pintype="passive"/>
     </net>
     <net code="7" name="Net-(C6-Pad1)">
+      <node ref="C22" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="Conn" pintype="bidirectional"/>
@@ -1556,6 +1566,7 @@
     <net code="17" name="Net-(C15-Pad2)">
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="D16" pin="1" pinfunction="Conn" pintype="unspecified"/>
