@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SS310F-HF
+#/11471479/568497/2.49/2/3/Diode
+DEF SS310F-HF D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "SS310F-HF" 450 100 50 H V L CNN
+F2 "SODFL4626X120N" 450 0 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/SS310F-HF.pdf" 450 -100 50 H I L CNN
+F4 "DIODE SCHOTTKY 3A 100V SMAF" 450 -200 50 H I L CNN "Description"
+F5 "1.2" 450 -300 50 H I L CNN "Height"
+F6 "Comchip Technology" 450 -400 50 H I L CNN "Manufacturer_Name"
+F7 "SS310F-HF" 450 -500 50 H I L CNN "Manufacturer_Part_Number"
+F8 "750-SS310F-HF" 450 -600 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=750-SS310F-HF" 450 -700 50 H I L CNN "Mouser Price/Stock"
+F10 "SS310F-HF" 450 -800 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ss310f-hf/comchip-technology?region=nac" 450 -900 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library
