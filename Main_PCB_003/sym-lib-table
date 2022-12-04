@@ -18,4 +18,7 @@
   (lib (name "INA138NA_250")(type "Legacy")(uri "${KIPRJMOD}/libraries/INA138NA_250.lib")(options "")(descr ""))
   (lib (name "LM5164QDDATQ1")(type "Legacy")(uri "${KIPRJMOD}/libraries/LM5164QDDATQ1.lib")(options "")(descr ""))
   (lib (name "XDS_Semi")(type "KiCad")(uri "${KIPRJMOD}/libraries/XDS_Semi.kicad_sym")(options "")(descr ""))
+  (lib (name "LM3478MMX_NOPB")(type "Legacy")(uri "${KIPRJMOD}/libraries/LM3478MMX_NOPB.lib")(options "")(descr ""))
+  (lib (name "LM3481MM_NOPB")(type "Legacy")(uri "${KIPRJMOD}/libraries/LM3481MM_NOPB.lib")(options "")(descr ""))
+  (lib (name "LM3488MM")(type "Legacy")(uri "${KIPRJMOD}/libraries/LM3488MM.lib")(options "")(descr ""))
 )
