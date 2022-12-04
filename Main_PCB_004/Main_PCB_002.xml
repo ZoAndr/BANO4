@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Projects\BANO\From20221028\Main_PCB_004\Main_PCB_002.kicad_sch</source>
-    <date>02.12.2022 19:30:48</date>
+    <date>03.12.2022 8:59:37</date>
     <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -429,6 +429,141 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e644ee05-4990-44c9-8464-e5ca011d820b</tstamps>
     </comp>
+    <comp ref="C46">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23c58d70-81f5-4468-9040-014943212394</tstamps>
+    </comp>
+    <comp ref="C47">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3d38446-6807-4e0d-a6e0-e33b50561084</tstamps>
+    </comp>
+    <comp ref="C48">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>903aa474-4c3c-4306-adea-01373c175fc9</tstamps>
+    </comp>
+    <comp ref="C49">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f60283c-37b6-4645-bdeb-3286e920585c</tstamps>
+    </comp>
+    <comp ref="C50">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95b4cc13-de75-4a01-8f4e-159ea6000653</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc9d17ea-2062-47bf-b151-9a36953ee634</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d332d603-4fb9-45f0-ab25-48842db646f2</tstamps>
+    </comp>
+    <comp ref="C53">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f08d364a-b4ee-424b-87a7-4aeab986b3cb</tstamps>
+    </comp>
+    <comp ref="C54">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3007ad7b-68cc-4826-8486-f17d4827be84</tstamps>
+    </comp>
+    <comp ref="C55">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7631f75c-06f8-474b-bf67-d112296a500e</tstamps>
+    </comp>
+    <comp ref="C56">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24aa1cd8-48f7-4a2d-ac32-6078dd93afc2</tstamps>
+    </comp>
+    <comp ref="C57">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>510504e6-d519-4976-a3ed-ccdb162938de</tstamps>
+    </comp>
+    <comp ref="C58">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab67fa14-d921-4d81-ba90-1490234a9b40</tstamps>
+    </comp>
+    <comp ref="C59">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6df3ba3b-8bdc-440a-a100-923fb51a1a5a</tstamps>
+    </comp>
+    <comp ref="C60">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a362b278-3ac3-484a-9a4b-546da35cea25</tstamps>
+    </comp>
     <comp ref="D1">
       <value>WireHole_1p5</value>
       <footprint>libraries:WireHole_1p2</footprint>
@@ -846,7 +981,7 @@
       <tstamps>1897ab84-2f85-4e2b-b23d-6ee14803238d</tstamps>
     </comp>
     <comp ref="D40">
-      <value>Wire_Pad_01</value>
+      <value>Gnd</value>
       <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
@@ -855,7 +990,7 @@
       <tstamps>9f58e785-600e-4270-9ea3-8a32de97511b</tstamps>
     </comp>
     <comp ref="D41">
-      <value>WireHole_1p5</value>
+      <value>Gnd</value>
       <footprint>libraries:WireHole_1p2</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
@@ -864,7 +999,7 @@
       <tstamps>f231a712-f432-4d95-9fcc-4dfba6c60e72</tstamps>
     </comp>
     <comp ref="D42">
-      <value>WireHole_1p5</value>
+      <value>In</value>
       <footprint>libraries:WireHole_1p2</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
@@ -969,7 +1104,7 @@
       <tstamps>7b31ee7c-12ee-4591-9a76-c762787b8537</tstamps>
     </comp>
     <comp ref="D50">
-      <value>WireHole_1p5</value>
+      <value>Flash LED +</value>
       <footprint>libraries:WireHole_1p2</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
@@ -978,7 +1113,7 @@
       <tstamps>f33c664c-794a-4338-a671-d3c941114288</tstamps>
     </comp>
     <comp ref="D51">
-      <value>Wire_Pad_01</value>
+      <value>Out</value>
       <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
@@ -987,7 +1122,7 @@
       <tstamps>19d1a164-2e84-4408-90be-65a4f32ce4ff</tstamps>
     </comp>
     <comp ref="D52">
-      <value>Wire_Pad_01</value>
+      <value>Gnd</value>
       <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
       <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
       <property name="Sheetname" value=""/>
@@ -1041,13 +1176,364 @@
       <tstamps>ecd77cd2-4bd3-4beb-b5ad-ac8e5f53e87d</tstamps>
     </comp>
     <comp ref="D58">
-      <value>WireHole_1p5</value>
+      <value>Flash LED -</value>
       <footprint>libraries:WireHole_1p2</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>92ef79e8-e09a-46b4-bc46-11f390a3a70d</tstamps>
+    </comp>
+    <comp ref="D59">
+      <value>+5B</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb377b29-0f85-4eca-94ff-d0979cbcdaaa</tstamps>
+    </comp>
+    <comp ref="D60">
+      <value>t_IC</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2dc624cf-b6ee-4313-8edb-0fb65b05f94f</tstamps>
+    </comp>
+    <comp ref="D61">
+      <value>Gnd</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a616b6f5-1cb3-431e-9ce2-baa2ac417389</tstamps>
+    </comp>
+    <comp ref="D62">
+      <value>+5B</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7153699b-e41c-47d4-8f5b-5022549bfda5</tstamps>
+    </comp>
+    <comp ref="D63">
+      <value>t_D</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a225c57d-9e8c-45b5-89a7-07e5ef74fe0b</tstamps>
+    </comp>
+    <comp ref="D64">
+      <value>t_Q</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fccc189-b3cf-4663-80d3-3585246f19ae</tstamps>
+    </comp>
+    <comp ref="D65">
+      <value>Gnd</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bf2dc41-3e1b-403b-b853-8abc9c2bf6a5</tstamps>
+    </comp>
+    <comp ref="D66">
+      <value>+5B</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fe76b51-5ff8-4f97-ac4a-0ba236f493ea</tstamps>
+    </comp>
+    <comp ref="D67">
+      <value>t_D</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f01a9992-777c-4c61-809c-f03c7a7c4b3c</tstamps>
+    </comp>
+    <comp ref="D68">
+      <value>t_Q</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>338f9a56-745a-46fd-9a30-81030e5754e5</tstamps>
+    </comp>
+    <comp ref="D69">
+      <value>Gnd</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcc32ac0-e0f8-46f6-975a-29550899b444</tstamps>
+    </comp>
+    <comp ref="D70">
+      <value>CS_In</value>
+      <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d21d2009-b07b-46c6-ae73-3b143ca6d508</tstamps>
+    </comp>
+    <comp ref="D71">
+      <value>CS_Out</value>
+      <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee6f2ebb-b10f-4c43-ab3e-2866bf2d56b8</tstamps>
+    </comp>
+    <comp ref="D72">
+      <value>Gnd</value>
+      <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e393ff0-fae7-42d5-ba49-8e2700fece98</tstamps>
+    </comp>
+    <comp ref="D73">
+      <value>U</value>
+      <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>524d6e34-6f12-4c1e-b990-975d58973a88</tstamps>
+    </comp>
+    <comp ref="D74">
+      <value>+5B</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>251d8311-67e9-40f4-ba87-d23e38ed8c0c</tstamps>
+    </comp>
+    <comp ref="D75">
+      <value>t_D</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11db2382-4ccb-4865-9ad4-ebee4ab3f228</tstamps>
+    </comp>
+    <comp ref="D76">
+      <value>t_Q</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce45e15d-7b50-43e7-b6a3-1f95a29cdc32</tstamps>
+    </comp>
+    <comp ref="D77">
+      <value>Gnd</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4153a1ba-a5f0-4270-bccf-d6c0682d523e</tstamps>
+    </comp>
+    <comp ref="D78">
+      <value>I</value>
+      <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2add9365-63c0-4e12-9fb1-b941a13879d8</tstamps>
+    </comp>
+    <comp ref="D79">
+      <value>CS_In</value>
+      <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42079e65-8c11-4ef2-8d31-ed4b10de1d04</tstamps>
+    </comp>
+    <comp ref="D80">
+      <value>+5B</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06e08da7-8ad9-4747-87d4-ff84d3d178ae</tstamps>
+    </comp>
+    <comp ref="D81">
+      <value>t_D</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5549af3d-0605-4664-b1d4-8301d36c479c</tstamps>
+    </comp>
+    <comp ref="D82">
+      <value>t_Q</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4473a7c6-3960-4876-bdca-34f0c37a2479</tstamps>
+    </comp>
+    <comp ref="D83">
+      <value>Gnd</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a1361ea-4ec8-4087-80f1-954eb63e471f</tstamps>
+    </comp>
+    <comp ref="D84">
+      <value>+5B</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab481619-5dce-4587-bbac-10e833a1df85</tstamps>
+    </comp>
+    <comp ref="D85">
+      <value>t_D</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cfeef64-d2d7-4f07-8d73-9f9865d25027</tstamps>
+    </comp>
+    <comp ref="D86">
+      <value>t_Q</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7589b7c3-83ac-455e-9772-d6a0cfca1732</tstamps>
+    </comp>
+    <comp ref="D87">
+      <value>Gnd</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22ac5eca-c166-4e3c-b291-514768515ee8</tstamps>
+    </comp>
+    <comp ref="D88">
+      <value>CS_Out</value>
+      <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d464cdec-06e3-407a-b4ed-e612e86844e9</tstamps>
+    </comp>
+    <comp ref="D89">
+      <value>Gnd</value>
+      <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17461136-5107-4392-9bd2-dee748700b8c</tstamps>
+    </comp>
+    <comp ref="D90">
+      <value>U</value>
+      <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e11b1a6-c8d7-487d-a151-eec1dad763e1</tstamps>
+    </comp>
+    <comp ref="D91">
+      <value>I</value>
+      <footprint>Flat_Wires_Pads:Wire_Hole_1mm</footprint>
+      <libsource lib="Connectors_for_Wire" part="Wire_Pad_01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ac4dbeb-17c6-4ea3-a36b-fdaf1210811e</tstamps>
+    </comp>
+    <comp ref="D92">
+      <value>+5V</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f0328bb-4d4b-414b-88ab-6a9bd65a5ae9</tstamps>
+    </comp>
+    <comp ref="D93">
+      <value>t LED</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04f4d5e8-4169-4053-addf-a202afad1285</tstamps>
+    </comp>
+    <comp ref="D94">
+      <value>GND</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5bfc1a5-04f3-4e28-bc40-765986e5c1dd</tstamps>
+    </comp>
+    <comp ref="D95">
+      <value>+5B</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14f0519b-5206-4de7-bb4b-ea67ee3a68f9</tstamps>
+    </comp>
+    <comp ref="D96">
+      <value>t_LED</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1a76e3b-f439-4005-8a17-8f286172bd29</tstamps>
+    </comp>
+    <comp ref="D97">
+      <value>GND</value>
+      <footprint>libraries:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bd28cae-0d94-491c-ac8f-449cceb6151c</tstamps>
     </comp>
     <comp ref="IC1">
       <value>TPS40211QDGQRQ1</value>
@@ -1880,6 +2366,78 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b1e42c38-6f24-46d7-93ab-715dbffac6c9</tstamps>
     </comp>
+    <comp ref="R31">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fe0dd2f-ca18-420d-9ebe-bcc1e896ac86</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96060ebb-a1ce-4017-966f-a8a530fafaf5</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3edcff4e-1ca3-4cc6-94c8-286e579017dc</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93fe35fe-52b8-4b4b-b92f-25de70cb933a</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d91e2232-28da-4d86-96dd-35f1d6283a48</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d03fd55-0948-4636-805e-8c343bd4985c</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>901f6738-9c1b-4a27-8d05-0afbccb64a17</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc8ccf61-5b68-4a12-b543-6072e739cbf7</tstamps>
+    </comp>
     <comp ref="U1">
       <value>INA138</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
@@ -1955,6 +2513,156 @@
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>40a15e2d-c609-4ee3-b2d8-78a341bee326</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfa9bd3e-6c00-40c9-ac42-43d7623e6f77</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d998753-8739-431a-96a5-9a6876713b4b</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5eab6f66-4730-41ad-9913-67c48642d306</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>216aed44-c892-4118-9b40-edc290643ffb</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77526995-9d2f-4bd7-82b4-adf56e63a6c1</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>INA138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina138.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="INA138" description="High-Side Measurement Current Shunt Monitor, 36V, SOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29085548-648b-4646-992e-10b96352f6f2</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2af11a41-33ae-4a2d-9bd4-96e947d0d497</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83422884-1dfc-4d9a-b778-9c1ab53c5513</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba905ac2-fdfe-4975-b2e2-1a205d215794</tstamps>
+    </comp>
+    <comp ref="U18">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63709db4-dd0d-4c15-beec-29c1e1cfd1e2</tstamps>
+    </comp>
+    <comp ref="U19">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85fbf2bd-fe81-42ee-8bb2-4f64e71e47ae</tstamps>
+    </comp>
+    <comp ref="U20">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>433397c4-9841-439e-937d-5e33a5fcd91b</tstamps>
+    </comp>
+    <comp ref="U21">
+      <value>INA138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina138.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="INA138" description="High-Side Measurement Current Shunt Monitor, 36V, SOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa0d0abb-fc66-4873-b482-5015f016e3be</tstamps>
+    </comp>
+    <comp ref="U22">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d764343a-7614-4291-9257-96f6244a56b5</tstamps>
+    </comp>
+    <comp ref="U23">
+      <value>MCP9700AT-ETT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MCP9700AT-ETT" description="Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57763515-127f-4b47-8a98-0d3924395faa</tstamps>
     </comp>
     <comp ref="Z1">
       <value>BZT52-C5V1J</value>
@@ -2358,6 +3066,24 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Sensor_Temperature" part="MCP9700AT-ETT">
+      <description>Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP9700AT-ETT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="power_in"/>
+        <pin num="2" name="Vout" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="TFM201610ALC-R47MTAA" part="TFM201610ALC-R47MTAA">
       <description>Inductors for Power Circuits, for Consumer, Thin Film Metal, TFM201610ALC ,-40 to +125</description>
       <docs>https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0039576.pdf</docs>
@@ -2440,6 +3166,9 @@
     <library logical="SS36">
       <uri>C:\Projects\BANO\From20221028\Main_PCB_004/libraries/SS36.lib</uri>
     </library>
+    <library logical="Sensor_Temperature">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Temperature.kicad_sym</uri>
+    </library>
     <library logical="TFM201610ALC-R47MTAA">
       <uri>C:\Projects\BANO\From20221028\Main_PCB_004/libraries/TFM201610ALC-R47MTAA.lib</uri>
     </library>
@@ -2495,14 +3224,19 @@
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C49" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C50" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D69" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="IC1" pin="11" pinfunction="EP" pintype="passive"/>
       <node ref="IC1" pin="6" pinfunction="GND" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U12" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="3" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="10" name="Net-(C11-Pad1)">
       <node ref="C11" pin="1" pintype="passive"/>
@@ -2544,15 +3278,18 @@
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C16" pin="2" pintype="passive"/>
       <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C46" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="D16" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="D2" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D61" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="IC2" pin="1" pinfunction="GND" pintype="passive"/>
       <node ref="IC2" pin="9" pinfunction="EP" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="17" name="Net-(C16-Pad1)">
       <node ref="C16" pin="1" pintype="passive"/>
@@ -2582,18 +3319,7 @@
       <node ref="L7" pin="1" pintype="passive"/>
       <node ref="Z2" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(C21-Pad2)">
-      <node ref="C17" pin="2" pintype="passive"/>
-      <node ref="C18" pin="2" pintype="passive"/>
-      <node ref="C19" pin="2" pintype="passive"/>
-      <node ref="C20" pin="2" pintype="passive"/>
-      <node ref="C21" pin="2" pintype="passive"/>
-      <node ref="D19" pin="1" pinfunction="Conn" pintype="bidirectional"/>
-      <node ref="D20" pin="1" pinfunction="GND" pintype="input"/>
-      <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="R13" pin="2" pintype="passive"/>
-    </net>
-    <net code="23" name="Net-(C22-Pad1)">
+    <net code="22" name="Net-(C22-Pad1)">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
@@ -2601,6 +3327,31 @@
       <node ref="IC2" pin="2" pinfunction="VIN" pintype="passive"/>
       <node ref="IC2" pin="3" pinfunction="EN/UVLO" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="23" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C47" pin="2" pintype="passive"/>
+      <node ref="C48" pin="2" pintype="passive"/>
+      <node ref="D37" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D40" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="D65" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="IC3" pin="5" pinfunction="AGND" pintype="passive"/>
+      <node ref="IC3" pin="7" pinfunction="PGND" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="24" name="Net-(C23-Pad2)">
       <node ref="C23" pin="2" pintype="passive"/>
@@ -2667,7 +3418,29 @@
       <node ref="L9" pin="1" pintype="passive"/>
       <node ref="U7" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="36" name="Net-(C35-Pad1)">
+    <net code="36" name="Net-(C34-Pad2)">
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C54" pin="2" pintype="passive"/>
+      <node ref="C56" pin="2" pintype="passive"/>
+      <node ref="D41" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D52" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="D83" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="IC5" pin="4" pinfunction="AGND" pintype="passive"/>
+      <node ref="IC5" pin="5" pinfunction="PGND" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U17" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U19" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="37" name="Net-(C35-Pad1)">
       <node ref="C35" pin="1" pintype="passive"/>
       <node ref="C37" pin="1" pintype="passive"/>
       <node ref="C45" pin="1" pintype="passive"/>
@@ -2676,24 +3449,29 @@
       <node ref="L10" pin="1" pintype="passive"/>
       <node ref="U8" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="37" name="Net-(C37-Pad2)">
+    <net code="38" name="Net-(C35-Pad2)">
       <node ref="C35" pin="2" pintype="passive"/>
       <node ref="C37" pin="2" pintype="passive"/>
       <node ref="C39" pin="2" pintype="passive"/>
       <node ref="C41" pin="2" pintype="passive"/>
       <node ref="C43" pin="2" pintype="passive"/>
       <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="C55" pin="2" pintype="passive"/>
+      <node ref="C57" pin="2" pintype="passive"/>
       <node ref="D44" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="D54" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="D87" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="IC4" pin="4" pinfunction="AGND" pintype="passive"/>
       <node ref="IC4" pin="5" pinfunction="PGND" pintype="passive"/>
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="R26" pin="2" pintype="passive"/>
       <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U18" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U20" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="U8" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="38" name="Net-(C38-Pad1)">
+    <net code="39" name="Net-(C38-Pad1)">
       <node ref="C38" pin="1" pintype="passive"/>
       <node ref="IC5" pin="1" pinfunction="ISEN" pintype="passive"/>
       <node ref="Q4" pin="1" pinfunction="S_1" pintype="passive"/>
@@ -2701,7 +3479,7 @@
       <node ref="Q4" pin="3" pinfunction="S_3" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
     </net>
-    <net code="39" name="Net-(C39-Pad1)">
+    <net code="40" name="Net-(C39-Pad1)">
       <node ref="C39" pin="1" pintype="passive"/>
       <node ref="IC4" pin="1" pinfunction="ISEN" pintype="passive"/>
       <node ref="Q5" pin="1" pinfunction="S_1" pintype="passive"/>
@@ -2709,51 +3487,138 @@
       <node ref="Q5" pin="3" pinfunction="S_3" pintype="passive"/>
       <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="40" name="Net-(C40-Pad1)">
+    <net code="41" name="Net-(C40-Pad1)">
       <node ref="C40" pin="1" pintype="passive"/>
       <node ref="C42" pin="1" pintype="passive"/>
       <node ref="D45" pin="1" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
       <node ref="U7" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="41" name="Net-(C41-Pad1)">
+    <net code="42" name="Net-(C41-Pad1)">
       <node ref="C41" pin="1" pintype="passive"/>
       <node ref="C43" pin="1" pintype="passive"/>
       <node ref="D46" pin="1" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="U8" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="42" name="Net-(C42-Pad2)">
-      <node ref="C34" pin="2" pintype="passive"/>
-      <node ref="C36" pin="2" pintype="passive"/>
-      <node ref="C38" pin="2" pintype="passive"/>
-      <node ref="C40" pin="2" pintype="passive"/>
-      <node ref="C42" pin="2" pintype="passive"/>
-      <node ref="C44" pin="2" pintype="passive"/>
-      <node ref="D41" pin="1" pinfunction="Conn" pintype="bidirectional"/>
-      <node ref="D52" pin="1" pinfunction="Conn" pintype="unspecified"/>
-      <node ref="IC5" pin="4" pinfunction="AGND" pintype="passive"/>
-      <node ref="IC5" pin="5" pinfunction="PGND" pintype="passive"/>
-      <node ref="R22" pin="2" pintype="passive"/>
-      <node ref="R23" pin="2" pintype="passive"/>
-      <node ref="R25" pin="2" pintype="passive"/>
-      <node ref="R28" pin="1" pintype="passive"/>
-      <node ref="U7" pin="2" pinfunction="GND" pintype="power_in"/>
+    <net code="43" name="Net-(C46-Pad1)">
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="D59" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U9" pin="1" pinfunction="Vdd" pintype="power_in"/>
     </net>
-    <net code="43" name="Net-(D6-Pad1)">
+    <net code="44" name="Net-(C47-Pad1)">
+      <node ref="C47" pin="1" pintype="passive"/>
+      <node ref="C48" pin="1" pintype="passive"/>
+      <node ref="D62" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U10" pin="1" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U11" pin="1" pinfunction="Vdd" pintype="power_in"/>
+    </net>
+    <net code="45" name="Net-(C49-Pad1)">
+      <node ref="C49" pin="1" pintype="passive"/>
+      <node ref="C50" pin="1" pintype="passive"/>
+      <node ref="D66" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U12" pin="1" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U13" pin="1" pinfunction="Vdd" pintype="power_in"/>
+    </net>
+    <net code="46" name="Net-(C51-Pad1)">
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="D70" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U14" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U14" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="47" name="Net-(C51-Pad2)">
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="D72" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U14" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="48" name="Net-(C52-Pad1)">
+      <node ref="C52" pin="1" pintype="passive"/>
+      <node ref="C53" pin="1" pintype="passive"/>
+      <node ref="D74" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U15" pin="1" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U16" pin="1" pinfunction="Vdd" pintype="power_in"/>
+    </net>
+    <net code="49" name="Net-(C52-Pad2)">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C52" pin="2" pintype="passive"/>
+      <node ref="C53" pin="2" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D20" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="D77" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U15" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U16" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="50" name="Net-(C54-Pad1)">
+      <node ref="C54" pin="1" pintype="passive"/>
+      <node ref="C56" pin="1" pintype="passive"/>
+      <node ref="D80" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U17" pin="1" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U19" pin="1" pinfunction="Vdd" pintype="power_in"/>
+    </net>
+    <net code="51" name="Net-(C55-Pad1)">
+      <node ref="C55" pin="1" pintype="passive"/>
+      <node ref="C57" pin="1" pintype="passive"/>
+      <node ref="D84" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U18" pin="1" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U20" pin="1" pinfunction="Vdd" pintype="power_in"/>
+    </net>
+    <net code="52" name="Net-(C58-Pad1)">
+      <node ref="C58" pin="1" pintype="passive"/>
+      <node ref="D79" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U21" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U21" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="53" name="Net-(C58-Pad2)">
+      <node ref="C58" pin="2" pintype="passive"/>
+      <node ref="D89" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U21" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="54" name="Net-(C59-Pad1)">
+      <node ref="C59" pin="1" pintype="passive"/>
+      <node ref="D92" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U22" pin="1" pinfunction="Vdd" pintype="power_in"/>
+    </net>
+    <net code="55" name="Net-(C59-Pad2)">
+      <node ref="C59" pin="2" pintype="passive"/>
+      <node ref="D94" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U22" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="56" name="Net-(C60-Pad1)">
+      <node ref="C60" pin="1" pintype="passive"/>
+      <node ref="D95" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U23" pin="1" pinfunction="Vdd" pintype="power_in"/>
+    </net>
+    <net code="57" name="Net-(C60-Pad2)">
+      <node ref="C60" pin="2" pintype="passive"/>
+      <node ref="D97" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U23" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="58" name="Net-(D6-Pad1)">
       <node ref="D6" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="44" name="Net-(D7-Pad1)">
+    <net code="59" name="Net-(D7-Pad1)">
       <node ref="D7" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="D8" pin="1" pinfunction="Conn" pintype="unspecified"/>
     </net>
-    <net code="45" name="Net-(D10-Pad1)">
+    <net code="60" name="Net-(D10-Pad1)">
       <node ref="D10" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="D9" pin="1" pinfunction="Conn" pintype="unspecified"/>
     </net>
-    <net code="46" name="Net-(D12-Pad2)">
+    <net code="61" name="Net-(D12-Pad2)">
       <node ref="D12" pin="2" pintype="passive"/>
       <node ref="L2" pin="2" pintype="passive"/>
       <node ref="Q1" pin="5" pinfunction="D_1" pintype="passive"/>
@@ -2761,39 +3626,39 @@
       <node ref="Q1" pin="7" pinfunction="D_3" pintype="passive"/>
       <node ref="Q1" pin="8" pinfunction="D_4" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(D13-Pad1)">
+    <net code="62" name="Net-(D13-Pad1)">
       <node ref="D13" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="L4" pin="2" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(D14-Pad1)">
+    <net code="63" name="Net-(D14-Pad1)">
       <node ref="D14" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="D15" pin="1" pinfunction="Conn" pintype="unspecified"/>
     </net>
-    <net code="49" name="Net-(D17-Pad1)">
+    <net code="64" name="Net-(D17-Pad1)">
       <node ref="D17" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="IC1" pin="3" pinfunction="DIS/~{EN}" pintype="passive"/>
     </net>
-    <net code="50" name="Net-(D18-Pad1)">
+    <net code="65" name="Net-(D18-Pad1)">
       <node ref="D18" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="L5" pin="1" pintype="passive"/>
     </net>
-    <net code="51" name="Net-(D20-Pad4)">
+    <net code="66" name="Net-(D20-Pad4)">
       <node ref="D20" pin="4" pinfunction="VFB" pintype="input"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="Z2" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="52" name="Net-(D20-Pad5)">
+    <net code="67" name="Net-(D20-Pad5)">
       <node ref="D20" pin="5" pinfunction="DRV" pintype="input"/>
       <node ref="Q2" pin="4" pinfunction="G" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(D20-Pad6)">
+    <net code="68" name="Net-(D20-Pad6)">
       <node ref="D20" pin="6" pinfunction="ICS" pintype="input"/>
       <node ref="Q2" pin="1" pinfunction="S_1" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="S_2" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="S_3" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(D21-Pad2)">
+    <net code="69" name="Net-(D21-Pad2)">
       <node ref="D21" pin="2" pintype="passive"/>
       <node ref="L6" pin="2" pintype="passive"/>
       <node ref="Q2" pin="5" pinfunction="D_1" pintype="passive"/>
@@ -2801,68 +3666,68 @@
       <node ref="Q2" pin="7" pinfunction="D_3" pintype="passive"/>
       <node ref="Q2" pin="8" pinfunction="D_4" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(D22-Pad1)">
+    <net code="70" name="Net-(D22-Pad1)">
       <node ref="D22" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(D23-Pad1)">
+    <net code="71" name="Net-(D23-Pad1)">
       <node ref="D23" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="L7" pin="2" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(D24-Pad1)">
+    <net code="72" name="Net-(D24-Pad1)">
       <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(D24-Pad2)">
+    <net code="73" name="Net-(D24-Pad2)">
       <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D50" pin="1" pinfunction="Conn" pintype="bidirectional"/>
     </net>
-    <net code="59" name="Net-(D25-Pad1)">
+    <net code="74" name="Net-(D25-Pad1)">
       <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="60" name="Net-(D26-Pad1)">
+    <net code="75" name="Net-(D26-Pad1)">
       <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(D27-Pad1)">
+    <net code="76" name="Net-(D27-Pad1)">
       <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="62" name="Net-(D28-Pad1)">
+    <net code="77" name="Net-(D28-Pad1)">
       <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="63" name="Net-(D29-Pad1)">
+    <net code="78" name="Net-(D29-Pad1)">
       <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="64" name="Net-(D30-Pad1)">
+    <net code="79" name="Net-(D30-Pad1)">
       <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="65" name="Net-(D31-Pad1)">
+    <net code="80" name="Net-(D31-Pad1)">
       <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="66" name="Net-(D32-Pad1)">
+    <net code="81" name="Net-(D32-Pad1)">
       <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="67" name="Net-(D33-Pad1)">
+    <net code="82" name="Net-(D33-Pad1)">
       <node ref="D33" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="68" name="Net-(D34-Pad1)">
+    <net code="83" name="Net-(D34-Pad1)">
       <node ref="D34" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="69" name="Net-(D35-Pad1)">
+    <net code="84" name="Net-(D35-Pad1)">
       <node ref="D35" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D58" pin="1" pinfunction="Conn" pintype="bidirectional"/>
     </net>
-    <net code="70" name="Net-(D38-Pad2)">
+    <net code="85" name="Net-(D38-Pad2)">
       <node ref="D38" pin="2" pintype="passive"/>
       <node ref="L8" pin="2" pintype="passive"/>
       <node ref="Q3" pin="5" pinfunction="D_1" pintype="passive"/>
@@ -2870,12 +3735,12 @@
       <node ref="Q3" pin="7" pinfunction="D_3" pintype="passive"/>
       <node ref="Q3" pin="8" pinfunction="D_4" pintype="passive"/>
     </net>
-    <net code="71" name="Net-(D39-Pad1)">
+    <net code="86" name="Net-(D39-Pad1)">
       <node ref="D39" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="U6" pin="4" pinfunction="-" pintype="input"/>
     </net>
-    <net code="72" name="Net-(D45-Pad2)">
+    <net code="87" name="Net-(D45-Pad2)">
       <node ref="D45" pin="2" pintype="passive"/>
       <node ref="L9" pin="2" pintype="passive"/>
       <node ref="Q4" pin="5" pinfunction="D_1" pintype="passive"/>
@@ -2883,7 +3748,7 @@
       <node ref="Q4" pin="7" pinfunction="D_3" pintype="passive"/>
       <node ref="Q4" pin="8" pinfunction="D_4" pintype="passive"/>
     </net>
-    <net code="73" name="Net-(D46-Pad2)">
+    <net code="88" name="Net-(D46-Pad2)">
       <node ref="D46" pin="2" pintype="passive"/>
       <node ref="L10" pin="2" pintype="passive"/>
       <node ref="Q5" pin="5" pinfunction="D_1" pintype="passive"/>
@@ -2891,167 +3756,231 @@
       <node ref="Q5" pin="7" pinfunction="D_3" pintype="passive"/>
       <node ref="Q5" pin="8" pinfunction="D_4" pintype="passive"/>
     </net>
-    <net code="74" name="Net-(D47-Pad1)">
+    <net code="89" name="Net-(D47-Pad1)">
       <node ref="D47" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D48" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="75" name="Net-(D47-Pad2)">
+    <net code="90" name="Net-(D47-Pad2)">
       <node ref="D47" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D55" pin="1" pinfunction="Conn" pintype="bidirectional"/>
     </net>
-    <net code="76" name="Net-(D48-Pad1)">
+    <net code="91" name="Net-(D48-Pad1)">
       <node ref="D48" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D49" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D56" pin="1" pinfunction="Conn" pintype="bidirectional"/>
     </net>
-    <net code="77" name="Net-(D49-Pad1)">
+    <net code="92" name="Net-(D49-Pad1)">
       <node ref="D49" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D57" pin="1" pinfunction="Conn" pintype="bidirectional"/>
     </net>
-    <net code="78" name="Net-(D51-Pad1)">
+    <net code="93" name="Net-(D51-Pad1)">
       <node ref="D51" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="R27" pin="2" pintype="passive"/>
       <node ref="U7" pin="4" pinfunction="-" pintype="input"/>
     </net>
-    <net code="79" name="Net-(D53-Pad1)">
+    <net code="94" name="Net-(D53-Pad1)">
       <node ref="D53" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="R29" pin="2" pintype="passive"/>
       <node ref="U8" pin="4" pinfunction="-" pintype="input"/>
     </net>
-    <net code="80" name="Net-(IC1-Pad8)">
+    <net code="95" name="Net-(D60-Pad1)">
+      <node ref="D60" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U9" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="96" name="Net-(D63-Pad1)">
+      <node ref="D63" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U11" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="97" name="Net-(D64-Pad1)">
+      <node ref="D64" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U10" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="98" name="Net-(D67-Pad1)">
+      <node ref="D67" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U13" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="99" name="Net-(D68-Pad1)">
+      <node ref="D68" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U12" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="100" name="Net-(D71-Pad1)">
+      <node ref="D71" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U14" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="101" name="Net-(D73-Pad1)">
+      <node ref="D73" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(D75-Pad1)">
+      <node ref="D75" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U16" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="103" name="Net-(D76-Pad1)">
+      <node ref="D76" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U15" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="104" name="Net-(D78-Pad1)">
+      <node ref="D78" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U14" pin="1" pintype="output"/>
+    </net>
+    <net code="105" name="Net-(D81-Pad1)">
+      <node ref="D81" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U19" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="106" name="Net-(D82-Pad1)">
+      <node ref="D82" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U17" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="107" name="Net-(D85-Pad1)">
+      <node ref="D85" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U20" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="108" name="Net-(D86-Pad1)">
+      <node ref="D86" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U18" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="109" name="Net-(D88-Pad1)">
+      <node ref="D88" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="U21" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="110" name="Net-(D90-Pad1)">
+      <node ref="D90" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+    </net>
+    <net code="111" name="Net-(D91-Pad1)">
+      <node ref="D91" pin="1" pinfunction="Conn" pintype="unspecified"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U21" pin="1" pintype="output"/>
+    </net>
+    <net code="112" name="Net-(D93-Pad1)">
+      <node ref="D93" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U22" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="113" name="Net-(D96-Pad1)">
+      <node ref="D96" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U23" pin="2" pinfunction="Vout" pintype="output"/>
+    </net>
+    <net code="114" name="Net-(IC1-Pad8)">
       <node ref="IC1" pin="8" pinfunction="GDRV" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="81" name="Net-(IC2-Pad4)">
+    <net code="115" name="Net-(IC2-Pad4)">
       <node ref="IC2" pin="4" pinfunction="RON" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="82" name="Net-(IC2-Pad5)">
+    <net code="116" name="Net-(IC2-Pad5)">
       <node ref="IC2" pin="5" pinfunction="FB" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pintype="output"/>
     </net>
-    <net code="83" name="Net-(IC3-Pad2)">
+    <net code="117" name="Net-(IC3-Pad2)">
       <node ref="IC3" pin="2" pinfunction="UVLO" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
     </net>
-    <net code="84" name="Net-(IC3-Pad4)">
+    <net code="118" name="Net-(IC3-Pad4)">
       <node ref="IC3" pin="4" pinfunction="FB" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U6" pin="1" pintype="output"/>
     </net>
-    <net code="85" name="Net-(IC3-Pad6)">
+    <net code="119" name="Net-(IC3-Pad6)">
       <node ref="IC3" pin="6" pinfunction="FA/SYNC/SD" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="86" name="Net-(IC3-Pad8)">
+    <net code="120" name="Net-(IC3-Pad8)">
       <node ref="IC3" pin="8" pinfunction="DR" pintype="passive"/>
       <node ref="Q3" pin="4" pinfunction="G" pintype="passive"/>
     </net>
-    <net code="87" name="Net-(IC4-Pad3)">
+    <net code="121" name="Net-(IC4-Pad3)">
       <node ref="IC4" pin="3" pinfunction="FB" pintype="passive"/>
       <node ref="R30" pin="2" pintype="passive"/>
       <node ref="U8" pin="1" pintype="output"/>
     </net>
-    <net code="88" name="Net-(IC4-Pad6)">
+    <net code="122" name="Net-(IC4-Pad6)">
       <node ref="IC4" pin="6" pinfunction="DR" pintype="passive"/>
       <node ref="Q5" pin="4" pinfunction="G" pintype="passive"/>
     </net>
-    <net code="89" name="Net-(IC4-Pad7)">
+    <net code="123" name="Net-(IC4-Pad7)">
       <node ref="IC4" pin="7" pinfunction="FA/SYNC/SD" pintype="passive"/>
       <node ref="R24" pin="1" pintype="passive"/>
     </net>
-    <net code="90" name="Net-(IC5-Pad3)">
+    <net code="124" name="Net-(IC5-Pad3)">
       <node ref="IC5" pin="3" pinfunction="FB" pintype="passive"/>
       <node ref="R28" pin="2" pintype="passive"/>
       <node ref="U7" pin="1" pintype="output"/>
     </net>
-    <net code="91" name="Net-(IC5-Pad6)">
+    <net code="125" name="Net-(IC5-Pad6)">
       <node ref="IC5" pin="6" pinfunction="DR" pintype="passive"/>
       <node ref="Q4" pin="4" pinfunction="G" pintype="passive"/>
     </net>
-    <net code="92" name="Net-(IC5-Pad7)">
+    <net code="126" name="Net-(IC5-Pad7)">
       <node ref="IC5" pin="7" pinfunction="FA/SD" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
     </net>
-    <net code="93" name="Net-(Q1-Pad1)">
+    <net code="127" name="Net-(Q1-Pad1)">
       <node ref="Q1" pin="1" pinfunction="S_1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="S_3" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="94" name="Net-(Q1-Pad4)">
+    <net code="128" name="Net-(Q1-Pad4)">
       <node ref="Q1" pin="4" pinfunction="G" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="95" name="Net-(R18-Pad2)">
-      <node ref="C23" pin="1" pintype="passive"/>
-      <node ref="C25" pin="2" pintype="passive"/>
-      <node ref="C26" pin="2" pintype="passive"/>
-      <node ref="C27" pin="2" pintype="passive"/>
-      <node ref="C28" pin="2" pintype="passive"/>
-      <node ref="C29" pin="2" pintype="passive"/>
-      <node ref="C30" pin="2" pintype="passive"/>
-      <node ref="C31" pin="2" pintype="passive"/>
-      <node ref="D37" pin="1" pinfunction="Conn" pintype="bidirectional"/>
-      <node ref="D40" pin="1" pinfunction="Conn" pintype="unspecified"/>
-      <node ref="IC3" pin="5" pinfunction="AGND" pintype="passive"/>
-      <node ref="IC3" pin="7" pinfunction="PGND" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
-      <node ref="R15" pin="1" pintype="passive"/>
-      <node ref="R17" pin="2" pintype="passive"/>
-      <node ref="R18" pin="2" pintype="passive"/>
-      <node ref="R20" pin="1" pintype="passive"/>
-      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
-    </net>
-    <net code="96" name="unconnected-(D24-Pad3)">
+    <net code="129" name="unconnected-(D24-Pad3)">
       <node ref="D24" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="97" name="unconnected-(D25-Pad3)">
+    <net code="130" name="unconnected-(D25-Pad3)">
       <node ref="D25" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="98" name="unconnected-(D26-Pad3)">
+    <net code="131" name="unconnected-(D26-Pad3)">
       <node ref="D26" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="99" name="unconnected-(D27-Pad3)">
+    <net code="132" name="unconnected-(D27-Pad3)">
       <node ref="D27" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="100" name="unconnected-(D28-Pad3)">
+    <net code="133" name="unconnected-(D28-Pad3)">
       <node ref="D28" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="101" name="unconnected-(D29-Pad3)">
+    <net code="134" name="unconnected-(D29-Pad3)">
       <node ref="D29" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="102" name="unconnected-(D30-Pad3)">
+    <net code="135" name="unconnected-(D30-Pad3)">
       <node ref="D30" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="103" name="unconnected-(D31-Pad3)">
+    <net code="136" name="unconnected-(D31-Pad3)">
       <node ref="D31" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="104" name="unconnected-(D32-Pad3)">
+    <net code="137" name="unconnected-(D32-Pad3)">
       <node ref="D32" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="105" name="unconnected-(D33-Pad3)">
+    <net code="138" name="unconnected-(D33-Pad3)">
       <node ref="D33" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="106" name="unconnected-(D34-Pad3)">
+    <net code="139" name="unconnected-(D34-Pad3)">
       <node ref="D34" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="107" name="unconnected-(D35-Pad3)">
+    <net code="140" name="unconnected-(D35-Pad3)">
       <node ref="D35" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="108" name="unconnected-(D47-Pad3)">
+    <net code="141" name="unconnected-(D47-Pad3)">
       <node ref="D47" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="109" name="unconnected-(D48-Pad3)">
+    <net code="142" name="unconnected-(D48-Pad3)">
       <node ref="D48" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="110" name="unconnected-(D49-Pad3)">
+    <net code="143" name="unconnected-(D49-Pad3)">
       <node ref="D49" pin="3" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="111" name="unconnected-(IC2-Pad6)">
+    <net code="144" name="unconnected-(IC2-Pad6)">
       <node ref="IC2" pin="6" pinfunction="PGOOD" pintype="passive"/>
     </net>
   </nets>

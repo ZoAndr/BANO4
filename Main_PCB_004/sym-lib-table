@@ -21,4 +21,5 @@
   (lib (name "LM3478MMX_NOPB")(type "Legacy")(uri "${KIPRJMOD}/libraries/LM3478MMX_NOPB.lib")(options "")(descr ""))
   (lib (name "LM3481MM_NOPB")(type "Legacy")(uri "${KIPRJMOD}/libraries/LM3481MM_NOPB.lib")(options "")(descr ""))
   (lib (name "LM3488MM")(type "Legacy")(uri "${KIPRJMOD}/libraries/LM3488MM.lib")(options "")(descr ""))
+  (lib (name "MCP9700T-E_TT")(type "Legacy")(uri "${KIPRJMOD}/libraries/MCP9700T-E_TT.lib")(options "")(descr ""))
 )
