@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "AON7407")(type "Legacy")(uri "${KIPRJMOD}/libraries/AON7407.lib")(options "")(descr ""))
+)

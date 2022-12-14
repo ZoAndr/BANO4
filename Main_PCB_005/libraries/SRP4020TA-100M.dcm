@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRP4020TA-100M
+D Bourns SRP4020TA Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 10 uH +/-20% 1.8A Idc
+K
+F http://www.bourns.com/docs/Product-Datasheets/SRP4020TA.pdf
+$ENDCMP
+#
+#End Doc Library
