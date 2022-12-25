@@ -9,6 +9,8 @@
 char Rx_Buf[RX_BUF_SZ];
 char Tx_Buf[TX_BUF_SZ];
 
+int FLAG_New_Data_Received = 0;
+
 double dI_dUADC = 0.4; // 0.4 A in sensor equal to 1 V_adc
 double dU_dUADC = 0.1; // 10.0 V in sensor equal to 1 V_adc
 double dt_dUADC = 0.1; // See documentation
@@ -69,7 +71,16 @@ struct s_Rx_Parameters {
 	int N_Periods;
 };
 
-void Measurement(struct s_ADC* ADC) {
+struct s_System {
+	int Seeds_cntr;
+	int InPeriod_cntr;
+	int Periods_cntr;
+	int ADC_cntr;
+	int Strobe;
+	int DCDC_On;
+};
+
+void ADC_Measurement_Imitation(struct s_ADC* ADC) {
 
 	float ADC_Gain;
 
@@ -100,12 +111,11 @@ void Measurement(struct s_ADC* ADC) {
     ADC->t_3   = (int)( t_3___Uadc * ADC_Gain );
 }
 
-void convert_ADC_to_Tx_format(struct s_ADC *ADC, struct s_Tx_Parameters *Tx_Prms) {
+void Convert_ADC_to_Tx_format(struct s_ADC *ADC, struct s_Tx_Parameters *Tx_Prms) {
 	// Calculation of ADC's units:
 	double I_ADCunit;
 	double U_ADCunit;
 	double t_ADCunit;
-
 
 	double I_in__Utx;
 	double U_in__Utx;
@@ -129,11 +139,9 @@ void convert_ADC_to_Tx_format(struct s_ADC *ADC, struct s_Tx_Parameters *Tx_Prms
 	U_ADCunit = ADC_U_Ref / (dU_dUADC * ADC_Resolution);
 	t_ADCunit = ADC_U_Ref / (dt_dUADC * ADC_Resolution);
 
-
 	K_I_adc_to_rx = I_ADCunit / I_TXunit;
 	K_U_adc_to_rx = U_ADCunit / U_TXunit;
 	K_t_adc_to_rx = t_ADCunit / t_TXunit;
-
 
 	I_in__Utx = K_I_adc_to_rx * (double)ADC->I_in;
 	U_in__Utx = K_U_adc_to_rx * (double)ADC->U_in;
@@ -167,15 +175,149 @@ void convert_ADC_to_Tx_format(struct s_ADC *ADC, struct s_Tx_Parameters *Tx_Prms
 
 }
 
-void process_Rx_Parcel(struct s_Rx_Parameters* Rx_Parameters, char RX_Buf[RX_BUF_SZ]) {
-	int a;
+void Create_Tx_Buffer(struct s_Tx_Parameters* Tx_Prms, char TX_Buf[TX_BUF_SZ]) {
+	int Head, Tail;
+	Head = 0xFF;
+	Tail = 0xFE;
+	TX_Buf[ 0] = Head;
+	TX_Buf[ 1] = Tx_Prms->I_in_1;
+	TX_Buf[ 2] = Tx_Prms->I_in_2;
+	TX_Buf[ 3] = Tx_Prms->U_in_1;
+	TX_Buf[ 4] = Tx_Prms->U_in_2;
+	TX_Buf[ 5] = Tx_Prms->I_out_1;
+	TX_Buf[ 6] = Tx_Prms->I_out_2;
+	TX_Buf[ 7] = Tx_Prms->U_out_1;
+	TX_Buf[ 8] = Tx_Prms->U_out_2;
+	TX_Buf[ 9] = Tx_Prms->T1_1;
+	TX_Buf[10] = Tx_Prms->T1_2;
+	TX_Buf[11] = Tx_Prms->T2_1;
+	TX_Buf[12] = Tx_Prms->T2_2;
+	TX_Buf[13] = Tx_Prms->T3_1;
+	TX_Buf[14] = Tx_Prms->T3_2;
+	TX_Buf[15] = Tail;
 }
+
+
+int On_PC_Create_Rx_Parcel(struct s_Rx_Parameters* Rx_Parameters, char RX_Buf[RX_BUF_SZ]) {
+
+	int Head, Tail;
+	Head = 0xFF;
+	Tail = 0xFE;
+
+	Rx_Parameters->t_Seed    =  5;
+	Rx_Parameters->t_Period  = 20;
+	Rx_Parameters->t_Strobe  =  3;
+	Rx_Parameters->t_Delay   = 12;
+	Rx_Parameters->t_Active  =  4;
+	Rx_Parameters->t_ADC     = 10;
+	Rx_Parameters->N_Periods =  3;
+
+	(int)RX_Buf[0] = Head                    ;
+	(int)RX_Buf[1] = Rx_Parameters->t_Seed   ;
+	(int)RX_Buf[2] = Rx_Parameters->t_Period ;
+	(int)RX_Buf[3] = Rx_Parameters->t_Strobe ;
+	(int)RX_Buf[4] = Rx_Parameters->t_Delay  ;
+	(int)RX_Buf[5] = Rx_Parameters->t_Active ;
+	(int)RX_Buf[6] = Rx_Parameters->t_ADC    ;
+	(int)RX_Buf[7] = Rx_Parameters->N_Periods;
+	(int)RX_Buf[8] = Tail                    ;
+}
+int Process_Rx_Parcel(struct s_Rx_Parameters* Rx_Parameters, char RX_Buf[RX_BUF_SZ]) {
+	int error;
+	int Head, Tail;
+	Head                     = (int)RX_Buf[0];
+	Rx_Parameters->t_Seed    = (int)RX_Buf[1];
+	Rx_Parameters->t_Period  = (int)RX_Buf[2];
+	Rx_Parameters->t_Strobe  = (int)RX_Buf[3];
+	Rx_Parameters->t_Delay   = (int)RX_Buf[4];
+	Rx_Parameters->t_Active  = (int)RX_Buf[5];
+	Rx_Parameters->t_ADC     = (int)RX_Buf[6];
+	Rx_Parameters->N_Periods = (int)RX_Buf[7];
+	Tail                     = (int)RX_Buf[8];
+	if ((Head == 0xFF) && (Tail == 0xFE)) {	error = 0; FLAG_New_Data_Received = 0; }
+	else { error = 1; }
+	return error;
+}
+
+void Initialize_System(struct s_System* System) {
+	System->InPeriod_cntr = 0;
+	System->Periods_cntr  = 0;
+	System->Seeds_cntr    = 0;
+	System->ADC_cntr      = 0;
+	System->Strobe = 0;
+	System->DCDC_On = 0;
+}
+
+void Read_ADCs(struct s_ADC* ADC) {
+}
+
+void TxBuffer_Send(char TX_Buf[TX_BUF_SZ]) {
+}
+
+void Timer_100us(struct s_Rx_Parameters* Rx_Parameters, 
+	             char RX_Buf[RX_BUF_SZ], 
+	             struct s_System *System,
+	             struct s_ADC* ADC,
+	             struct s_Tx_Parameters* Tx_Parameters,
+	             char TX_Buf[TX_BUF_SZ]
+	) {
+	if (FLAG_New_Data_Received == 1) {
+		Process_Rx_Parcel(Rx_Parameters, RX_Buf);
+		Initialize_System(&System);
+	}
+	if ( (System->Periods_cntr > 0) && (System->Periods_cntr < Rx_Parameters->N_Periods) ){
+		if (System->ADC_cntr >= Rx_Parameters->t_ADC) {
+			System->ADC_cntr = 0;
+			ADC_Measurement_Imitation(&ADC);
+		    Convert_ADC_to_Tx_format(&ADC, &Tx_Parameters);
+		    Create_Tx_Buffer(&Tx_Parameters, (char*)&TX_Buf);
+			TxBuffer_Send((char*)&TX_Buf);
+		}
+		System->ADC_cntr = System->ADC_cntr + 1;
+		if (System->Seeds_cntr >= Rx_Parameters->t_Seed) {
+			System->Seeds_cntr = 0;
+		
+			System->ADC_cntr = System->ADC_cntr + 1;
+			if (System->InPeriod_cntr >= Rx_Parameters->t_Period) {
+				System->InPeriod_cntr = 0;
+				System->Strobe = 1;
+				System->DCDC_On = 0;
+				System->Periods_cntr = System->Periods_cntr + 1;
+			}
+			if (System->InPeriod_cntr == Rx_Parameters->t_Strobe) {
+				System->Strobe = 0;
+			}
+			if (System->InPeriod_cntr == Rx_Parameters->t_Delay) {
+				System->DCDC_On = 1;
+			}
+			if (System->InPeriod_cntr == Rx_Parameters->t_Delay + Rx_Parameters->t_Active) {
+				System->DCDC_On = 0;
+			}
+
+		}
+		System->Seeds_cntr = System->Seeds_cntr + 1;
+
+	}
+}
+
+
 
 void main() {
 	struct s_Tx_Parameters Tx_Parameters;
 	struct s_Rx_Parameters Rx_Parameters;
 	struct s_ADC ADC;
+	struct s_System System;
 
-	Measurement(&ADC);
-	convert_ADC_to_Tx_format(&ADC, &Tx_Parameters);
+	ADC_Measurement_Imitation(&ADC);
+	Convert_ADC_to_Tx_format(&ADC, &Tx_Parameters);
+	Create_Tx_Buffer(&Tx_Parameters, (char*)&Tx_Buf);
+
+	Initialize_System(&System);
+
+	On_PC_Create_Rx_Parcel(&Rx_Parameters, (char*)&Rx_Buf);
+	Process_Rx_Parcel(&Rx_Parameters, (char*)&Rx_Buf);
+
+
+
+
 }
