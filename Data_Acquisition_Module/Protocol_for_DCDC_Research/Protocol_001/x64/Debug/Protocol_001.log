@@ -1,0 +1,12 @@
+﻿  Pelagus.c
+C:\Projects\BANO4\Protocol_for_DCDC_Research\Protocol_001\src\Pelagus.c(86,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Projects\BANO4\Protocol_for_DCDC_Research\Protocol_001\src\Pelagus.c(87,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Projects\BANO4\Protocol_for_DCDC_Research\Protocol_001\src\Pelagus.c(88,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Projects\BANO4\Protocol_for_DCDC_Research\Protocol_001\src\Pelagus.c(89,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Projects\BANO4\Protocol_for_DCDC_Research\Protocol_001\src\Pelagus.c(90,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Projects\BANO4\Protocol_for_DCDC_Research\Protocol_001\src\Pelagus.c(91,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Projects\BANO4\Protocol_for_DCDC_Research\Protocol_001\src\Pelagus.c(92,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Projects\BANO4\Protocol_for_DCDC_Research\Protocol_001\src\Pelagus.c(126,9): warning C4101: K: неиспользованная локальная переменная
+C:\Projects\BANO4\Protocol_for_DCDC_Research\Protocol_001\src\Pelagus.c(171,6): warning C4101: a: неиспользованная локальная переменная
+C:\Projects\BANO4\Protocol_for_DCDC_Research\Protocol_001\src\Pelagus.c(176,25): warning C4101: Rx_Parameters: неиспользованная локальная переменная
+  Protocol_001.vcxproj -> C:\Projects\BANO4\Protocol_for_DCDC_Research\Protocol_001\x64\Debug\Protocol_001.exe
