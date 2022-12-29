@@ -82,15 +82,15 @@ struct s_System {
 
 void ADC_Measurement_Imitation(struct s_ADC* ADC) {
 
-	float ADC_Gain;
+	double ADC_Gain;
 
-	float I_in__Uadc;
-	float U_in__Uadc;
-	float I_out_Uadc;
-	float U_out_Uadc;
-	float t_1___Uadc;
-	float t_2___Uadc;
-	float t_3___Uadc;
+	double I_in__Uadc;
+	double U_in__Uadc;
+	double I_out_Uadc;
+	double U_out_Uadc;
+	double t_1___Uadc;
+	double t_2___Uadc;
+	double t_3___Uadc;
 
 	ADC_Gain = ADC_Resolution / ADC_U_Ref;
 
@@ -212,15 +212,15 @@ int On_PC_Create_Rx_Parcel(struct s_Rx_Parameters* Rx_Parameters, char RX_Buf[RX
 	Rx_Parameters->t_ADC     = 10;
 	Rx_Parameters->N_Periods =  3;
 
-	(int)RX_Buf[0] = Head                    ;
-	(int)RX_Buf[1] = Rx_Parameters->t_Seed   ;
-	(int)RX_Buf[2] = Rx_Parameters->t_Period ;
-	(int)RX_Buf[3] = Rx_Parameters->t_Strobe ;
-	(int)RX_Buf[4] = Rx_Parameters->t_Delay  ;
-	(int)RX_Buf[5] = Rx_Parameters->t_Active ;
-	(int)RX_Buf[6] = Rx_Parameters->t_ADC    ;
-	(int)RX_Buf[7] = Rx_Parameters->N_Periods;
-	(int)RX_Buf[8] = Tail                    ;
+	RX_Buf[0] = (char)Head                    ;
+	RX_Buf[1] = (char)Rx_Parameters->t_Seed   ;
+	RX_Buf[2] = (char)Rx_Parameters->t_Period ;
+	RX_Buf[3] = (char)Rx_Parameters->t_Strobe ;
+	RX_Buf[4] = (char)Rx_Parameters->t_Delay  ;
+	RX_Buf[5] = (char)Rx_Parameters->t_Active ;
+	RX_Buf[6] = (char)Rx_Parameters->t_ADC    ;
+	RX_Buf[7] = (char)Rx_Parameters->N_Periods;
+	RX_Buf[8] = (char)Tail                    ;
 }
 int Process_Rx_Parcel(struct s_Rx_Parameters* Rx_Parameters, char RX_Buf[RX_BUF_SZ]) {
 	int error;
@@ -262,16 +262,16 @@ void Timer_100us(struct s_Rx_Parameters* Rx_Parameters,
 	             char TX_Buf[TX_BUF_SZ]
 	) {
 	if (FLAG_New_Data_Received == 1) {
-		Process_Rx_Parcel(Rx_Parameters, RX_Buf);
 		Initialize_System(&System);
+		Process_Rx_Parcel(Rx_Parameters, RX_Buf);
 	}
-	if ( (System->Periods_cntr > 0) && (System->Periods_cntr < Rx_Parameters->N_Periods) ){
+	if ( (System->Periods_cntr >= 0) && (System->Periods_cntr < Rx_Parameters->N_Periods) ){
 		if (System->ADC_cntr >= Rx_Parameters->t_ADC) {
 			System->ADC_cntr = 0;
-			ADC_Measurement_Imitation(&ADC);
-		    Convert_ADC_to_Tx_format(&ADC, &Tx_Parameters);
-		    Create_Tx_Buffer(&Tx_Parameters, (char*)&TX_Buf);
-			TxBuffer_Send((char*)&TX_Buf);
+			ADC_Measurement_Imitation(ADC);
+		    Convert_ADC_to_Tx_format(ADC, Tx_Parameters);
+		    Create_Tx_Buffer(Tx_Parameters, (char*)TX_Buf);
+			TxBuffer_Send((char*)TX_Buf);
 		}
 		System->ADC_cntr = System->ADC_cntr + 1;
 		if (System->Seeds_cntr >= Rx_Parameters->t_Seed) {
@@ -293,6 +293,7 @@ void Timer_100us(struct s_Rx_Parameters* Rx_Parameters,
 			if (System->InPeriod_cntr == Rx_Parameters->t_Delay + Rx_Parameters->t_Active) {
 				System->DCDC_On = 0;
 			}
+			System->InPeriod_cntr = System->InPeriod_cntr + 1;
 
 		}
 		System->Seeds_cntr = System->Seeds_cntr + 1;
@@ -317,7 +318,14 @@ void main() {
 	On_PC_Create_Rx_Parcel(&Rx_Parameters, (char*)&Rx_Buf);
 	Process_Rx_Parcel(&Rx_Parameters, (char*)&Rx_Buf);
 
+	int t_k = 0;
 
+	while (1) {
 
+		Timer_100us(&Rx_Parameters, (char*)&Rx_Buf,
+			&System, &ADC, &Tx_Parameters, (char*)&Tx_Buf);
+
+		if (t_k++ > 10000) { return; }
+	}
 
 }
