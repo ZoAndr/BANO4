@@ -1,0 +1,7 @@
+Data_Acquisition_Module.c:37:6:Convert_ADC_to_Tx_format	152	static
+Data_Acquisition_Module.c:100:6:Create_Tx_Buffer	24	static
+Data_Acquisition_Module.c:123:6:On_PC_Create_Rx_Parcel	24	static
+Data_Acquisition_Module.c:147:5:Process_Rx_Parcel	32	static
+Data_Acquisition_Module.c:164:6:Initialize_System	16	static
+Data_Acquisition_Module.c:173:6:Initialize_System2	16	static
+Data_Acquisition_Module.c:183:6:Timer_100us	24	static

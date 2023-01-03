@@ -1,0 +1,8 @@
+Bridge.c:15:6:Set_Sync_Pin	8	static
+Bridge.c:19:6:Clr_Sync_Pin	8	static
+Bridge.c:23:6:Set_DCDC_En_Pin	8	static
+Bridge.c:27:6:Clr_DCDC_En_Pin	8	static
+Bridge.c:31:6:Run_ADC	32	static,ignoring_inline_asm
+Bridge.c:56:6:ADC_Measurement	112	static,ignoring_inline_asm
+Bridge.c:86:6:All_Parameters_Measurement	16	static
+Bridge.c:96:6:TxBuffer_Send	16	static

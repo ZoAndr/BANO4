@@ -50,7 +50,8 @@
   */
 
 /* USER CODE BEGIN PRIVATE_TYPES */
-extern uint8_t USB_Rx_Buf[128];
+extern uint8_t Rx_Buf[128];
+extern int FLAG_New_Data_Received;
 /* USER CODE END PRIVATE_TYPES */
 
 /**
@@ -265,9 +266,10 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
   USBD_CDC_ReceivePacket(&hUsbDeviceFS);
   uint8_t len = (uint8_t) *Len;
-  memset(USB_Rx_Buf, '\0', 128);
-  memcpy(USB_Rx_Buf, Buf, len);
+  memset(Rx_Buf, '\0', 128);
+  memcpy(Rx_Buf, Buf, len);
   memset(Buf, '\0', len);
+  FLAG_New_Data_Received = 1;
   return (USBD_OK);
   /* USER CODE END 6 */
 }
