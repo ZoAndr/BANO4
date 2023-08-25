@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM3488MM
+D 2.97V to 40V Wide Vin Low-Side N-Channel Controller for Switching Regulators
+K
+F http://www.ti.com/lit/ds/symlink/lm3488.pdf
+$ENDCMP
+#
+#End Doc Library

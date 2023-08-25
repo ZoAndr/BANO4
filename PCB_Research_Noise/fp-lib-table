@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "Flat_Wires_Pads")(type "KiCad")(uri "${KIPRJMOD}/libraries/Flat_Wires_Pads.pretty")(options "")(descr ""))
+  (lib (name "XDS_Semi")(type "KiCad")(uri "${KIPRJMOD}/libraries/XDS_Semi.pretty")(options "")(descr ""))
+  (lib (name "libraries")(type "KiCad")(uri "${KIPRJMOD}/libraries")(options "")(descr ""))
+)
