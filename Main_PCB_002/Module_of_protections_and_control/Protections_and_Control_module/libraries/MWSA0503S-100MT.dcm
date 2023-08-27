@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MWSA0503S-100MT
-D FIXED IND 10UH 3.2A 125MOHM SMD
-K
-F https://datasheet.lcsc.com/lcsc/1912111437_Sunlord-MWSA0503S-100MT_C408412.pdf
-$ENDCMP
-#
-#End Doc Library

@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "libraries")(type "KiCad")(uri "${KIPRJMOD}/libraries")(options "")(descr ""))
-  (lib (name "Flat_Wires_Pads")(type "KiCad")(uri "${KIPRJMOD}/libraries/Flat_Wires_Pads.pretty")(options "")(descr ""))
-)
