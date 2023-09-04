@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Projects\BANO_Working\Git_from_20230827\NoiseResearch_TPS40211_Core\Main_PCB_002.kicad_sch</source>
-    <date>03.09.2023 14:22:00</date>
+    <date>04.09.2023 19:15:16</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -737,7 +737,7 @@
   </libparts>
   <libraries>
     <library logical="Connectors_for_Wire">
-      <uri>C:\Projects\BANO_Working\Git_from_20230827\KiCad_Libraries\Wire_holes\Connectors_for_Wire.kicad_sym</uri>
+      <uri>C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Wire_holes/Connectors_for_Wire.kicad_sym</uri>
     </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
@@ -746,7 +746,7 @@
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
     </library>
     <library logical="Mounting_Holes">
-      <uri>C:\Projects\BANO_Working\Git_from_20230827\KiCad_Libraries\Wire_holes\Mounting_Holes.kicad_sym</uri>
+      <uri>C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Wire_holes/Mounting_Holes.kicad_sym</uri>
     </library>
     <library logical="Sensor_Temperature">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Temperature.kicad_sym</uri>
@@ -754,16 +754,6 @@
   </libraries>
   <nets>
     <net code="1" name="GND">
-      <node ref="U2" pin="1" pinfunction="Mnt" pintype="input"/>
-      <node ref="U3" pin="1" pinfunction="Mnt" pintype="input"/>
-      <node ref="U4" pin="1" pinfunction="Mnt" pintype="input"/>
-      <node ref="U5" pin="1" pinfunction="Mnt" pintype="input"/>
-    </net>
-    <net code="2" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
-    </net>
-    <net code="3" name="Net-(D1-Conn)">
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
@@ -783,13 +773,21 @@
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U12" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="U13" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="Mnt" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="Mnt" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="Mnt" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="Mnt" pintype="input"/>
     </net>
-    <net code="4" name="Net-(D6-Conn)">
+    <net code="2" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(D6-Conn)">
       <node ref="D6" pin="1" pinfunction="Conn" pintype="unspecified"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="5" name="Net-(D8-Conn)">
+    <net code="4" name="Net-(D8-Conn)">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
@@ -798,70 +796,70 @@
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(D10-Conn)">
+    <net code="5" name="Net-(D10-Conn)">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="D10" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(D17-Conn)">
+    <net code="6" name="Net-(D17-Conn)">
       <node ref="D17" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="IC1" pin="3" pinfunction="DIS/~{EN}" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(D66-Conn)">
+    <net code="7" name="Net-(D66-Conn)">
       <node ref="C49" pin="1" pintype="passive"/>
       <node ref="C50" pin="1" pintype="passive"/>
       <node ref="D66" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="U12" pin="1" pinfunction="Vdd" pintype="power_in"/>
       <node ref="U13" pin="1" pinfunction="Vdd" pintype="power_in"/>
     </net>
-    <net code="9" name="Net-(D67-Conn)">
+    <net code="8" name="Net-(D67-Conn)">
       <node ref="D67" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="U13" pin="2" pinfunction="Vout" pintype="output"/>
     </net>
-    <net code="10" name="Net-(D68-Conn)">
+    <net code="9" name="Net-(D68-Conn)">
       <node ref="D68" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="U12" pin="2" pinfunction="Vout" pintype="output"/>
     </net>
-    <net code="11" name="Net-(IC1-BP)">
+    <net code="10" name="Net-(IC1-BP)">
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="IC1" pin="9" pinfunction="BP" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(IC1-COMP)">
+    <net code="11" name="Net-(IC1-COMP)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="IC1" pin="4" pinfunction="COMP" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(IC1-FB)">
+    <net code="12" name="Net-(IC1-FB)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="IC1" pin="5" pinfunction="FB" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(IC1-GDRV)">
+    <net code="13" name="Net-(IC1-GDRV)">
       <node ref="IC1" pin="8" pinfunction="GDRV" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(IC1-ISNS)">
+    <net code="14" name="Net-(IC1-ISNS)">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="IC1" pin="7" pinfunction="ISNS" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="Z1" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(IC1-RC)">
+    <net code="15" name="Net-(IC1-RC)">
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="IC1" pin="1" pinfunction="RC" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(IC1-SS)">
+    <net code="16" name="Net-(IC1-SS)">
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="IC1" pin="2" pinfunction="SS" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(L2-Pad1)">
+    <net code="17" name="Net-(L2-Pad1)">
       <node ref="L2" pin="1" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(Q1-D_1)">
+    <net code="18" name="Net-(Q1-D_1)">
       <node ref="D12" pin="2" pintype="passive"/>
       <node ref="L2" pin="2" pintype="passive"/>
       <node ref="Q1" pin="5" pinfunction="D_1" pintype="passive"/>
@@ -869,18 +867,18 @@
       <node ref="Q1" pin="7" pinfunction="D_3" pintype="passive"/>
       <node ref="Q1" pin="8" pinfunction="D_4" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(Q1-G)">
+    <net code="19" name="Net-(Q1-G)">
       <node ref="Q1" pin="4" pinfunction="G" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(Q1-S_1)">
+    <net code="20" name="Net-(Q1-S_1)">
       <node ref="Q1" pin="1" pinfunction="S_1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="S_3" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(Z1-K)">
+    <net code="21" name="Net-(Z1-K)">
       <node ref="D12" pin="1" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="Z1" pin="1" pinfunction="K" pintype="passive"/>
