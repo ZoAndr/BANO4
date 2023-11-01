@@ -1,4 +1,10 @@
 (fp_lib_table
   (version 7)
   (lib (name "Wire_holes")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Wire_holes")(options "")(descr ""))
+  (lib (name "ul_LMR51420XDDCR")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Chips/ul_LMR51420XDDCR")(options "")(descr ""))
+  (lib (name "ul_SI7852DP-T1")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Chips/ul_SI7852DP-T1")(options "")(descr ""))
+  (lib (name "ul_MAX17504ATP-")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Chips/ul_MAX17504ATP-")(options "")(descr ""))
+  (lib (name "ul_PMEG10020ELRX")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Chips/ul_PMEG10020ELRX")(options "")(descr ""))
+  (lib (name "ul_TLV9061IDCKR")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Chips/ul_TLV9061IDCKR")(options "")(descr ""))
+  (lib (name "ul_VLS3012HBX-3R3M")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Inductors/ul_VLS3012HBX-3R3M")(options "")(descr ""))
 )
