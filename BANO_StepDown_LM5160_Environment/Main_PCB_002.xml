@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Projects\BANO_Working\Git_from_20230827\BANO_StepDown_LM5160_Environment\Main_PCB_002.kicad_sch</source>
+    <date>25.12.2023 15:50:32</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Main_PCB_002.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c885429d-3ac8-4123-9869-3e6d13ba2c4d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cb1d40f-1ffb-405a-8759-cb19cf418fb9</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62c70cda-09e3-4d60-9cd1-b8c20e86bfd4</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6537344f-ddd2-4514-8250-f2e30c8d3b3b</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e46aab5-159e-4bc0-b2ac-2acf02db9aff</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8a6dc07-b4e3-4ad2-8976-19a8a440bdfc</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cc3a99a-002a-49de-83d0-7a230e43f132</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca74b041-f940-49bb-943f-199e9c836f2c</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db0e635a-b700-4b57-9cb6-766f74bdf688</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>037061dc-cf6f-4673-843b-97772e47c6f4</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36b48c99-8157-40a4-9659-5fa4cd148b16</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a38b687d-e434-44ea-9ecc-a453f46c30d5</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44ee37da-2793-4761-abed-63ede7572868</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c337ed2d-b20c-4722-9f8f-6e77d81a5aee</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7660ec0-860d-400e-adea-3d3962bcd881</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94f2f435-ff41-4f9e-9b44-36d4955302b4</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6a58b55-9b0f-4df3-a7db-b42214a8b9ee</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>635cf0ee-b001-4299-8032-697b0f4b995f</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b67b1f05-f85f-4077-9af8-bf19b6fa41cc</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a311e39-b63e-4a2a-bd20-1b961208a054</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f403b8f2-f801-4218-8173-4ff315597377</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33b80481-0fd5-4d59-90f1-e626d603b540</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>daaa120b-3acd-44e4-afec-2133b952e89a</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aaef46c9-51e9-45e5-87e0-f7c1d0e7ad66</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a1ccaaa-0c49-4d0f-9273-6569c8b46c21</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>441619ed-37d8-4575-be7e-ed77c695b8e0</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>MM5Zxx</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
+      <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="300mW Zener Diode, SOD-523"/>
+      <property name="ki_keywords" value="zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b069e6e2-2ebb-4467-8b9c-6cbac677508a</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>222f8a19-af81-4d07-a025-1448db41db75</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f672f3d2-21c1-4eff-b53b-b00f48892988</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e7a4a15-6a94-49c8-8e2b-954da0aa11f8</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd519b53-e5d2-43f7-94a3-0d7c5f6c174a</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62dc8535-adb2-4988-9e69-9fd3de92f514</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1d4541f-0492-4d19-8add-49b4d50b4462</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99da962e-4c64-4f3d-b319-1a68acb98790</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54ffd537-2317-4e86-be07-d2df1c5db1d9</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbc23d73-cda2-46fd-ad7e-13ffcefb5cf1</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8fa7936-4f4f-4ac0-8d60-1b4b14d76e6b</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9b983c0-260e-40f3-b6f4-f23e3a6d6eee</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d93b0842-b4a8-4589-b0b0-03d8f965b9cb</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c554a691-05bc-4cce-bd7a-092d92e49ff3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90d43cc9-e985-4a13-b3f3-2f8fe9bea16d</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73a0735e-6b7a-49d1-8bb9-afe9f9a2be18</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e3f7489-d133-4fa0-b747-287f59f3c2a9</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14805dbc-216e-458b-8f19-a8f1723ceb52</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb9aede9-d453-4241-8c91-65868b2b91e9</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2334ea2-48d5-4f8e-84ce-851a72db9459</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6958f6d5-e67a-42d5-acb8-50e54e91e47e</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9cf52ad-1b2b-4ef0-911c-3b59bc3d34fc</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d4221f5-4a41-4cfa-9458-7c9b0267393c</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e475619-7438-4b42-99e7-601996438b2c</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a15e3fc-e516-4a20-9b3d-90c976946765</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3185a579-b2c3-4cf7-b55f-8bb736e2687b</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ef73d3c-848c-42d3-9bc8-ed7d9fb11821</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>281a429a-36b7-4205-bcdf-9aa891adf630</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57810468-1bd8-40a6-a10d-b1d10f5b8a2c</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61a2a819-3d13-49a7-9b8f-fa43ce7211ca</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18da1673-4724-4466-bdf2-dfd2b09275de</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1bf9d6b-bf60-416d-a8fa-06747413bf71</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b5a8366-8c8a-4f1c-bbf8-71bbf0d58922</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73c95d96-d303-4ada-b0ca-3c609697dcef</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a406a75f-85be-4079-bbfc-587df845eea7</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3114a40d-71ca-4457-abc0-96ff59ec8980</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a234cbd6-9dc0-448c-bd9d-33b223f1c5ae</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab4d7f73-3ad7-4b2f-9292-ff717654c4dc</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd389d09-8cf7-46e6-abeb-23e845582d7a</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1a828bb-7cb2-4ab1-9575-99d612e1e160</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9e6e895-f245-4b32-b60e-7367bc61928f</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1da6de0-f5c5-4d4d-8338-28dd857362bb</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>719cb8a4-2d66-437e-bf2a-6375a72c1ed5</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>960e9c02-29fa-45e7-89ff-678518219b68</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6e46a7f-ee30-4953-b6a1-a5e8ae053eb4</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TLV9061IDCKR</value>
+      <footprint>ul_TLV9061IDCKR:DCK5_TEX</footprint>
+      <datasheet>TLV9061IDCKR</datasheet>
+      <libsource lib="DCK5_TEX" part="TLV9061IDCKR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_keywords" value="TLV9061IDCKR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82a867bd-3379-47bf-8282-99d92f9ded5f</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>INA193</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="INA193" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
+      <property name="ki_keywords" value="current sense shunt monitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>266b5e10-7006-4b8e-97de-11a023a5c978</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Current" part="INA193">
+      <description>Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina193.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA193</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina193.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connectors_for_Wire" part="WireHole_1p5">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WireHole_1p5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Conn" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="DCK5_TEX" part="TLV9061IDCKR">
+      <docs>TLV9061IDCKR</docs>
+      <footprints>
+        <fp>DCK5_TEX</fp>
+        <fp>DCK5_TEX-M</fp>
+        <fp>DCK5_TEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV9061IDCKR</field>
+        <field name="Footprint">DCK5_TEX</field>
+        <field name="Datasheet">TLV9061IDCKR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="input"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="IN-" type="input"/>
+        <pin num="4" name="OUT" type="output"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MM5Zxx">
+      <description>300mW Zener Diode, SOD-523</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</docs>
+      <footprints>
+        <fp>D?SOD?523*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MM5Zxx</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Current">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Amplifier_Current.kicad_sym</uri>
+    </library>
+    <library logical="Connectors_for_Wire">
+      <uri>C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Wire_holes/Connectors_for_Wire.kicad_sym</uri>
+    </library>
+    <library logical="DCK5_TEX">
+      <uri>C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Chips/ul_TLV9061IDCKR/DCK5_TEX.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND2">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D19" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D25" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D26" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D28" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D30" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D31" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U17" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(D1-Conn)">
+      <node ref="D1" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(D2-Conn)">
+      <node ref="D2" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D6" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="Net-(D3-Conn)">
+      <node ref="D3" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D7" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Net-(D4-Conn)">
+      <node ref="D4" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U17" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(D5-Conn)">
+      <node ref="D5" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D9-Conn)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U17" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(D10-Conn)">
+      <node ref="D10" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D12-Conn)">
+      <node ref="D12" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D8" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D13-Conn)">
+      <node ref="D13" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D14-Conn)">
+      <node ref="D14" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="12" name="Net-(D15-Conn)">
+      <node ref="D15" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="U17" pin="1" pintype="output"/>
+    </net>
+    <net code="13" name="Net-(D16-Conn)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="14" name="Net-(D17-Conn)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D18" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D20" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D27" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D21-Conn)">
+      <node ref="D21" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D22-Conn)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D29-Conn)">
+      <node ref="D29" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U17" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(D32-Conn)">
+      <node ref="D32" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D33-Conn)">
+      <node ref="D33" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D34-Conn)">
+      <node ref="D34" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D35-Conn)">
+      <node ref="D35" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(R24-Pad2)">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(U2-IN-)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IN-" pintype="input"/>
+    </net>
+  </nets>
+</export>
