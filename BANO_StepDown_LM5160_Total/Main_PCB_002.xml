@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Projects\BANO_Working\Git_from_20230827\BANO_StepDown_LM5160_Total\Main_PCB_002.kicad_sch</source>
-    <date>29.01.2024 20:01:49</date>
+    <date>01.03.2024 18:11:04</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -26,7 +26,7 @@
   <components>
     <comp ref="C1">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -37,7 +37,7 @@
     </comp>
     <comp ref="C2">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -48,7 +48,7 @@
     </comp>
     <comp ref="C3">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -59,7 +59,7 @@
     </comp>
     <comp ref="C4">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -70,7 +70,7 @@
     </comp>
     <comp ref="C5">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -81,7 +81,7 @@
     </comp>
     <comp ref="C6">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -92,7 +92,7 @@
     </comp>
     <comp ref="C26">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -103,7 +103,7 @@
     </comp>
     <comp ref="C27">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -114,7 +114,7 @@
     </comp>
     <comp ref="C28">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -123,32 +123,41 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>64f51e9c-5102-4851-8f6c-d0edcccfc56d</tstamps>
     </comp>
-    <comp ref="D1">
-      <value>WireHole_1p5</value>
-      <footprint>Wire_holes:WireHole_1p2</footprint>
-      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+    <comp ref="D6">
+      <value>LED_Cree_XHP50_6V</value>
+      <footprint>LED_SMD:LED_Cree-XHP50_6V</footprint>
+      <datasheet>http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf</datasheet>
+      <libsource lib="LED" part="LED_Cree_XHP50_6V" description="XLamp® XHP50 LED, 6V footprint (2x2 serial LEDs in parallel)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="XLamp® XHP50 LED, 6V footprint (2x2 serial LEDs in parallel)"/>
+      <property name="ki_keywords" value="led diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6e46aab5-159e-4bc0-b2ac-2acf02db9aff</tstamps>
-    </comp>
-    <comp ref="D2">
-      <value>WireHole_1p5</value>
-      <footprint>Wire_holes:WireHole_1p2</footprint>
-      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a33b620b-8bc9-4370-96cc-5bf06d05fee3</tstamps>
+      <tstamps>12b591b3-90cd-453f-b399-5d652c9efb5c</tstamps>
     </comp>
     <comp ref="D7">
-      <value>WireHole_1p5</value>
-      <footprint>Wire_holes:WireHole_1p2</footprint>
-      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <value>LED_Cree_XHP50_6V</value>
+      <footprint>LED_SMD:LED_Cree-XHP50_6V</footprint>
+      <datasheet>http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf</datasheet>
+      <libsource lib="LED" part="LED_Cree_XHP50_6V" description="XLamp® XHP50 LED, 6V footprint (2x2 serial LEDs in parallel)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="XLamp® XHP50 LED, 6V footprint (2x2 serial LEDs in parallel)"/>
+      <property name="ki_keywords" value="led diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>63e5862d-c9e5-4ca3-8809-946b4e33a07e</tstamps>
+      <tstamps>e59c1d02-ffa7-4a2e-b93a-49327bd3067b</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LED_Cree_XHP50_6V</value>
+      <footprint>LED_SMD:LED_Cree-XHP50_6V</footprint>
+      <datasheet>http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf</datasheet>
+      <libsource lib="LED" part="LED_Cree_XHP50_6V" description="XLamp® XHP50 LED, 6V footprint (2x2 serial LEDs in parallel)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="XLamp® XHP50 LED, 6V footprint (2x2 serial LEDs in parallel)"/>
+      <property name="ki_keywords" value="led diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7206e5f3-d944-45ef-ba57-87f2bc737104</tstamps>
     </comp>
     <comp ref="D23">
       <value>MM5Zxx</value>
@@ -193,7 +202,7 @@
     </comp>
     <comp ref="R1">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -215,7 +224,7 @@
     </comp>
     <comp ref="R3">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -226,7 +235,7 @@
     </comp>
     <comp ref="R4">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -248,7 +257,7 @@
     </comp>
     <comp ref="R6">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -259,7 +268,7 @@
     </comp>
     <comp ref="R7">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -270,7 +279,7 @@
     </comp>
     <comp ref="R9">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -281,7 +290,7 @@
     </comp>
     <comp ref="R15">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -393,6 +402,24 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="LED" part="LED_Cree_XHP50_6V">
+      <description>XLamp® XHP50 LED, 6V footprint (2x2 serial LEDs in parallel)</description>
+      <docs>http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf</docs>
+      <footprints>
+        <fp>LED?Cree?XHP50?6V*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Cree_XHP50_6V</field>
+        <field name="Footprint">LED_SMD:LED_Cree-XHP50_6V</field>
+        <field name="Datasheet">http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="PAD" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="LM5160ADNTR" part="LM5160ADNTR">
       <docs>LM5160ADNTR</docs>
       <footprints>
@@ -450,6 +477,9 @@
     <library logical="Diode">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
     </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/LED.kicad_sym</uri>
+    </library>
     <library logical="LM5160ADNTR">
       <uri>C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Chips/ul_LM5160ADNTR/LM5160ADNTR.kicad_sym</uri>
     </library>
@@ -467,6 +497,9 @@
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D28" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D6" pin="3" pinfunction="PAD" pintype="passive"/>
+      <node ref="D7" pin="3" pinfunction="PAD" pintype="passive"/>
+      <node ref="D8" pin="3" pinfunction="PAD" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
@@ -488,29 +521,32 @@
       <node ref="U1" pin="11" pinfunction="SW" pintype="power_in"/>
       <node ref="U1" pin="12" pinfunction="SW" pintype="power_in"/>
     </net>
-    <net code="4" name="Net-(D1-Conn)">
-      <node ref="D1" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+    <net code="4" name="Net-(D6-A)">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="5" name="Net-(D6-K)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D7-K)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D8-K)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="IN+" pintype="input"/>
     </net>
-    <net code="5" name="Net-(D2-Conn)">
-      <node ref="C28" pin="1" pintype="passive"/>
-      <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="Conn" pintype="bidirectional"/>
-      <node ref="L1" pin="1" pinfunction="1" pintype="unspecified"/>
-    </net>
-    <net code="6" name="Net-(D7-Conn)">
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="D7" pin="1" pinfunction="Conn" pintype="bidirectional"/>
-      <node ref="U1" pin="9" pinfunction="VCC" pintype="power_in"/>
-    </net>
-    <net code="7" name="Net-(D23-K)">
+    <net code="8" name="Net-(D23-K)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="8" name="Net-(D27-Conn)">
+    <net code="9" name="Net-(D27-Conn)">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="D27" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="R5" pin="2" pintype="passive"/>
@@ -518,35 +554,39 @@
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="9" name="Net-(U1-BST)">
+    <net code="10" name="Net-(U1-BST)">
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="BST" pintype="power_in"/>
     </net>
-    <net code="10" name="Net-(U1-EN_UVLO)">
+    <net code="11" name="Net-(U1-EN_UVLO)">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="EN_UVLO" pintype="input"/>
     </net>
-    <net code="11" name="Net-(U1-FB)">
+    <net code="12" name="Net-(U1-FB)">
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="FB" pintype="input"/>
     </net>
-    <net code="12" name="Net-(U1-RON)">
+    <net code="13" name="Net-(U1-RON)">
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="RON" pintype="input"/>
     </net>
-    <net code="13" name="Net-(U1-SS)">
+    <net code="14" name="Net-(U1-SS)">
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="SS" pintype="input"/>
     </net>
-    <net code="14" name="Net-(U2-IN-)">
+    <net code="15" name="Net-(U1-VCC)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="16" name="Net-(U2-IN-)">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="IN-" pintype="input"/>
     </net>
-    <net code="15" name="Net-(U2-OUT)">
+    <net code="17" name="Net-(U2-OUT)">
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="OUT" pintype="output"/>
