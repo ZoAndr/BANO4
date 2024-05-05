@@ -25,4 +25,5 @@
   (lib (name "ZXTR2105F-7")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Chips/ul_ZXTR2105F-7/ZXTR2105F-7.kicad_sym")(options "")(descr ""))
   (lib (name "LM5160ADNTR")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Chips/ul_LM5160ADNTR/LM5160ADNTR.kicad_sym")(options "")(descr ""))
   (lib (name "SWPA4030S1R0NT")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Inductors/ul_SWPA4030S1R0NT/SWPA4030S1R0NT.kicad_sym")(options "")(descr ""))
+  (lib (name "ul_SWPA3015S4R7MT")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Inductors/ul_SWPA3015S4R7MT/ul_SWPA3015S4R7MT.kicad_sym")(options "")(descr ""))
 )

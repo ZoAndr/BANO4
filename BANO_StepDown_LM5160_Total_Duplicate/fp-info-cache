@@ -1,4 +1,4 @@
-22312498093052417
+22319357377472196
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91903,6 +91903,13 @@ WireHole_0p7
 1
 1
 Wire_holes
+WireHole_0p8
+
+
+0
+0
+0
+Wire_holes
 WireHole_1p2
 
 
@@ -92179,6 +92186,27 @@ ul_SRP7050AA-470M
 IND_SRP7050AA_BRN-M
 
 SRP7050AA-470M 
+0
+2
+2
+ul_SWPA3015S4R7MT
+IND_SWPA3015S_SNL
+
+SWPA3015S4R7MT 
+0
+2
+2
+ul_SWPA3015S4R7MT
+IND_SWPA3015S_SNL-L
+
+SWPA3015S4R7MT 
+0
+2
+2
+ul_SWPA3015S4R7MT
+IND_SWPA3015S_SNL-M
+
+SWPA3015S4R7MT 
 0
 2
 2
