@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Projects\BANO_Working\Git_from_20230827\BANO_StepDown_LM5160_Total_Duplicate\BANO_StepDown_LM5160_Total_Duplicate.kicad_sch</source>
-    <date>04.05.2024 17:53:04</date>
+    <source>C:\Projects\BANO_Working\BANO_StepDown_LM5160_Total_Duplicate\BANO_StepDown_LM5160_Total_Duplicate.kicad_sch</source>
+    <date>5/15/2024 5:35:55 PM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -189,6 +189,28 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5e39c367-adb2-4720-a468-87dfc2f2fbb2</tstamps>
     </comp>
+    <comp ref="C18">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BANO_StepDown_LM5160_Total_Duplicate.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13676aa4-20fc-48f3-bbe4-071d9a46f814</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BANO_StepDown_LM5160_Total_Duplicate.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e569409-cf90-4592-b771-5c4e72d51ba7</tstamps>
+    </comp>
     <comp ref="C26">
       <value>C</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
@@ -224,7 +246,7 @@
     </comp>
     <comp ref="D2">
       <value>WireHole_1p5</value>
-      <footprint>Wire_holes:WireHole_0p8</footprint>
+      <footprint>Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BANO_StepDown_LM5160_Total_Duplicate.kicad_sch"/>
@@ -233,7 +255,7 @@
     </comp>
     <comp ref="D3">
       <value>WireHole_1p5</value>
-      <footprint>Wire_holes:WireHole_0p8</footprint>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BANO_StepDown_LM5160_Total_Duplicate.kicad_sch"/>
@@ -314,7 +336,7 @@
     </comp>
     <comp ref="D27">
       <value>WireHole_1p5</value>
-      <footprint>Wire_holes:WireHole_0p8</footprint>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BANO_StepDown_LM5160_Total_Duplicate.kicad_sch"/>
@@ -323,7 +345,7 @@
     </comp>
     <comp ref="D28">
       <value>WireHole_1p5</value>
-      <footprint>Wire_holes:WireHole_0p8</footprint>
+      <footprint>Wire_holes:WireHole_1p2</footprint>
       <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BANO_StepDown_LM5160_Total_Duplicate.kicad_sch"/>
@@ -343,7 +365,7 @@
     </comp>
     <comp ref="L2">
       <value>SWPA4030S1R0NT</value>
-      <footprint>ul_SWPA3015S4R7MT:IND_SWPA3015S_SNL</footprint>
+      <footprint>ul_SWPA4030S1R0NT:IND_SWPA4030S_SNL</footprint>
       <datasheet>SWPA4030S1R0NT</datasheet>
       <libsource lib="SWPA4030S1R0NT" part="SWPA4030S1R0NT" description=""/>
       <property name="Sheetname" value=""/>
@@ -354,7 +376,7 @@
     </comp>
     <comp ref="L3">
       <value>SWPA4030S1R0NT</value>
-      <footprint>ul_SWPA3015S4R7MT:IND_SWPA3015S_SNL</footprint>
+      <footprint>ul_SWPA4030S1R0NT:IND_SWPA4030S_SNL</footprint>
       <datasheet>SWPA4030S1R0NT</datasheet>
       <libsource lib="SWPA4030S1R0NT" part="SWPA4030S1R0NT" description=""/>
       <property name="Sheetname" value=""/>
@@ -420,7 +442,7 @@
     </comp>
     <comp ref="R5">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BANO_StepDown_LM5160_Total_Duplicate.kicad_sch"/>
@@ -464,7 +486,7 @@
     </comp>
     <comp ref="R9">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BANO_StepDown_LM5160_Total_Duplicate.kicad_sch"/>
@@ -703,6 +725,8 @@
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C14" pin="2" pintype="passive"/>
       <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C26" pin="2" pintype="passive"/>
       <node ref="C28" pin="2" pintype="passive"/>
@@ -769,6 +793,7 @@
       <node ref="U4" pin="5" pinfunction="V+" pintype="power_in"/>
     </net>
     <net code="8" name="Net-(D6-A)">
+      <node ref="C18" pin="1" pintype="passive"/>
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
@@ -790,6 +815,7 @@
     <net code="12" name="Net-(D9-A)">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="L4" pin="1" pinfunction="1" pintype="unspecified"/>
     </net>
