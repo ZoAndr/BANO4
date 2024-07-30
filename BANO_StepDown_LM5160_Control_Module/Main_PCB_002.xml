@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Projects\BANO_Working\BANO_StepDown_LM5160_Control_Module\Main_PCB_002.kicad_sch</source>
-    <date>7/20/2024 7:20:54 PM</date>
+    <date>7/30/2024 7:00:01 AM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -503,6 +503,42 @@
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>78c133fe-4fd6-459d-a47e-61e5f66262f3</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_2p0</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c71748a8-98b9-469b-9a67-57e79bb107a5</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_2p0</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1750809c-29fe-4b8f-a9f1-acf11475df88</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_2p0</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>045c918f-e9f2-47e4-91c7-6b2d51ded324</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>WireHole_1p5</value>
+      <footprint>Wire_holes:WireHole_2p0</footprint>
+      <libsource lib="Connectors_for_Wire" part="WireHole_1p5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4da934f-2cd4-4b4c-8aac-de03a7cba45e</tstamps>
     </comp>
     <comp ref="L1">
       <value>SWPA8040S220MT</value>
@@ -1079,6 +1115,10 @@
       <node ref="D19" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="D20" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="D21" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D28" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D29" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D30" pin="1" pinfunction="Conn" pintype="bidirectional"/>
+      <node ref="D31" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="LED1" pin="1" pintype="unspecified"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>

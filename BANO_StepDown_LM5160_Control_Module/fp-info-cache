@@ -1,4 +1,4 @@
-22336411529938866
+22363144680222719
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84706,6 +84706,34 @@ rotary encoder
 0
 7
 6
+SWPA6045
+IND_45S331MT_SNL
+
+SWPA6045S331MT 
+0
+2
+2
+SWPA8040
+IND_SWPA8040S_SNL
+
+SWPA8040S220MT 
+0
+2
+2
+SWPA8040
+IND_SWPA8040S_SNL-L
+
+SWPA8040S220MT 
+0
+2
+2
+SWPA8040
+IND_SWPA8040S_SNL-M
+
+SWPA8040S220MT 
+0
+2
+2
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -91903,6 +91931,13 @@ WireHole_0p7
 1
 1
 Wire_holes
+WireHole_0p8
+
+
+0
+1
+1
+Wire_holes
 WireHole_1p2
 
 
@@ -91911,6 +91946,20 @@ WireHole_1p2
 1
 Wire_holes
 WireHole_1p5
+
+
+0
+1
+1
+Wire_holes
+WireHole_1p8
+
+
+0
+1
+1
+Wire_holes
+WireHole_2p0
 
 
 0
@@ -91990,6 +92039,13 @@ ul_BLM18KG102SH1D
 RES_0603_1P6XP8_MUR-M
 
 BLM18KG102SH1D 
+0
+2
+2
+ul_HSMW-C191-U0000
+LED_91-U0000
+
+HSMW-C191-U0000 
 0
 2
 2
@@ -92175,6 +92231,13 @@ PMEG10020ELRX
 0
 2
 2
+ul_SI7469DP-T1-E3
+SI7469DP
+
+SI7469DP-T1-E3 
+0
+8
+8
 ul_SI7489DP-T1-E3
 MOSFET_65DP-T1-E3_VIS
 
@@ -92231,6 +92294,27 @@ SRP7050AA-470M
 0
 2
 2
+ul_SS210A
+DIODE_SS210A_HYE
+
+SS210A 
+0
+2
+2
+ul_SS210A
+DIODE_SS210A_HYE-L
+
+SS210A 
+0
+2
+2
+ul_SS210A
+DIODE_SS210A_HYE-M
+
+SS210A 
+0
+2
+2
 ul_STM32G031G8U6
 UFQFPN-28
 
@@ -92252,6 +92336,27 @@ STM32G031G8U6
 0
 28
 28
+ul_SWPA3015S4R7MT
+IND_SWPA3015S_SNL
+
+SWPA3015S4R7MT 
+0
+2
+2
+ul_SWPA3015S4R7MT
+IND_SWPA3015S_SNL-L
+
+SWPA3015S4R7MT 
+0
+2
+2
+ul_SWPA3015S4R7MT
+IND_SWPA3015S_SNL-M
+
+SWPA3015S4R7MT 
+0
+2
+2
 ul_SWPA4030S1R0NT
 IND_SWPA4030S_SNL
 

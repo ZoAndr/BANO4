@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Projects\BANO_Working\BANO_StepDown_LM5160_Total_Duplicate\BANO_StepDown_LM5160_Total_Duplicate.kicad_sch</source>
-    <date>5/15/2024 5:35:55 PM</date>
+    <date>7/29/2024 8:50:27 AM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -114,7 +114,7 @@
     </comp>
     <comp ref="C9">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BANO_StepDown_LM5160_Total_Duplicate.kicad_sch"/>
@@ -191,7 +191,7 @@
     </comp>
     <comp ref="C18">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BANO_StepDown_LM5160_Total_Duplicate.kicad_sch"/>
@@ -202,7 +202,7 @@
     </comp>
     <comp ref="C19">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BANO_StepDown_LM5160_Total_Duplicate.kicad_sch"/>
@@ -224,7 +224,7 @@
     </comp>
     <comp ref="C27">
       <value>C</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BANO_StepDown_LM5160_Total_Duplicate.kicad_sch"/>
