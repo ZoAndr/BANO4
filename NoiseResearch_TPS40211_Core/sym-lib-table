@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Connectors_for_Wire")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Wire_holes/Connectors_for_Wire.kicad_sym")(options "")(descr ""))
-  (lib (name "Mounting_Holes")(type "KiCad")(uri "C:/Projects/BANO_Working/Git_from_20230827/KiCad_Libraries/Wire_holes/Mounting_Holes.kicad_sym")(options "")(descr ""))
-)

@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MCP9700T-E_TT
-D Linear Active Thermistor 10mV/C SOT23
-K
-F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA2/179941.pdf
-$ENDCMP
-#
-#End Doc Library

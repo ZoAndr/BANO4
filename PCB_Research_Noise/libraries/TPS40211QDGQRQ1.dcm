@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TPS40211QDGQRQ1
-D 4.5V to 52V Wide Input range current mode boost controller with 260 mV reference voltage
-K
-F http://www.ti.com/lit/gpn/tps40211-q1
-$ENDCMP
-#
-#End Doc Library

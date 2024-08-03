@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MAX998EUT+T
-D Maxim MAX998EUT+T Comparator, 3 V, 5 V 6-Pin SOT-23
-K
-F https://datasheets.maximintegrated.com/en/ds/MAX976-MAX998.pdf
-$ENDCMP
-#
-#End Doc Library

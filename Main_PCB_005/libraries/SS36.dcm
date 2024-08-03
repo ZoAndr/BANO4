@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP SS36
-D Rectifier Diode, Schottky, 60 Volt, DO-214AB / SMC
-K
-F https://docs.rs-online.com/a290/0900766b8002669b.pdf
-$ENDCMP
-#
-#End Doc Library
