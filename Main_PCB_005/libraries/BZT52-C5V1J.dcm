@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP BZT52-C5V1J
-D Zener Diodes BZT52-C5V1/SOD123 SOD2
-K
-F https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf
-$ENDCMP
-#
-#End Doc Library

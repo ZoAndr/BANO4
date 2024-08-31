@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LM3481MM_NOPB
-D Texas Instruments,LM3481MM/NOPB,IC,DC-DC Texas Instruments LM3481MM/NOPB, DC-DC Controller, 1A, 48 V, Step Up, 1 MHz, 10-Pin, VSSOP
-K
-F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=lm3481&fileType=pdf
-$ENDCMP
-#
-#End Doc Library
