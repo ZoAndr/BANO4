@@ -15,6 +15,9 @@
   *
   ******************************************************************************
   */
+
+#include "Thermistor_Processing.h"
+
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
@@ -34,8 +37,8 @@
 
 #define BUFFER_SIZE                                                     32
 
-#define PERIOD   1000
-#define FLASH_PERIOD   100
+#define PERIOD   250
+#define FLASH_PERIOD   25
 
 /* USER CODE END PD */
 
@@ -59,6 +62,9 @@ uint8_t receiveBuffer[BUFFER_SIZE];
 
 
 uint32_t Timer_State;
+
+
+float Temperature;
 
 /* USER CODE END PV */
 
@@ -105,6 +111,8 @@ void HEX_to_DEC(uint32_t Hex, char * DEC)
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+
+
 
   /* USER CODE END 1 */
 
@@ -496,12 +504,22 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 //    	  https://community.st.com/t5/stm32cubemx-mcus/reading-multiple-adc-channel/td-p/171369
 
 
-    	  HEX_to_DEC(Data[0], &transmitBuffer[2]);
-    	  transmitBuffer[6] = ' ';
-    	  HEX_to_DEC(Data[1], &transmitBuffer[7]);
-    	  transmitBuffer[11] = (char)'\n';
+    	  Temperature = Estimate_Temperature(Data[1]);
+    	  char Temp[5];
+    	  Give_Temperature(Temperature, Temp);
 
-        HAL_UART_Transmit_IT(&huart1, transmitBuffer, 12);
+    	  HEX_to_DEC(Data[0], &transmitBuffer[2]);
+    	  transmitBuffer[6] = 'T';
+    	  transmitBuffer[7] = '=';
+
+    	  transmitBuffer[8] = Temp[0];
+    	  transmitBuffer[9] = Temp[1];
+    	  transmitBuffer[10] = Temp[2];
+    	  transmitBuffer[11] = Temp[3];
+//    	  HEX_to_DEC(Data[1], &transmitBuffer[7]);
+    	  transmitBuffer[13] = (char)'\n';
+
+        HAL_UART_Transmit_IT(&huart2, transmitBuffer, 12);
     	}
     	else if(Timer_State == FLASH_PERIOD)
     	{

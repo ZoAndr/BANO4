@@ -1,0 +1,3 @@
+../Core/Src/Thermistor_Processing.c:5:7:Estimate_R_thermistor	1
+../Core/Src/Thermistor_Processing.c:16:7:Estimate_Temperature	1
+../Core/Src/Thermistor_Processing.c:34:6:Give_Temperature	1

@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (9-2020-q2-update)
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -43,14 +43,14 @@ BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ART
 EXECUTABLES += \
 BANO_001.elf \
 
+MAP_FILES += \
+BANO_001.map \
+
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
 BANO_001.list \
-
-OBJCOPY_BIN += \
-BANO_001.bin \
 
 
 # All Target
@@ -60,8 +60,8 @@ all: main-build
 main-build: BANO_001.elf secondary-outputs
 
 # Tool invocations
-BANO_001.elf: $(OBJS) $(USER_OBJS) C:\Projects\BANO_Working\Git_from_20230827\FirmWare\BANO_FW_001\BANO_001\STM32G031G8UX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "BANO_001.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"C:\Projects\BANO_Working\Git_from_20230827\FirmWare\BANO_FW_001\BANO_001\STM32G031G8UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BANO_001.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+BANO_001.elf BANO_001.map: $(OBJS) $(USER_OBJS) C:\Projects\BANO_Working\FirmWare\BANO_FW_001\BANO_001\STM32G031G8UX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "BANO_001.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"C:\Projects\BANO_Working\FirmWare\BANO_FW_001\BANO_001\STM32G031G8UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BANO_001.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -75,17 +75,12 @@ BANO_001.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-BANO_001.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "BANO_001.bin"
-	@echo 'Finished building: $@'
-	@echo ' '
-
 # Other Targets
 clean:
-	-$(RM) BANO_001.bin BANO_001.elf BANO_001.list default.size.stdout
+	-$(RM) BANO_001.elf BANO_001.list BANO_001.map default.size.stdout
 	-@echo ' '
 
-secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_BIN)
+secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
 
 fail-specified-linker-script-missing:
 	@echo 'Error: Cannot find the specified linker script. Check the linker settings in the build configuration.'
