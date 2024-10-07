@@ -6,5 +6,5 @@
 ../Core/Src/main.c:321:13:MX_USART1_UART_Init	8	static
 ../Core/Src/main.c:369:13:MX_USART2_UART_Init	8	static
 ../Core/Src/main.c:405:13:MX_GPIO_Init	48	static
-../Core/Src/main.c:467:6:HAL_TIM_PeriodElapsedCallback	56	static
-../Core/Src/main.c:540:6:Error_Handler	8	static,ignoring_inline_asm
+../Core/Src/main.c:467:6:HAL_TIM_PeriodElapsedCallback	72	static
+../Core/Src/main.c:554:6:Error_Handler	8	static,ignoring_inline_asm

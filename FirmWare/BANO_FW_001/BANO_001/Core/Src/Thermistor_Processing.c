@@ -6,7 +6,7 @@ float Estimate_R_thermistor(uint32_t ADC)
 {
 
 	float VCC = 4095.0;
-	float R_up = 42000.0;
+	float R_up = 47000.0;
 	float R_therm;
 	R_therm = (float)(R_up) * (float)(ADC) / (VCC - (float)(ADC));
 
@@ -20,7 +20,7 @@ float Estimate_Temperature(uint32_t ADC)
 	float T_K  = 273.15;
 	float R0   = 47000.0;
 	float B    = 4050;
-	float T0   = 25.0;
+	float T0   = 20.0;
 
 	float T_msm;
 

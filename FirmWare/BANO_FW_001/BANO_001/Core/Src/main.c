@@ -494,7 +494,20 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     	  HAL_ADC_PollForConversion(&hadc1,100);
     	  Data[0] =  HAL_ADC_GetValue(&hadc1);
 
+    	  float V_in;
+    	  V_in = (float)(Data[0]) / (float)(4096) * 3.4 * 40;
+          char Temp1[5];
+          snprintf(Temp1, 5, "%f", V_in);
 
+    	  transmitBuffer[0] = 'U';
+    	  transmitBuffer[1] = 'i';
+    	  transmitBuffer[2] = '=';
+
+    	  transmitBuffer[3] = Temp1[0];
+    	  transmitBuffer[4] = Temp1[1];
+    	  transmitBuffer[5] = Temp1[2];
+    	  transmitBuffer[6] = Temp1[3];
+    	  transmitBuffer[7] =  'V';
 
     	  HAL_ADC_Start(&hadc1);
     	  HAL_ADC_PollForConversion(&hadc1, 100);
@@ -508,18 +521,19 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     	  char Temp[5];
     	  Give_Temperature(Temperature, Temp);
 
-    	  HEX_to_DEC(Data[0], &transmitBuffer[2]);
-    	  transmitBuffer[6] = 'T';
-    	  transmitBuffer[7] = '=';
+     	//  HEX_to_DEC(Data[0], &transmitBuffer[2]);
+    	  transmitBuffer[8] = ' ';
+    	  transmitBuffer[9] = 'T';
+    	  transmitBuffer[10] = '=';
 
-    	  transmitBuffer[8] = Temp[0];
-    	  transmitBuffer[9] = Temp[1];
-    	  transmitBuffer[10] = Temp[2];
-    	  transmitBuffer[11] = Temp[3];
+    	  transmitBuffer[11] = Temp[0];
+    	  transmitBuffer[12] = Temp[1];
+    	  transmitBuffer[13] = Temp[2];
+    	  transmitBuffer[14] = Temp[3];
 //    	  HEX_to_DEC(Data[1], &transmitBuffer[7]);
-    	  transmitBuffer[13] = (char)'\n';
+    	  transmitBuffer[15] = 'C';//(char)'\n';
 
-        HAL_UART_Transmit_IT(&huart2, transmitBuffer, 12);
+        HAL_UART_Transmit_IT(&huart2, transmitBuffer, 16);
     	}
     	else if(Timer_State == FLASH_PERIOD)
     	{
