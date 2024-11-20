@@ -174,6 +174,8 @@
   (net 83 "Net-(U1-IN-)")
   (net 84 "Net-(U1-OUT)")
   (net 85 "unconnected-(U2-PGOOD-Pad6)")
+  (net 86 "Net-(C9-Pad1)")
+  (net 87 "Net-(C13-Pad1)")
 
   (footprint "ul_L6388ED:SO-8_STM" (layer "F.Cu")
     (tstamp 0051f816-5ef4-49ff-8a5e-2ac77dc7a35e)
@@ -184,31 +186,31 @@
     (property "ki_keywords" "L6388ED")
     (path "/39124d49-ebe7-408c-8051-3897a866847d")
     (attr smd)
-    (fp_text reference "CR2" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "CR2" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 11ce4055-c627-4b20-ad09-4ea000da3f6d)
     )
-    (fp_text value "L6388ED" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "L6388ED" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp be9cf561-9017-4c9d-92ce-d410200405a8)
     )
-    (fp_text user "*" (at -2.7178 -3.5814 unlocked) (layer "F.SilkS")
+    (fp_text user "*" (at -2.7178 -3.5814 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 97f5db81-0a6a-4a8a-a47c-ba045e0e4250)
     )
-    (fp_text user "*" (at -2.7178 -3.5814) (layer "F.SilkS")
+    (fp_text user "*" (at -2.7178 -3.5814) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d38b1602-9a9e-4ec4-a891-bbcd1778dbe8)
     )
-    (fp_text user "*" (at -1.6256 -2.4257 unlocked) (layer "F.Fab")
+    (fp_text user "*" (at -1.6256 -2.4257 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cfdd1de9-f35f-42b5-9047-7c23e6f875bd)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d40adadb-65dc-43bc-876b-edd6443f31dc)
     )
-    (fp_text user "*" (at -1.6256 -2.4257) (layer "F.Fab")
+    (fp_text user "*" (at -1.6256 -2.4257) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eb11cdf9-4c5c-478b-a88a-f174e0bc281c)
     )
@@ -343,15 +345,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/838baafd-d46a-4c39-a5bd-18924438e467")
     (attr smd)
-    (fp_text reference "R22" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R22" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d3094112-e4e4-4c96-90b9-38e6adc0b45d)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fa2013ba-a711-4195-b899-4c3ed9a1724e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp fe564fd2-f933-4bf9-bb95-bfc648ffd7e9)
     )
@@ -393,15 +395,15 @@
     (property "Sheetname" "")
     (path "/c507254a-b46b-4036-a2e8-6925d18e1e31")
     (attr smd)
-    (fp_text reference "D27" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D27" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7b3b1949-62ca-4592-b59a-37134f36eec9)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 28a39b74-7cfb-4b66-bd96-0d70aab31f82)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ec3cdbd3-c8f3-4d8a-985f-c825a0469266)
     )
@@ -418,15 +420,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/9a00b9f7-1b0c-444a-b90c-147ded7e500b")
     (attr smd)
-    (fp_text reference "LED22" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED22" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 12eaa3ee-da77-41d1-9e1a-484229ab49b0)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8a9f056a-19ed-4e98-9beb-cf462fab1fa8)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6e885869-b967-4760-ad3f-a804e8404384)
     )
@@ -543,15 +545,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/9a81c77f-a50c-4702-ad20-4851546533cb")
     (attr smd)
-    (fp_text reference "LED2" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED2" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 77c1ed49-ece3-4610-86b8-2ec86813ae33)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e24df352-6bfa-4e09-bee6-3b71ba939d5c)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ffd37d68-ac9e-44fe-aaf7-d44544cf02ab)
     )
@@ -670,15 +672,15 @@
     (property "ki_keywords" "Arm Cortex-M0+ STM32G0 STM32G0x1")
     (path "/516d9477-c959-4b69-a3d3-6e320707f79e")
     (attr smd)
-    (fp_text reference "U6" (at 0 -3.33) (layer "F.SilkS")
+    (fp_text reference "U6" (at 0 -3.33) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 06eac5b4-ef1c-4a99-a778-932212eefcb3)
     )
-    (fp_text value "STM32G031G8Ux" (at 0 3.33) (layer "F.Fab")
+    (fp_text value "STM32G031G8Ux" (at 0 3.33) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7132b839-b350-43d6-a0ba-5e068149111b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 683a9605-3ca1-4d52-9ccf-1ea1edd3bc91)
     )
@@ -889,31 +891,31 @@
     (property "ki_keywords" "DMT10H009LK3-13")
     (path "/c1afd018-3ed2-4f88-98b0-dc0eee7bbe0c")
     (attr smd)
-    (fp_text reference "Q5" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "Q5" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a1f660ff-231e-45db-a974-06c0d61b4f8d)
     )
-    (fp_text value "DMT10H009LK3-13" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "DMT10H009LK3-13" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6d92cea7-cd0f-4b01-ad57-76bf83a452ea)
     )
-    (fp_text user "*" (at -5.207 5.1562) (layer "F.SilkS")
+    (fp_text user "*" (at -5.207 5.1562) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2dd9be2e-6601-4a65-935b-7185f20da3d1)
     )
-    (fp_text user "*" (at -5.207 5.1562 unlocked) (layer "F.SilkS")
+    (fp_text user "*" (at -5.207 5.1562 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 91a1478f-b374-4848-967f-43f71e57e587)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7c222131-4dfe-4465-9acf-cc6a3fb3c99a)
     )
-    (fp_text user "*" (at -2.286 2.8448 unlocked) (layer "F.Fab")
+    (fp_text user "*" (at -2.286 2.8448 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7c542fb9-5245-4319-9aa5-8e790626874b)
     )
-    (fp_text user "*" (at -2.286 2.8448) (layer "F.Fab")
+    (fp_text user "*" (at -2.286 2.8448) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f03c6954-9a7d-4ea8-a030-51101d9e6c43)
     )
@@ -1001,22 +1003,22 @@
 
   (footprint "ul_VLS252012HBU-220M:IND_VLS252012_TDK" (layer "F.Cu")
     (tstamp 11a5b439-c174-44b7-975f-b0664221da10)
-    (at 52.1208 48.26)
+    (at 50.6984 44.2976 90)
     (tags "VLS252012HBU-220M ")
     (property "Sheetfile" "Main_PCB_002.kicad_sch")
     (property "Sheetname" "")
     (property "ki_keywords" "SWPA4030S1R0NT")
     (path "/dbf35de2-5884-408a-b5f8-6020b5cc9876")
     (attr smd)
-    (fp_text reference "L1" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "L1" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 19bf675c-abf4-45dc-a312-5d5d6b2a5d33)
     )
-    (fp_text value "SWPA4030S1R0NT" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "SWPA4030S1R0NT" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5189ce9e-71f6-4309-a005-a224c483a2e8)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ae92dbae-bf66-4b79-b59f-c4454c6c7e12)
     )
@@ -1058,9 +1060,9 @@
       (stroke (width 0.0254) (type solid)) (layer "F.Fab") (tstamp 879ce679-7b3b-43bd-8512-5763a96b58a9))
     (fp_circle (center -1.0922 0) (end -1.0922 0)
       (stroke (width 0.0254) (type solid)) (fill none) (layer "F.Fab") (tstamp c9f61ed9-5217-45f7-9cca-be8e32122eec))
-    (pad "1" smd rect (at -1.2192 0) (size 0.9652 2.2098) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -1.2192 0 90) (size 0.9652 2.2098) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 65 "Net-(D22-Conn)") (pinfunction "1") (pintype "unspecified") (tstamp 38ec6553-81ca-49bd-8e77-86aeea0b7d9f))
-    (pad "2" smd rect (at 1.2192 0) (size 0.9652 2.2098) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 1.2192 0 90) (size 0.9652 2.2098) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 13 "Net-(U2-SW)") (pinfunction "2") (pintype "unspecified") (tstamp 836ffc70-e3ea-47b3-96a2-8abd49ede74a))
     (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 8ba3080c-75a4-4e4e-b0f2-72ca8e569bae) (hatch full 0.508)
       (connect_pads (clearance 0))
@@ -1069,10 +1071,10 @@
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
-          (xy 51.435 47.2059)
-          (xy 52.8066 47.2059)
-          (xy 52.8066 49.3141)
-          (xy 51.435 49.3141)
+          (xy 49.6443 44.9834)
+          (xy 49.6443 43.6118)
+          (xy 51.7525 43.6118)
+          (xy 51.7525 44.9834)
         )
       )
     )
@@ -1087,31 +1089,31 @@
     (property "ki_keywords" "L6388ED")
     (path "/f26f5e97-b0b2-498e-adbc-22f7c3301b12")
     (attr smd)
-    (fp_text reference "CR3" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "CR3" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 24c17271-733d-4e30-9496-73dde7a13804)
     )
-    (fp_text value "L6388ED" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "L6388ED" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6a8fc042-7ca4-4803-a36d-789976e3a32d)
     )
-    (fp_text user "*" (at -2.7178 -3.5814 unlocked) (layer "F.SilkS")
+    (fp_text user "*" (at -2.7178 -3.5814 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 35ba3d37-9f24-439f-b3f7-53b604681387)
     )
-    (fp_text user "*" (at -2.7178 -3.5814) (layer "F.SilkS")
+    (fp_text user "*" (at -2.7178 -3.5814) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp abf4b8c0-c4fa-4236-9e8d-e2f1c4961b0e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 499f8f94-a68e-4ea6-9fd1-366e6f2d999d)
     )
-    (fp_text user "*" (at -1.6256 -2.4257) (layer "F.Fab")
+    (fp_text user "*" (at -1.6256 -2.4257) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b57caf14-7e17-4003-8278-bf10c2bae91a)
     )
-    (fp_text user "*" (at -1.6256 -2.4257 unlocked) (layer "F.Fab")
+    (fp_text user "*" (at -1.6256 -2.4257 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cdf34980-32b5-49c7-8782-784fe79b141b)
     )
@@ -1244,15 +1246,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/378227ac-5b0d-416d-8152-bce9e594a638")
     (attr smd)
-    (fp_text reference "LED1" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED1" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a8755d8-9dce-4bf8-aec9-1d7dc5ed0e8d)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 36eafdcf-49fa-4091-a758-5fe3aba7b388)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2c73a105-1044-4252-8827-b4b041574531)
     )
@@ -1371,15 +1373,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/66d8078c-d6ae-44b3-a9e5-95fe381d0ba8")
     (attr smd)
-    (fp_text reference "C4" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C4" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8cfea87a-85e3-43a0-aa23-ee2906425a42)
     )
-    (fp_text value "C" (at 0 1.16) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.16) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a3141001-93e4-4da3-a5ed-fa5313e0b06a)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.25 0.25) (thickness 0.04)))
       (tstamp c093f946-8f36-4b5d-b304-4d3b2b2e9609)
     )
@@ -1425,15 +1427,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/3b7dfbc5-68e3-42fd-b211-c9db60e60130")
     (attr smd)
-    (fp_text reference "C1" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C1" (at 0 -1.68) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0c98bb66-b19d-4c24-a4b3-0c0bca5a0d7b)
     )
-    (fp_text value "C" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.68) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14344b82-8b77-42b5-a0be-a89c2f36d339)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 12257827-a2d0-495e-a1f0-a416cc691e55)
     )
@@ -1479,15 +1481,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/66ceea28-a864-42c4-8c1f-2a7613d3bb3f")
     (attr smd)
-    (fp_text reference "R19" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R19" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1a35d7b2-1a9a-439d-9c5c-8462da7988c8)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 37d11847-9ca9-49a0-8ec5-6a7c2881c636)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp b8549ce3-f079-4e1a-b957-6d590b700e54)
     )
@@ -1529,15 +1531,15 @@
     (property "Sheetname" "")
     (path "/d9e70605-f028-4999-ac7d-bf726ecd29ba")
     (attr smd)
-    (fp_text reference "D3" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D3" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 92dcdbc2-374c-4001-b42b-71c11e55e5ef)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c32a72a9-15ed-4a1b-9d9c-c1bb9cb0ec9a)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f238c7a0-7f46-477b-bab8-d6ca932c6d44)
     )
@@ -1556,15 +1558,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/6681caaf-768c-471f-8818-024cf7c0de72")
     (attr smd)
-    (fp_text reference "R6" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R6" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1d0d79f2-2a38-4110-91a3-90de9f2e6edf)
     )
-    (fp_text value "R" (at 0.525 0.27) (layer "F.Fab")
+    (fp_text value "R" (at 0.525 0.27) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 80cd9407-3951-40fb-ba65-afbec21c794d)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp f3ff4b4f-276b-4ab1-b980-d73bd35a8fc6)
     )
@@ -1608,15 +1610,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/de28dcea-77ef-4325-bdee-8b92ca19fe19")
     (attr smd)
-    (fp_text reference "LED26" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED26" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b79131ee-c76e-4b80-b442-3afc03278282)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ed83dca0-2e2d-40e2-bacc-494687718c4d)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7e7aea6a-9812-4238-b0c9-1b4bc5cef2ad)
     )
@@ -1731,15 +1733,15 @@
     (property "Sheetname" "")
     (path "/e74fb134-c182-4052-bdeb-2971c3ccb329")
     (attr smd)
-    (fp_text reference "D21" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D21" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 227bba68-76c1-4242-b020-8270f6c8723f)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4e2eaa78-245d-4d12-a8e3-a433a4f23c8f)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9bc67ad2-aa6f-4ef3-aa41-033b4594cf12)
     )
@@ -1758,15 +1760,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/3587ace5-8b8c-4793-be83-2bf717a1cdef")
     (attr smd)
-    (fp_text reference "R10" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R10" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3970a6e1-861e-4c44-885b-f465de6982bc)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f9c88179-febd-45af-927e-f46426db801c)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp e73238a7-d3e1-4f45-a1b9-694e6f5e51c8)
     )
@@ -1808,15 +1810,15 @@
     (property "Sheetname" "")
     (path "/033d2951-a3c2-4c9f-a9a7-4a519ce367bf")
     (attr smd)
-    (fp_text reference "D18" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D18" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e073f2e8-6e2d-464e-935b-7c6094b19e41)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8f46c1aa-921b-4aa7-8cbc-4805e7477bc8)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2572d61e-6b2e-44f1-af7d-7fe1a0840d0c)
     )
@@ -1835,15 +1837,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/338f2cb7-0e4d-4915-85b5-0d704ed847a5")
     (attr smd)
-    (fp_text reference "R26" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R26" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1d793b0d-ee6d-44db-a5be-a1441709cbf1)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 08200ea3-a7a0-4017-b382-f6424ee9d787)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 9b7c60d7-b89d-4348-ba94-a596e58d213b)
     )
@@ -1889,15 +1891,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/3f85e68d-d10e-46e7-b7e1-c61eb108ef46")
     (attr smd)
-    (fp_text reference "R34" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R34" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 38a4d0a5-2950-4390-8382-f4e89e56fbf7)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5b652cda-9a77-4614-b8b1-5d1b2992ca12)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 5d4856d9-ca52-489f-920f-ef566d346680)
     )
@@ -1934,7 +1936,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 278ea7aa-66c2-4ffd-9d6c-77c87dfc86e9)
-    (at 57.47 48.26)
+    (at 50.8508 47.9552)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Main_PCB_002.kicad_sch")
@@ -1943,15 +1945,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/317acc5c-cd91-4213-abeb-e81c49cc3341")
     (attr smd)
-    (fp_text reference "C13" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C13" (at 0 -1.68) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c76977ef-8c46-4c32-8f4a-de9ff4ffb561)
     )
-    (fp_text value "C" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.68) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5fb44372-815d-47af-9b04-b705599b4f0c)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 1d4c6e3a-c3cb-4afd-a975-72194f77169c)
     )
@@ -1976,7 +1978,7 @@
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ec54dc37-5200-4366-ba72-be8d6eea37ce))
     (pad "1" smd roundrect (at -0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 65 "Net-(D22-Conn)") (pintype "passive") (tstamp 3e59cd2e-57e0-4e5d-aeb4-670df620e8b2))
+      (net 87 "Net-(C13-Pad1)") (pintype "passive") (tstamp 3e59cd2e-57e0-4e5d-aeb4-670df620e8b2))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND2") (pintype "passive") (tstamp 01bc2472-e0a5-42a8-a137-32993051e7ab))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
@@ -1997,15 +1999,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/23f4d854-eed5-4a8c-8430-a6b1883df638")
     (attr smd)
-    (fp_text reference "C10" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C10" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 15a5936d-e3c3-456e-ad04-2a272c045cbb)
     )
-    (fp_text value "C" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 79cd46b2-fb8b-4451-a43f-4ff302eecc66)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp dcbbe9ae-a014-461b-ba86-1d32cc04d53f)
     )
@@ -2047,15 +2049,15 @@
     (property "Sheetname" "")
     (path "/12c2bdac-89ec-45b8-b3b3-8873a5d233d5")
     (attr smd)
-    (fp_text reference "D11" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D11" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1fe372bf-e132-401b-8f2b-44ac076fa638)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 58609328-ed97-4aba-b605-7a5bf654816e)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 79d2f681-78a2-4c5a-9362-522869102191)
     )
@@ -2070,15 +2072,15 @@
     (property "Sheetname" "")
     (path "/6ecf74cb-f0bf-4794-a2b3-260f474a2c24")
     (attr smd)
-    (fp_text reference "D22" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D22" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4fe23a01-6979-4c88-9f8e-092545a7a928)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cdc55984-d2d6-4a34-ba12-cb9f372b7df7)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4f7013b4-7ef1-4480-86ff-25b016b90cc6)
     )
@@ -2097,15 +2099,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/2171705c-e81a-4870-98b1-f519f9044ce2")
     (attr smd)
-    (fp_text reference "R32" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R32" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b8e9e2c8-310d-48a9-b4ed-5a44a01f7bc3)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2612bf42-8aa4-4682-83cb-a9a116128058)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 8e585e75-0187-4efc-b91c-50caba92a5c7)
     )
@@ -2149,31 +2151,31 @@
     (property "ki_keywords" "DMT10H009LK3-13")
     (path "/45ac5e9c-167b-45d0-a309-86249f10fee8")
     (attr smd)
-    (fp_text reference "Q9" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "Q9" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4db14440-dd25-43f6-9d60-e425eaf145b0)
     )
-    (fp_text value "DMT10H009LK3-13" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "DMT10H009LK3-13" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 49fd3f96-772b-4dc6-8846-c9e4feae7179)
     )
-    (fp_text user "*" (at -5.207 5.1562 unlocked) (layer "F.SilkS")
+    (fp_text user "*" (at -5.207 5.1562 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 993d0357-ad5c-49f8-a164-7d76770ff7db)
     )
-    (fp_text user "*" (at -5.207 5.1562) (layer "F.SilkS")
+    (fp_text user "*" (at -5.207 5.1562) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f8c6a9b0-054c-4206-bcd9-df3ec1f7dbc2)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0b9a33f0-140a-455e-8e8f-642aca3cc5bb)
     )
-    (fp_text user "*" (at -2.286 2.8448) (layer "F.Fab")
+    (fp_text user "*" (at -2.286 2.8448) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4379d3b6-66c7-41ed-8582-3f9344fe1ea9)
     )
-    (fp_text user "*" (at -2.286 2.8448 unlocked) (layer "F.Fab")
+    (fp_text user "*" (at -2.286 2.8448 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 99bb9f0a-95e4-4bb0-9030-838703c38bd1)
     )
@@ -2268,15 +2270,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/0a840fc3-2eda-49b9-9a5b-3c4ed9254255")
     (attr smd)
-    (fp_text reference "LED20" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED20" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 39fb74b1-9892-415b-8c8b-43126bca2210)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4a4ef23a-c926-405e-b44a-312af3fb3691)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6aad093f-1bc5-432a-b76c-c6380a87f245)
     )
@@ -2395,15 +2397,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/87cf45be-f449-49f8-a997-565b7543058c")
     (attr smd)
-    (fp_text reference "R17" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R17" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 28afdca2-92bc-4771-9aaa-4c76beb54bf1)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 284718e6-1849-4d68-bd63-631f9368a0ef)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp d7cea959-c49b-49f9-ac2e-c6e24c2e5311)
     )
@@ -2449,15 +2451,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/4f988da4-6416-4b52-ab1c-804f53fa0676")
     (attr smd)
-    (fp_text reference "R31" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R31" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a7c1828a-522e-40f6-bbb8-5c1a8ef2a4b5)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6f5626a7-d130-439c-8396-ccfcf6a784fa)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp ece811bd-d2f7-4db1-89ea-4dd36c327458)
     )
@@ -2503,15 +2505,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/7bd55bdc-759d-4da2-b4c3-ccbd9ddbd00c")
     (attr smd)
-    (fp_text reference "R21" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R21" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2bcd88f2-2a79-4bc3-b0d2-3eeaa2297814)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bdb0be5a-74ef-4489-b226-7e3f40159c7e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp bc8f8177-0134-4b76-a527-d2ef0add4430)
     )
@@ -2557,15 +2559,15 @@
     (property "ki_keywords" "zener diode")
     (path "/4b171e68-c821-4a27-bca7-99fee6dd45be")
     (attr smd)
-    (fp_text reference "D5" (at 0 -1.3) (layer "F.SilkS")
+    (fp_text reference "D5" (at 0 -1.3) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e08907a7-ce8b-4b99-873c-6e2fdf81d8af)
     )
-    (fp_text value "MM5Zxx" (at 0 1.4) (layer "F.Fab")
+    (fp_text value "MM5Zxx" (at 0 1.4) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a62b8dc-9191-48ed-8295-416799af55dc)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.3) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.3) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 73e5bfac-9da3-45e3-9640-e29bdf733259)
     )
@@ -2625,15 +2627,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/043bd612-753e-4609-b80f-35d836138e79")
     (attr smd)
-    (fp_text reference "R2" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R2" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f5d8472d-146b-4410-8c04-6d0de6267547)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc57ec9d-24f2-4da1-ba51-0d60991b629f)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 4d3157a4-344d-4779-bec0-63a2a7d4102a)
     )
@@ -2679,15 +2681,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/a8e30eb7-902b-49fb-8e6f-9fd22dfab107")
     (attr smd)
-    (fp_text reference "R11" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R11" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8c05421c-a560-42cc-a114-de41fdaeda6e)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0738c21c-bcdd-4d19-8817-b65306a4b5cb)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 2832af59-6cce-42ea-8b6d-24bbd9af60df)
     )
@@ -2733,15 +2735,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/d2a714bc-df70-4037-9299-28356f0b6b17")
     (attr smd)
-    (fp_text reference "R29" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R29" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c313ba93-ab6a-49e8-939a-699dd3ccfc6b)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d098fa0d-be91-4a9b-97c0-fb14f7737b4c)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 84fa3b99-bd48-40dc-a7e1-2373dbd7f494)
     )
@@ -2787,15 +2789,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/2183771b-fdc6-423a-8ebd-a6e816b0772d")
     (attr smd)
-    (fp_text reference "R18" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R18" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d72c2ae1-f50f-492b-b997-d67c1f5e2c5b)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f877a22b-4e15-464a-9752-22023d7b101c)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 8057b345-1fd0-4cd5-962a-369c004e36fa)
     )
@@ -2839,15 +2841,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/9f6026e2-ab22-4c6c-94f7-72712eefff17")
     (attr smd)
-    (fp_text reference "LED9" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED9" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e39bfafc-b34a-4fcd-a52e-fe1f9f2123c5)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 38011311-b560-4ac8-a626-ac24bc7cc661)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 844f4b40-3acf-4c90-805d-655e53aaa59d)
     )
@@ -2964,15 +2966,15 @@
     (property "ki_keywords" "BLM18KG102SH1D")
     (path "/26322d2e-d670-456c-b8ed-eda50937a76e")
     (attr smd)
-    (fp_text reference "R5" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "R5" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 79f12469-8f90-49df-bf1e-8a736d9ff0ba)
     )
-    (fp_text value "BLM18KG102SH1D" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "BLM18KG102SH1D" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cb197f14-b9e7-4b63-9225-b7bb6b3e34f6)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 965a707b-7436-4128-a22e-362dc6f26691)
     )
@@ -3037,15 +3039,15 @@
     (property "Sheetname" "")
     (path "/833cabe2-94a0-41f2-84b9-9df48837bdcc")
     (attr smd)
-    (fp_text reference "D13" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D13" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c5e1d8c6-1113-4445-aceb-169fa5b36791)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ab24463a-cfbf-4204-ab7a-2026098e1be7)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e8760eb6-1cb2-4a84-8c04-d0fe8d59d4c0)
     )
@@ -3060,15 +3062,15 @@
     (property "Sheetname" "")
     (path "/dd6f59cf-67ee-418f-b011-a4da72e150ff")
     (attr smd)
-    (fp_text reference "D23" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D23" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e40fd9aa-675d-428e-8588-9699af59417b)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 65d182ee-1d71-400f-a1dd-4b2bf17bf174)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2d62244c-92f3-4540-a5c5-81143e25c4ad)
     )
@@ -3085,15 +3087,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/c57b06ac-01d1-42dc-b7ed-dafe967088c3")
     (attr smd)
-    (fp_text reference "LED13" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED13" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fbcef936-47a0-429c-acee-e92a498942b3)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7dc20c9a-5e53-4376-a0fa-41963347519e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3fd5550f-eaab-42fc-9b51-06bf3eeacb21)
     )
@@ -3210,15 +3212,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/f3534548-9b2c-4348-9326-b3e7ab823a97")
     (attr smd)
-    (fp_text reference "LED15" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED15" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 322aba2a-6fd5-42d4-bced-51ff5134c3e6)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b64134cc-9680-4dc7-85f0-c6aca5969cec)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3cd87985-8299-4440-bb2e-87fefde1edc4)
     )
@@ -3335,31 +3337,31 @@
     (property "ki_keywords" "DMT10H009LK3-13")
     (path "/53eb4134-1766-4e07-b414-28cd62361aaa")
     (attr smd)
-    (fp_text reference "Q4" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "Q4" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9796b203-7662-4f6f-8d84-28147fa3d435)
     )
-    (fp_text value "DMT10H009LK3-13" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "DMT10H009LK3-13" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1fb88b34-d22a-4ce7-87a2-143eac66c54f)
     )
-    (fp_text user "*" (at -5.207 5.1562) (layer "F.SilkS")
+    (fp_text user "*" (at -5.207 5.1562) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0f25bd3d-75fe-475a-be77-625b264dfb17)
     )
-    (fp_text user "*" (at -5.207 5.1562 unlocked) (layer "F.SilkS")
+    (fp_text user "*" (at -5.207 5.1562 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fff5180d-f089-48d3-9b9a-62698077f43c)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 46490e23-aeb1-4ac0-bc21-c6e3da3028fa)
     )
-    (fp_text user "*" (at -2.286 2.8448 unlocked) (layer "F.Fab")
+    (fp_text user "*" (at -2.286 2.8448 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 81326261-fd79-4dbb-91fe-f5cd33ec0dea)
     )
-    (fp_text user "*" (at -2.286 2.8448) (layer "F.Fab")
+    (fp_text user "*" (at -2.286 2.8448) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9f4d5319-b4fd-4e6a-9242-224495b56ca5)
     )
@@ -3447,7 +3449,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "F.Cu")
     (tstamp 5189c6bc-4039-458b-a31a-3efe0e320dfa)
-    (at 52.7425 50.8)
+    (at 45.5168 48.4632)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Main_PCB_002.kicad_sch")
@@ -3456,15 +3458,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/b6a40e70-91dc-4a30-97f9-49f803815efe")
     (attr smd)
-    (fp_text reference "R15" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R15" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 22a19f05-c303-46e8-9188-acfe698403e5)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8d3d25ba-ee2a-47d0-85a4-065756fe6d3e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp dcf7c99f-f983-4ed0-9e6f-5cb5f6d95162)
     )
@@ -3510,15 +3512,15 @@
     (property "ki_keywords" "zener diode")
     (path "/557ad12f-aa97-43d9-8802-4b622b449a99")
     (attr smd)
-    (fp_text reference "D19" (at -0.127 -1.905) (layer "F.SilkS")
+    (fp_text reference "D19" (at -0.127 -1.905) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 08234a60-af24-41e3-9713-5a6df972293c)
     )
-    (fp_text value "BZT52Bxx" (at 0 2.1) (layer "F.Fab")
+    (fp_text value "BZT52Bxx" (at 0 2.1) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c4cfb2d-0a56-4128-b6f0-7039f76a89fd)
     )
-    (fp_text user "${REFERENCE}" (at -0.127 -1.905) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.127 -1.905) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 65312f99-aab2-4346-91dc-a52f73b117c0)
     )
@@ -3576,15 +3578,15 @@
     (property "Sheetname" "")
     (path "/cce9f9c6-ef17-435f-b173-a5f2d24c6286")
     (attr smd)
-    (fp_text reference "D16" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D16" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c401f919-5a65-4897-b259-d360a1752e00)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 26f0d594-4e12-49ae-8205-9b9a16daf0d8)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 07096528-0800-4056-bd80-51d21f29b26c)
     )
@@ -3594,7 +3596,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 5d580293-5c95-4336-bb0b-78b2e9bea909)
-    (at 50.8 44.0425 90)
+    (at 47.9552 44.0436 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "Main_PCB_002.kicad_sch")
@@ -3603,15 +3605,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/5b0ebeaa-666f-455f-a64f-8f8e5b3c1760")
     (attr smd)
-    (fp_text reference "C12" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C12" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f04106ce-c29f-422f-9aaa-e13f34904767)
     )
-    (fp_text value "C" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.43 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e4a021b8-7bf1-46a6-9930-fe2b0b4e7a56)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab") hide
         (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp c18ef008-9988-4c36-a720-dcbe17a74eea)
     )
@@ -3657,15 +3659,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/2263e678-9bfe-4290-8972-f179acf4aaac")
     (attr smd)
-    (fp_text reference "R27" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R27" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2e5b1c22-af44-40b2-bcbc-4259f5651ec1)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9064c14b-fb44-4540-ad41-9bdf4647ba82)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 12cf8f3a-8759-4e03-b008-62f567658727)
     )
@@ -3711,15 +3713,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/6fa87e17-5d20-466f-b4cf-14ab52c0636c")
     (attr smd)
-    (fp_text reference "R30" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R30" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f75db63d-e779-4fa1-b666-8311fbca2f57)
     )
-    (fp_text value "R" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dc2e1c52-3e18-44d3-b359-c5b753cd321d)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp a269ecc9-6167-415f-849e-e6cdfea3f1f6)
     )
@@ -3763,15 +3765,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/7895687a-31c7-4ba0-9725-cb9f8f1bab14")
     (attr smd)
-    (fp_text reference "LED12" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED12" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eed72d7b-bfe2-404e-860c-e91fff20cd32)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ce5a648d-7d4e-426d-83bc-ead40ec58f11)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7ba293ca-9044-4190-bfe9-c83e82c8c538)
     )
@@ -3886,15 +3888,15 @@
     (property "Sheetname" "")
     (path "/858a7b86-4fed-4378-936c-4563fc41d60e")
     (attr smd)
-    (fp_text reference "D12" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D12" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5ae7525b-c901-4e93-a614-4be494c93c21)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f53c55ca-8f3f-482d-82fa-f12a24ea7a2d)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 952216d1-a243-4718-937c-8e655dda2e53)
     )
@@ -3909,15 +3911,15 @@
     (property "Sheetname" "")
     (path "/8b5a334a-0cd2-4b9b-9ec6-3c85d1db82c0")
     (attr smd)
-    (fp_text reference "D7" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D7" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d6c21bbc-a885-4c8e-b4b4-174b46c195a4)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e3ef59a3-1c55-4e35-9c7e-4d9cf3fc8927)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 53f3c2f8-3424-41be-b58c-127c0460a189)
     )
@@ -3936,15 +3938,15 @@
     (property "ki_keywords" "N-Channel MOSFET")
     (path "/0f6890b8-c2fb-46d3-8084-6af1a7aea272")
     (attr smd)
-    (fp_text reference "Q6" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "Q6" (at 0 -2.4) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 26ffbc2e-f614-439f-b894-158d414324cc)
     )
-    (fp_text value "BSS123" (at 0 2.4) (layer "F.Fab")
+    (fp_text value "BSS123" (at 0 2.4) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp af047fe1-f940-4ff4-a20a-406f24db61a9)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.32 0.32) (thickness 0.05)))
       (tstamp dedf691a-8516-4d44-adf5-9f01cc5fa040)
     )
@@ -4007,15 +4009,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/f008fac5-3c4f-4eff-828f-0e7d01b54e6b")
     (attr smd)
-    (fp_text reference "C7" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C7" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eb2fe752-b848-4b26-bcdf-3e25c659e16a)
     )
-    (fp_text value "C" (at 0 1.16) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.16) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 39885160-7d5d-4344-a7c5-c2f1ed62e03e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.25 0.25) (thickness 0.04)))
       (tstamp db926ed3-8aaa-4c25-9abe-2bc86027e6aa)
     )
@@ -4061,15 +4063,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/01e8ffc4-fd34-4fcb-bb87-a8f147d8d867")
     (attr smd)
-    (fp_text reference "R24" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R24" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1b37a7c4-f6fd-4b29-be82-5456a1152525)
     )
-    (fp_text value "R" (at 0.525 0.27) (layer "F.Fab")
+    (fp_text value "R" (at 0.525 0.27) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 15cb7979-bed5-4071-9bed-6712610e9c78)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 48a5e033-571d-4b6d-bb6a-1b0a08f7ce75)
     )
@@ -4115,15 +4117,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/d31cb096-a579-4238-8067-d6af96a0c0fb")
     (attr smd)
-    (fp_text reference "R28" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R28" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b2dcd03b-ad6d-4f65-83cc-c7e8d0582ec2)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2a22aa6c-11c5-426d-91a1-aaf5609da414)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 029cbad2-6c5b-4ec8-a453-0e3bf20f8058)
     )
@@ -4165,15 +4167,15 @@
     (property "Sheetname" "")
     (path "/a8db5249-2ed2-46e5-a100-5655653f071c")
     (attr smd)
-    (fp_text reference "D8" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D8" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3d1786d3-9faf-4c3c-bdba-b6cc4aa7f5a5)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 46ef90e0-adda-4379-a0d2-a25b7c5c95a7)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4fa21d86-f7bf-4653-9c79-a309cd40b208)
     )
@@ -4188,15 +4190,15 @@
     (property "Sheetname" "")
     (path "/7157bf48-9cbc-4fbb-8fe7-c429c65a8527")
     (attr smd)
-    (fp_text reference "D9" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D9" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8b9273dc-b887-4f26-9664-382101552d10)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0b05b82e-6fe2-4e0c-b6be-3a5a4800e16a)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 90993f45-d3f9-4c9c-bc77-2e9ed825d24d)
     )
@@ -4215,15 +4217,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/27478ef8-4a3d-4bfb-806b-9c89626364a8")
     (attr smd)
-    (fp_text reference "C14" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C14" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aa4433d7-2c6c-4e58-a2be-0921120690e5)
     )
-    (fp_text value "C" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7f26c8e5-f1e1-4ea2-9c26-062aafc147e0)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp dd521045-3b87-4a31-b2e6-a054e0fd1e6a)
     )
@@ -4258,6 +4260,60 @@
     )
   )
 
+  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "F.Cu")
+    (tstamp 71711dc0-f388-44f7-813a-d40840fa770a)
+    (at 47.9044 48.4632 180)
+    (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "resistor handsolder")
+    (property "Sheetfile" "Main_PCB_002.kicad_sch")
+    (property "Sheetname" "")
+    (property "ki_description" "Resistor")
+    (property "ki_keywords" "R res resistor")
+    (path "/f0058add-ecc6-4607-acca-48f396cce030")
+    (attr smd)
+    (fp_text reference "R39" (at 0 -1.17) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 217c59cb-a721-4bd8-b481-5f2b32260ab3)
+    )
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 2b4898b1-6e83-4797-8219-06165a7859b0)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+        (effects (font (size 0.26 0.26) (thickness 0.04)))
+      (tstamp 4e0e55ea-330c-465d-aabe-9d64910b7b21)
+    )
+    (fp_line (start -0.167621 -0.38) (end 0.167621 -0.38)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp bb34b3b0-9348-4732-9040-a98b1daaf553))
+    (fp_line (start -0.167621 0.38) (end 0.167621 0.38)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp d33a4bc4-7497-4624-972f-2585651caf85))
+    (fp_line (start -1.1 -0.47) (end 1.1 -0.47)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp e11f6386-b900-45f7-9d4d-839430b95573))
+    (fp_line (start -1.1 0.47) (end -1.1 -0.47)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 1484504d-e277-4fa6-b632-b37f7eae246e))
+    (fp_line (start 1.1 -0.47) (end 1.1 0.47)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 55b02039-45b6-4a5c-9a5d-a1e8b50d956c))
+    (fp_line (start 1.1 0.47) (end -1.1 0.47)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp ce559e40-2a00-451b-ab36-bfc36279461a))
+    (fp_line (start -0.525 -0.27) (end 0.525 -0.27)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a0bc2662-8089-496a-85ca-8f08c0116656))
+    (fp_line (start -0.525 0.27) (end -0.525 -0.27)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c84ce64b-e411-42e2-b882-a1b2922b05dc))
+    (fp_line (start 0.525 -0.27) (end 0.525 0.27)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp cf85b562-68bc-450f-b3f8-effa2487a0bd))
+    (fp_line (start 0.525 0.27) (end -0.525 0.27)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a23e4fa4-ff8a-4ad5-9440-211edf5526df))
+    (pad "1" smd roundrect (at -0.5975 0 180) (size 0.715 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 87 "Net-(C13-Pad1)") (pintype "passive") (tstamp 8d9da7da-b72a-4f9a-9507-098370fdfdf8))
+    (pad "2" smd roundrect (at 0.5975 0 180) (size 0.715 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 65 "Net-(D22-Conn)") (pintype "passive") (tstamp bf3fe9b2-5cd8-4fa6-be60-2e77e2b3d1ce))
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (footprint "Wire_holes:WireHole_1p2" (layer "F.Cu")
     (tstamp 7399c365-bb28-462d-8b5d-21eca10f8ade)
     (at 94.615 155.575)
@@ -4265,15 +4321,15 @@
     (property "Sheetname" "")
     (path "/dbc959af-6eec-40cd-8c46-51c283a0a7af")
     (attr smd)
-    (fp_text reference "D15" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D15" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3cb1280d-fd86-489e-931e-4cf4fcee46ea)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8bd4eb0a-7d1c-40ed-a6b6-6c4dd3e26bd4)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e0cb86f5-6b95-4d36-b1ab-afce2f6086ea)
     )
@@ -4288,20 +4344,74 @@
     (property "Sheetname" "")
     (path "/a19048ab-fbbd-4a80-a1a4-395ce55b360d")
     (attr smd)
-    (fp_text reference "D20" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D20" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ec928962-6a94-443c-855a-0a56153c8584)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a64565f9-e287-4b5e-969c-dbf8fc590304)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 64021c8f-dc42-4042-9d93-ea7e8368fb90)
     )
     (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 14 "Net-(D19-K)") (pinfunction "Conn") (pintype "bidirectional") (tstamp 99c953a9-4150-4f9c-b768-750721e642ba))
+  )
+
+  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "F.Cu")
+    (tstamp 76bda580-02ea-4f8c-82d2-20cda4e98cf4)
+    (at 42.8244 101.2444)
+    (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "resistor handsolder")
+    (property "Sheetfile" "Main_PCB_002.kicad_sch")
+    (property "Sheetname" "")
+    (property "ki_description" "Resistor")
+    (property "ki_keywords" "R res resistor")
+    (path "/63bc70bf-ab56-4a1a-902a-3da3540894bd")
+    (attr smd)
+    (fp_text reference "R40" (at 0 -1.17) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp dcb8a2ee-1a19-42f9-873f-b3d00724886c)
+    )
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 78fc50b1-8603-4ac6-9583-6c025d8324a7)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+        (effects (font (size 0.26 0.26) (thickness 0.04)))
+      (tstamp 7c2ae243-bb14-41b3-8431-305c14d40149)
+    )
+    (fp_line (start -0.167621 -0.38) (end 0.167621 -0.38)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 10a8b782-2957-4eb6-9236-4bcb9e349a61))
+    (fp_line (start -0.167621 0.38) (end 0.167621 0.38)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 765fc3e0-8142-41f3-8666-baa81229f705))
+    (fp_line (start -1.1 -0.47) (end 1.1 -0.47)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 20cd0336-c0d3-49c6-b261-c432519c3aa5))
+    (fp_line (start -1.1 0.47) (end -1.1 -0.47)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9138c211-621f-4362-bb57-449c4e4cdaa4))
+    (fp_line (start 1.1 -0.47) (end 1.1 0.47)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 86cb38ea-cd70-4873-a405-6615f3070b0a))
+    (fp_line (start 1.1 0.47) (end -1.1 0.47)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 92427491-ff5e-4979-b04f-fbdb8e28082b))
+    (fp_line (start -0.525 -0.27) (end 0.525 -0.27)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ae364ce8-bc3f-41bd-88bb-fd9e14343734))
+    (fp_line (start -0.525 0.27) (end -0.525 -0.27)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 49476790-327b-4f5b-bf05-c6d22a072fbb))
+    (fp_line (start 0.525 -0.27) (end 0.525 0.27)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7ef6d6bb-30ff-4a82-86cd-b8666816a7c4))
+    (fp_line (start 0.525 0.27) (end -0.525 0.27)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 67d91301-1858-4174-b8e0-305303807bb0))
+    (pad "1" smd roundrect (at -0.5975 0) (size 0.715 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 86 "Net-(C9-Pad1)") (pintype "passive") (tstamp 1bf6bf66-579e-4f9b-9d22-2f8926778f61))
+    (pad "2" smd roundrect (at 0.5975 0) (size 0.715 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 8 "Net-(D16-Conn)") (pintype "passive") (tstamp e0edd0a1-ef0e-4b2c-ab63-f6da4d534ee3))
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias" (layer "F.Cu")
@@ -4315,15 +4425,15 @@
     (property "ki_keywords" "step-down dc-dc buck regulator adjustable")
     (path "/7ef8be4b-71d6-42c9-9350-42adf3d6d260")
     (attr smd)
-    (fp_text reference "U2" (at 0 -3.4) (layer "F.SilkS")
+    (fp_text reference "U2" (at 0 -3.4) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 726af6d6-a1ce-489f-bb59-d0164b6c6be5)
     )
-    (fp_text value "LM5164DDA" (at 0 3.4) (layer "F.Fab")
+    (fp_text value "LM5164DDA" (at 0 3.4) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7c5c8777-67e2-44ba-9637-fba81f55936e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.98 0.98) (thickness 0.15)))
       (tstamp 90e0c7dd-d206-4f09-af58-75ae2d78b13c)
     )
@@ -4416,15 +4526,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/ddde07b7-9009-4259-bf98-12dd9a911b8a")
     (attr smd)
-    (fp_text reference "C2" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C2" (at 0 -1.68) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 793acfd2-77cc-4ac1-a895-c86093e9d2ed)
     )
-    (fp_text value "C" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.68) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1866bf38-4228-462c-8722-63412eb9b300)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp bdf7e842-0aad-43e6-b41b-3007908406a9)
     )
@@ -4466,15 +4576,15 @@
     (property "Sheetname" "")
     (path "/121ba969-2de8-4870-90b2-bf1ce0705bf8")
     (attr smd)
-    (fp_text reference "D24" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D24" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8fb763bc-de06-45b7-88e3-0716e31b05b2)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b1663e09-325f-4748-b11c-463fb4e3e41c)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 59edef98-178c-4d00-a190-9d13d0bcbae8)
     )
@@ -4484,7 +4594,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "F.Cu")
     (tstamp 82b5dcb3-581d-4138-b7be-b07aa37f6cb3)
-    (at 36.1575 50.8)
+    (at 40.7029 48.4632 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Main_PCB_002.kicad_sch")
@@ -4493,15 +4603,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/5efcdae9-b3f3-464b-916a-861d5096334d")
     (attr smd)
-    (fp_text reference "R9" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R9" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 15368357-5cfa-45b9-b8c5-96370e3caca7)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e13fc597-9824-428b-b6d9-cf5800783494)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp f55fd672-cb4c-4072-a835-a8ca5ec409ac)
     )
@@ -4525,9 +4635,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp bffd7cae-749a-4a24-b954-f80fe87a7a2a))
     (fp_line (start 0.525 0.27) (end -0.525 0.27)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 85ed4d6a-31e7-49a0-bbd0-c9d154b7cb35))
-    (pad "1" smd roundrect (at -0.5975 0) (size 0.715 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.5975 0 180) (size 0.715 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND2") (pintype "passive") (tstamp 2bc8f05f-606d-4e2c-b395-e474eb754ccf))
-    (pad "2" smd roundrect (at 0.5975 0) (size 0.715 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.5975 0 180) (size 0.715 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 79 "Net-(U2-RON)") (pintype "passive") (tstamp 20803401-13b0-49b4-ac1d-a656f69ffa8c))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
@@ -4538,7 +4648,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "F.Cu")
     (tstamp 8324ded5-1547-4a94-8fe5-98bdcd5bd41c)
-    (at 50.2025 50.8)
+    (at 43.0905 48.4632)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Main_PCB_002.kicad_sch")
@@ -4547,15 +4657,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/06955447-dfd3-42c0-9f56-fb3a9af6cb59")
     (attr smd)
-    (fp_text reference "R23" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R23" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 60b0b909-673c-49de-bfb1-a39e90826628)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 177dadea-3bce-4420-bb10-d541e349413a)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 711ca3e0-e363-4b3e-96cf-15d5671d25d9)
     )
@@ -4601,15 +4711,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/83a6fb8a-6a19-403c-9c7c-19bab671bc14")
     (attr smd)
-    (fp_text reference "R20" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R20" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 76218a4d-ceb6-405a-b0c6-8e0a39bc400e)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a7dc5e04-e8ec-4858-abc7-4e859d8e4dfb)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 929a3a14-046e-48ef-9f97-fcd4847994cd)
     )
@@ -4655,15 +4765,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/21d9e19f-85bd-45b5-a173-184e89956c22")
     (attr smd)
-    (fp_text reference "C9" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C9" (at 0 -1.68) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d86f062d-e12e-4836-89ca-c6f1e7a7aada)
     )
-    (fp_text value "C" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.68) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fd2ffce1-5bbe-4e71-8d8b-7ed9e01b620d)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp a0430d3e-02b8-4f20-9347-dbcc7dfadcdc)
     )
@@ -4688,7 +4798,7 @@
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 67b29538-aceb-492b-99c8-50e964ea1100))
     (pad "1" smd roundrect (at -0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 8 "Net-(D16-Conn)") (pintype "passive") (tstamp 3197bb31-ab19-4996-8be2-4c17e30cb536))
+      (net 86 "Net-(C9-Pad1)") (pintype "passive") (tstamp 3197bb31-ab19-4996-8be2-4c17e30cb536))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND2") (pintype "passive") (tstamp ff3e22b3-d79f-4ffc-a088-2bc1663009a0))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
@@ -4707,15 +4817,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/29277509-6af0-40c8-86c3-a557ab23f95c")
     (attr smd)
-    (fp_text reference "LED7" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED7" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2baa19f2-4642-4991-a753-75d76c786f3b)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e0f3ec14-4146-4f31-a58e-831a9776fb6d)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 639604c9-ebb9-465c-9fe7-27ab1fe67c23)
     )
@@ -4832,15 +4942,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/5f58f7ef-01d7-40c2-8193-265621ecabcc")
     (attr smd)
-    (fp_text reference "LED19" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED19" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4f75f85d-0616-4252-b4b7-16664490a433)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b259a3c0-0b2a-41ea-b65f-06dfdc47b862)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 94fe3bc3-5d48-43ed-aeba-6045719d9cab)
     )
@@ -4955,15 +5065,15 @@
     (property "Sheetname" "")
     (path "/b65bd8af-f692-49b4-9fd2-edc5d0d1c1d9")
     (attr smd)
-    (fp_text reference "D14" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D14" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b031a77e-15f2-4ceb-916b-a097662b34bc)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 574d2bba-19ef-49c7-a25f-151254108c5c)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5f63917c-7219-4370-aa54-cfeeed57b5b7)
     )
@@ -4980,15 +5090,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/d01e5caa-7fc5-4c5b-8e76-5f86c1a2b6cb")
     (attr smd)
-    (fp_text reference "LED16" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED16" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a9913027-448f-4e33-9e47-f34fd280cda8)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 893fe569-ee65-4b9f-ba90-dd54b0aa2870)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c6959c76-dcc9-4330-b638-aec69547427b)
     )
@@ -5103,15 +5213,15 @@
     (property "Sheetname" "")
     (path "/dbe6eb46-1648-4987-9ca8-238793a4a45c")
     (attr smd)
-    (fp_text reference "D26" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D26" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 83e24da3-9149-4de1-9e96-4c9235bb464d)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c5e0137b-a8d2-4a18-8dc2-1686d9a440cd)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0e5e0df5-aebf-444d-a44f-05100bdcc853)
     )
@@ -5128,15 +5238,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/8ce15db3-41f5-4dc0-baf1-a544b005770d")
     (attr smd)
-    (fp_text reference "LED5" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED5" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9c96cc74-2986-4376-81e1-c393c2c6073a)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d70cd900-1471-445b-992e-80329678adf2)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2a3bcb69-fc14-476b-8bff-1f94fc0ac35f)
     )
@@ -5246,7 +5356,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "F.Cu")
     (tstamp 9e6b6f16-c3cc-4530-9cb9-d4cce3032246)
-    (at 35.5975 95.25)
+    (at 38.2645 96.012)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Main_PCB_002.kicad_sch")
@@ -5255,15 +5365,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/35547b32-1496-4dee-ba9f-e4a10c974793")
     (attr smd)
-    (fp_text reference "R12" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R12" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cc76eb87-88c1-4a89-b282-5f688f33dbe1)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6ff518ee-6164-4c39-b724-2522052abae0)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp f1cc2b1d-aaaf-4538-b202-68c67852b657)
     )
@@ -5309,15 +5419,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/4225b1c1-fa7c-4bb5-b659-6ef55b3ad4a8")
     (attr smd)
-    (fp_text reference "R1" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R1" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4cd300df-444b-478d-962c-c48d08612dde)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a5743ce7-0671-4ed5-93e4-258d93284aff)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp b73c9d30-fb37-4ce7-8266-f01585fef1e8)
     )
@@ -5363,15 +5473,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/b886d81f-9eea-4074-8135-6ee6ce075f64")
     (attr smd)
-    (fp_text reference "R7" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R7" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3160f54f-d19b-4682-b2e6-e097bdf06f52)
     )
-    (fp_text value "R" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fea3a49c-05d8-4773-aff5-f029f96bd823)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 3f3e35df-379b-4067-b005-b8637a9d31ad)
     )
@@ -5417,15 +5527,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/bd47044e-e7e3-4fa9-9cb6-ccbef7a15b3d")
     (attr smd)
-    (fp_text reference "C6" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C6" (at 0 -1.68) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7b764aac-0101-4228-b7ba-6e7e412486a4)
     )
-    (fp_text value "C" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.68) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 68e1b2fd-5e6f-4674-9fd2-5dcb67b0efd3)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 3bcbaf5c-4dac-4518-9783-a58c4460854f)
     )
@@ -5471,15 +5581,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/36f047e8-4296-4652-8e3d-a3cfb143c836")
     (attr smd)
-    (fp_text reference "R37" (at 0 0.1) (layer "F.SilkS")
+    (fp_text reference "R37" (at 0 0.1) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1dd19de7-d1ce-4c13-8ba4-2df42dbdfa8f)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ae3da281-b2b4-40c6-b52e-9651938707da)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp a143bcb8-82b7-43a1-a494-7dcc294962d3)
     )
@@ -5521,15 +5631,15 @@
     (property "Sheetname" "")
     (path "/e7857e8c-3290-4c5e-961f-ff64d35ff280")
     (attr smd)
-    (fp_text reference "D17" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D17" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3fa32bec-fb9f-4eeb-8df6-262e6fd19699)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cc5c9c22-f325-4728-8e9a-10615e9d4e8e)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1cdc1908-873f-4b10-be3b-cf445ae30ae2)
     )
@@ -5546,15 +5656,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/b93f3232-1cea-4248-9f19-903dd0a8d6a4")
     (attr smd)
-    (fp_text reference "LED4" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED4" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 89f84e93-29c8-4a3c-8853-8a4c5d924ba6)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9e1a6afa-66ef-49a8-a73c-e540eb5614fe)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3242c95c-c62b-4cb4-892f-9e59d8f6a319)
     )
@@ -5673,15 +5783,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/d1e64736-41c7-419c-bfd4-373e56181a83")
     (attr smd)
-    (fp_text reference "R35" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R35" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bac5a1ed-4306-45dc-98ba-03e417a8134e)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 70cbafb6-83d3-44cb-af3a-425288588e4c)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp e65c0d5c-0818-4ceb-b7e6-b37743b8f8de)
     )
@@ -5725,15 +5835,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/4c07e150-4b7a-46be-ab64-417d6db2c11d")
     (attr smd)
-    (fp_text reference "LED3" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED3" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5b805adb-70a7-4e78-99d6-f19536c5186d)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 25f6242f-acf9-44e4-9044-7bc172401420)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cb725510-58a7-4de5-a792-6b36953197e5)
     )
@@ -5852,15 +5962,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/2a9b7402-3de9-460d-8d17-bbad5a9ad57a")
     (attr smd)
-    (fp_text reference "R36" (at 0.0375 0.1) (layer "F.SilkS")
+    (fp_text reference "R36" (at 0.0375 0.1) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6217fc58-de15-4c1c-a22f-80cbb6a7d830)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c9470052-9bbd-4365-baa8-1fccffccb8e6)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 1127fa5f-0a2f-4cd7-bc8d-f6b9b7be830f)
     )
@@ -5902,15 +6012,15 @@
     (property "Sheetname" "")
     (path "/a5d59890-a41f-4851-be79-944118aaaccb")
     (attr smd)
-    (fp_text reference "D2" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D2" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c4284cb8-daaf-4646-a51d-2a3e69059829)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7d0b980a-c02b-4085-8036-f678421fb55a)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c6f7dd95-3770-4dd2-8151-d6642fd9e144)
     )
@@ -5927,15 +6037,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/8a4a7679-1970-49c7-9dcb-62b31621d977")
     (attr smd)
-    (fp_text reference "LED23" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED23" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 61289d67-e7a7-439a-977b-9b108caa1f55)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 52192e22-791d-4ef2-a755-ba58eabf90e2)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e49c0c8b-4869-4429-8416-7ed52c3ee558)
     )
@@ -6052,31 +6162,31 @@
     (property "ki_keywords" "DMT10H009LK3-13")
     (path "/369c30d6-664c-4bff-980d-e922ff228b87")
     (attr smd)
-    (fp_text reference "Q3" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "Q3" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 88b2d8c1-c18b-4cfe-9eac-ea905b6b3bfd)
     )
-    (fp_text value "DMT10H009LK3-13" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "DMT10H009LK3-13" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3c6aebbe-1acf-4e9b-b77a-89c40b2be8b9)
     )
-    (fp_text user "*" (at -5.207 5.1562 unlocked) (layer "F.SilkS")
+    (fp_text user "*" (at -5.207 5.1562 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 34906849-216d-4f30-bc24-76cc88ee9317)
     )
-    (fp_text user "*" (at -5.207 5.1562) (layer "F.SilkS")
+    (fp_text user "*" (at -5.207 5.1562) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 66ae5fa4-f25d-43be-955b-036ecf53fb4a)
     )
-    (fp_text user "*" (at -2.286 2.8448 unlocked) (layer "F.Fab")
+    (fp_text user "*" (at -2.286 2.8448 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 578fffb0-b2e2-48d5-9d23-2bb64fe7d192)
     )
-    (fp_text user "*" (at -2.286 2.8448) (layer "F.Fab")
+    (fp_text user "*" (at -2.286 2.8448) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 77b6f4bf-e0f2-44a8-85a9-90aa67724462)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e12e7b74-53fe-4aaf-9d57-b237aa4b5336)
     )
@@ -6171,15 +6281,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/2f492f35-8fff-4dc9-b4ab-179774d77f77")
     (attr smd)
-    (fp_text reference "LED17" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED17" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0e3b9ba5-4b4d-4d44-a260-82cdb0797208)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1b4bc378-7a1b-471b-b0aa-42bb5936a898)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 74b77cc2-8b88-4c16-b6b6-37a7f915229d)
     )
@@ -6296,31 +6406,31 @@
     (property "ki_keywords" "L6388ED")
     (path "/40feb86f-2626-4370-956e-80df46ce0269")
     (attr smd)
-    (fp_text reference "CR1" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "CR1" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1d45d06c-6064-4484-a922-62e0206c96b0)
     )
-    (fp_text value "L6388ED" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "L6388ED" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6bfdb153-13b1-42ac-8c79-fc1fa496b6f0)
     )
-    (fp_text user "*" (at -2.7178 -3.5814 unlocked) (layer "F.SilkS")
+    (fp_text user "*" (at -2.7178 -3.5814 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9f364015-7c25-458d-830b-fc7bc74e3c2e)
     )
-    (fp_text user "*" (at -2.7178 -3.5814) (layer "F.SilkS")
+    (fp_text user "*" (at -2.7178 -3.5814) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e93e490e-c9d4-479f-a470-453b9f4baccd)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 08c2097c-916f-4931-b080-bcf87f7337de)
     )
-    (fp_text user "*" (at -1.6256 -2.4257 unlocked) (layer "F.Fab")
+    (fp_text user "*" (at -1.6256 -2.4257 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a3ba6a1d-5f8f-4c45-acc6-aa228f9cc633)
     )
-    (fp_text user "*" (at -1.6256 -2.4257) (layer "F.Fab")
+    (fp_text user "*" (at -1.6256 -2.4257) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ff03f870-6bd1-44b8-ba0c-9abd3cf547dd)
     )
@@ -6453,15 +6563,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/3129e450-eae0-426d-9e9f-a8dfae2d5f0a")
     (attr smd)
-    (fp_text reference "LED21" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED21" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6c430b4c-4c0b-4996-ae0d-0d9cd2565fa4)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a04514a8-e1c5-41dd-bb8d-91b2b8e21216)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eee7b188-6c2f-4a39-91fa-f251f829bd8f)
     )
@@ -6580,15 +6690,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/3b174c4f-55ad-491c-b66e-fc4d85326db1")
     (attr smd)
-    (fp_text reference "R4" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R4" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3f1d62d0-23ee-4fa1-93a2-9132d346ae3c)
     )
-    (fp_text value "R" (at 0.2775 1.27) (layer "F.Fab")
+    (fp_text value "R" (at 0.2775 1.27) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp db815303-a2fd-4b9c-a460-098206526401)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp f452351a-95b4-4f95-aa68-7373fa619613)
     )
@@ -6630,15 +6740,15 @@
     (property "Sheetname" "")
     (path "/3969f735-4d36-49a5-ae94-72e7daf67265")
     (attr smd)
-    (fp_text reference "D28" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D28" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bc077b48-5ce3-4beb-9354-00fac0b50fca)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5814663c-22b6-4267-b100-4f2726c7d1b8)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b7c83ba2-a6a3-44c9-a52d-4e19d524a4b2)
     )
@@ -6648,7 +6758,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "F.Cu")
     (tstamp bcd825f7-1b67-44cf-b56b-ac0176287e45)
-    (at 40.0425 97.79)
+    (at 40.64 96.012)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Main_PCB_002.kicad_sch")
@@ -6657,15 +6767,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/ccd3c022-a2d4-485c-9400-127a72607442")
     (attr smd)
-    (fp_text reference "R13" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R13" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b4676788-4955-4fe4-bc8e-f3a1ac168bb1)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e1a14a1c-def6-48c7-9107-d6a9d5810ac7)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp e85b279d-2c1b-4a81-8497-846aaa9b26e0)
     )
@@ -6711,15 +6821,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/c63899c0-a29e-4014-b178-ce5fdefa3e2f")
     (attr smd)
-    (fp_text reference "R8" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R8" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 73634bb3-e3a6-496a-8cb7-d02b329d6a2b)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc44e121-95cf-4722-ac2d-2b16283174b7)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 580d0df2-327c-4ddc-8329-1c24758afd91)
     )
@@ -6763,15 +6873,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/863ed23f-5ec0-4a05-86c1-005284260501")
     (attr smd)
-    (fp_text reference "LED6" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED6" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5e9ab92f-bd29-4d47-92f5-6c2b9097aa24)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5be4d905-fe8b-446d-86b8-d20984a0cb6f)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b4ba3770-63c8-40a0-8d58-002817022afe)
     )
@@ -6890,15 +7000,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/2cdffa07-3f71-4531-9187-715892c7218a")
     (attr smd)
-    (fp_text reference "R33" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R33" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f2e927ec-5070-4783-9e45-188f797118f2)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d223c384-405a-425f-a76a-4d4a2d68a5a6)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 0ae3b1d7-6f4a-4f58-b63f-a641c36b4b9e)
     )
@@ -6942,31 +7052,31 @@
     (property "ki_keywords" "DMT10H009LK3-13")
     (path "/f8177839-d216-4843-ba5d-61b2e6ca33a1")
     (attr smd)
-    (fp_text reference "Q1" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "Q1" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a44fe503-885b-4f7f-b054-31fd16b9b40b)
     )
-    (fp_text value "DMT10H009LK3-13" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "DMT10H009LK3-13" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 188ac67a-60c7-4dce-8da2-cf31089f87f6)
     )
-    (fp_text user "*" (at -5.207 5.1562) (layer "F.SilkS")
+    (fp_text user "*" (at -5.207 5.1562) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3d4dafa8-749a-488e-901d-9b41f007516e)
     )
-    (fp_text user "*" (at -5.207 5.1562 unlocked) (layer "F.SilkS")
+    (fp_text user "*" (at -5.207 5.1562 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e01ec924-6f93-484f-b156-fcf72c115ff6)
     )
-    (fp_text user "*" (at -2.286 2.8448 unlocked) (layer "F.Fab")
+    (fp_text user "*" (at -2.286 2.8448 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 535c4e1a-d2db-47ba-a5fb-59e0a5f08bec)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b9232e6e-e276-42fb-8196-efb07d19b351)
     )
-    (fp_text user "*" (at -2.286 2.8448) (layer "F.Fab")
+    (fp_text user "*" (at -2.286 2.8448) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc39c61a-3ad0-4dfa-9ac4-1a4d62cfdbdb)
     )
@@ -7063,15 +7173,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/1df8b161-13ce-4c3e-8ab0-41ac34ba8b7a")
     (attr smd)
-    (fp_text reference "R25" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R25" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d7b2c8f7-c27a-44b5-bf0d-52cc97734cfd)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 119e2ca3-35bc-4480-9d92-c7b5fd58de68)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp 66145fdb-947d-4ea4-89ab-f89c26304a17)
     )
@@ -7115,15 +7225,15 @@
     (property "ki_keywords" "SI7489DP-T1-E3")
     (path "/38166ba3-d27f-4f30-9a36-9ad1fb5a9bce")
     (attr smd)
-    (fp_text reference "U4" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "U4" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ef761336-505c-4cc2-8ff3-25790bb7ed75)
     )
-    (fp_text value "SI7489DP-T1-E3" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "SI7489DP-T1-E3" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d83e2ece-00a2-4d68-ba68-0f32a2672f16)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 65fb7f01-f75e-4291-bf2e-12a89fe9de55)
     )
@@ -7231,15 +7341,15 @@
     (property "ki_keywords" "N-Channel MOSFET")
     (path "/0d11d489-5518-4f8c-a7bc-d894a70b0098")
     (attr smd)
-    (fp_text reference "Q7" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "Q7" (at 0 -2.4) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d3d55847-6d6b-4c6a-ab68-b3eabf55cd9e)
     )
-    (fp_text value "BSS123" (at 0 2.4) (layer "F.Fab")
+    (fp_text value "BSS123" (at 0 2.4) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7cbe80b7-dc88-45e7-971b-6d4639a2c99e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.32 0.32) (thickness 0.05)))
       (tstamp 41828fe7-f7c2-4577-88e6-2dd5fc7601f7)
     )
@@ -7300,31 +7410,31 @@
     (property "ki_keywords" "TLV9061IDCKR")
     (path "/bbe63bfc-e192-4ec1-bba1-61b1eb9aae42")
     (attr smd)
-    (fp_text reference "U1" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "U1" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5b9bf43a-2f23-4e88-878b-375339ef0762)
     )
-    (fp_text value "TLV9061IDCKR" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "TLV9061IDCKR" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1bb096e1-2a26-4503-bf32-864946f405ac)
     )
-    (fp_text user "*" (at -1.2192 -2.0978) (layer "F.SilkS")
+    (fp_text user "*" (at -1.2192 -2.0978) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 782a96df-1368-4529-aeaf-df94a8671ff1)
     )
-    (fp_text user "*" (at -1.2192 -2.0978 unlocked) (layer "F.SilkS")
+    (fp_text user "*" (at -1.2192 -2.0978 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a15aead0-0a16-45e3-8e8c-39fb17e2ef76)
     )
-    (fp_text user "*" (at -0.4445 -1.1326 unlocked) (layer "F.Fab")
+    (fp_text user "*" (at -0.4445 -1.1326 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 60fa6db2-2bf9-498e-a669-c5da9dad9b87)
     )
-    (fp_text user "*" (at -0.4445 -1.1326) (layer "F.Fab")
+    (fp_text user "*" (at -0.4445 -1.1326) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 85db168e-1cdf-448f-b7ab-9bdd8aa5bb2e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d73f3a5f-2112-4bed-9ca9-18510a9456a9)
     )
@@ -7431,15 +7541,15 @@
     (property "ki_keywords" "step-down dc-dc buck regulator adjustable")
     (path "/33aaf3d1-f4e6-4d89-9143-6d9ca80750a3")
     (attr smd)
-    (fp_text reference "U3" (at 0 -3.4) (layer "F.SilkS")
+    (fp_text reference "U3" (at 0 -3.4) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 16b7095d-4243-4199-b989-c37c8e39f7cd)
     )
-    (fp_text value "LM5164DDA" (at 0 3.4) (layer "F.Fab")
+    (fp_text value "LM5164DDA" (at 0 3.4) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8236eeaf-6e17-450c-9e2c-7411d679be7e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.98 0.98) (thickness 0.15)))
       (tstamp ebb019d5-5253-44a4-a37b-badb66e54b42)
     )
@@ -7530,15 +7640,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/fa930a78-cb23-4f04-bb11-f2aa67aff19f")
     (attr smd)
-    (fp_text reference "LED8" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED8" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b4fc3bca-8656-4545-b7cd-953f4650297c)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 234cb671-651e-4d9a-98f8-1924fa0ca0bd)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 57150269-0c07-479c-89ab-32b7f6fab688)
     )
@@ -7653,15 +7763,15 @@
     (property "Sheetname" "")
     (path "/e8cdd8f1-b2f8-442c-92a7-a4a370db0ec5")
     (attr smd)
-    (fp_text reference "D25" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D25" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6702b0de-e1b9-426e-868c-1f6508674c70)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bf36715d-3435-4f51-bc6a-ad924bf87273)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0c5b8aab-ab7b-44eb-93cb-733bdc326dc9)
     )
@@ -7676,15 +7786,15 @@
     (property "Sheetname" "")
     (path "/f269bf4c-c63e-47f3-8abc-8c38e148547b")
     (attr smd)
-    (fp_text reference "D10" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D10" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp addbf286-a8c0-47fa-a2b4-b4d99752174e)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6bff8c16-62ee-4070-bb9c-4f6598aef477)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a7a4d397-ebf9-4959-a406-299c2387bd2a)
     )
@@ -7701,15 +7811,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/a4ef3671-d4d8-4ba2-b05b-7d6fd74ef84c")
     (attr smd)
-    (fp_text reference "LED11" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED11" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f87dd438-1138-4d68-a768-64b5a8196cce)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fea29827-1d88-4657-ada3-6834cca619ab)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 798ca244-ce17-4b96-9f1f-91a8068aa982)
     )
@@ -7828,15 +7938,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/aaf3a132-4997-4e42-a36b-5ef44af060fa")
     (attr smd)
-    (fp_text reference "C5" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C5" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0ba834cc-1172-47de-a08f-303340a98820)
     )
-    (fp_text value "C" (at 0 1.16) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.16) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 081c2d42-ea84-482e-a3a4-8c8d49faa4bf)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.25 0.25) (thickness 0.04)))
       (tstamp e2d48aed-50f6-4c50-a35e-0f53677d70eb)
     )
@@ -7882,15 +7992,15 @@
     (property "ki_keywords" "N-Channel MOSFET")
     (path "/eb658a90-694a-4543-a639-f06535308409")
     (attr smd)
-    (fp_text reference "Q8" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "Q8" (at 0 -2.4) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 98944ea6-fd26-4b3c-987a-25bf0cba5f2a)
     )
-    (fp_text value "BSS123" (at 0 2.4) (layer "F.Fab")
+    (fp_text value "BSS123" (at 0 2.4) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a76c849-64b5-4211-ae81-0992ae96d361)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.32 0.32) (thickness 0.05)))
       (tstamp f7a99f22-4c24-4414-b071-0416058caf81)
     )
@@ -7953,15 +8063,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/28782b9c-e5c8-48c1-98a8-1ee118d565c1")
     (attr smd)
-    (fp_text reference "R14" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R14" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7122f1d3-f0e8-43b0-8043-b40be9e56006)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 87cddfa0-4c1d-4751-965c-be443941e0b1)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp a9658821-625e-464f-ae3a-2f822c87a549)
     )
@@ -8007,15 +8117,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/0e77c46b-8090-4321-90d3-c3ca36ccc7fd")
     (attr smd)
-    (fp_text reference "R3" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R3" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 345640cf-cf76-4a24-b7e6-f78aa21f4b25)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c38f35fd-da35-4f3b-9aa2-e7a77bb6ea95)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp bf40a73e-7758-403f-baa4-4f97a90b294c)
     )
@@ -8059,31 +8169,31 @@
     (property "ki_keywords" "TLV9061IDCKR")
     (path "/9b4e7a44-14e5-4980-9522-7ff12b665e43")
     (attr smd)
-    (fp_text reference "U5" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "U5" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cce72069-8ddc-4af7-b438-32a52562300d)
     )
-    (fp_text value "TLV9061IDCKR" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "TLV9061IDCKR" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2b325a2b-a68a-4730-9e49-af1f4955a49c)
     )
-    (fp_text user "*" (at -1.2192 -2.0978) (layer "F.SilkS")
+    (fp_text user "*" (at -1.2192 -2.0978) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 05aac09a-c074-4a9d-8f96-019d4529c7be)
     )
-    (fp_text user "*" (at -1.2192 -2.0978 unlocked) (layer "F.SilkS")
+    (fp_text user "*" (at -1.2192 -2.0978 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4dd5f8ec-47d2-41ce-a504-51560136a902)
     )
-    (fp_text user "*" (at -0.4445 -1.1326 unlocked) (layer "F.Fab")
+    (fp_text user "*" (at -0.4445 -1.1326 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0593485a-9af1-4859-bffc-059b84110ac5)
     )
-    (fp_text user "*" (at -0.4445 -1.1326) (layer "F.Fab")
+    (fp_text user "*" (at -0.4445 -1.1326) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9b6dc100-4f32-4a22-a603-0f51ef4fa460)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aec11177-c0a9-4da2-a970-412312648430)
     )
@@ -8190,15 +8300,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/c24618e8-89ff-4ade-a7d7-cc30e7a1b083")
     (attr smd)
-    (fp_text reference "C11" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C11" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0d8d79c8-c5f8-40e3-91f6-ec1ca7cb38d9)
     )
-    (fp_text value "C" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9b3cfa84-fe82-42fa-852a-932fb9f4ca11)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 44d636a8-f2ad-41ec-a6f2-8cfb99844a08)
     )
@@ -8242,15 +8352,15 @@
     (property "ki_keywords" "SWPA4030S1R0NT")
     (path "/39e22e8a-ea0c-40e2-abef-81b29986c5c3")
     (attr smd)
-    (fp_text reference "L2" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "L2" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eb91ad88-2fa4-4119-9359-ff1a0a3ef746)
     )
-    (fp_text value "SWPA4030S1R0NT" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "SWPA4030S1R0NT" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4da3cc47-2725-4119-b9e6-1d319bdacd6a)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 360f4896-bbd9-4268-a51c-fb6d68791cae)
     )
@@ -8323,15 +8433,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/8c2e5195-5342-4f12-9229-f0ade2935679")
     (attr smd)
-    (fp_text reference "R38" (at 0 0.1) (layer "F.SilkS")
+    (fp_text reference "R38" (at 0 0.1) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6dc12344-ec03-4a33-b254-2e8b48893506)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4f1f4d9c-baa6-4218-8872-347ce4d26190)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp c33533b4-b8f1-4000-b58c-b22dda600845)
     )
@@ -8375,15 +8485,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/e47a9557-be8b-4fcd-82e5-82ea88c60fec")
     (attr smd)
-    (fp_text reference "LED10" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED10" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a8ef9b37-04a6-413b-850f-7d3225ccff9a)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ed5a60f0-5afb-4c9b-8e72-99b1c173b968)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2ef720b3-2ccc-4fd4-bbbd-d38e4d9626e2)
     )
@@ -8500,15 +8610,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/af202f8b-eaf1-48b2-b21b-b08aa1903238")
     (attr smd)
-    (fp_text reference "LED25" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED25" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 85c898aa-20e7-4a9d-9ced-859bed7e1035)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 672c2f4c-428f-471e-9627-a00a7316bc86)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c61a8ad6-9bb2-4618-b435-69d6ce3e277d)
     )
@@ -8627,15 +8737,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/8dcd86c0-2647-4e78-ba85-41de733301ca")
     (attr smd)
-    (fp_text reference "C8" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C8" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 77272499-8120-46c3-b0b6-c68a45a00167)
     )
-    (fp_text value "C" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 13f8740f-5b41-4b4f-93ef-689cdb08a576)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 8fb8436e-c069-4428-a88f-853f4cbe01c9)
     )
@@ -8679,15 +8789,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/1e8fb65f-eec9-466c-8bc7-8890b31560fe")
     (attr smd)
-    (fp_text reference "LED18" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED18" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0a216592-8306-40f2-8236-341f405cc6f1)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2e14196c-04e1-4ec9-bc7a-4e37bf3da749)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dc12fa88-d3a6-4835-a489-d9ba18c7609b)
     )
@@ -8802,15 +8912,15 @@
     (property "Sheetname" "")
     (path "/165fda09-f0ec-4dbe-8ac0-d5e00da59936")
     (attr smd)
-    (fp_text reference "D4" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D4" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 092a0217-853a-4511-810d-c5ac9efe2129)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e7a131df-1aa6-4a3e-886d-c191af9d6fb9)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 40fc2333-1c71-4ca1-a551-7da01d0dc2de)
     )
@@ -8825,20 +8935,74 @@
     (property "Sheetname" "")
     (path "/7f904070-39b9-45af-8f60-7ea172134e89")
     (attr smd)
-    (fp_text reference "D1" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D1" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 398c8930-f181-4ef5-9bb3-464eb3aaa808)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 06964aeb-6a41-4086-a872-60032f434cb3)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 70c0ce62-c845-47dd-a040-a8856afa0d5a)
     )
     (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 9 "Net-(D1-Conn)") (pinfunction "Conn") (pintype "bidirectional") (tstamp be6f7b48-0be4-4972-ac46-326a80a3daf5))
+  )
+
+  (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (layer "F.Cu")
+    (tstamp f979d29d-5dd8-43bf-b9f6-00c110f6fa7e)
+    (at 52.1629 86.6648)
+    (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "capacitor handsolder")
+    (property "Sheetfile" "Main_PCB_002.kicad_sch")
+    (property "Sheetname" "")
+    (property "ki_description" "Unpolarized capacitor")
+    (property "ki_keywords" "cap capacitor")
+    (path "/832c6272-baa3-4e78-a0ec-70316fd9de88")
+    (attr smd)
+    (fp_text reference "C16" (at 0 -1.16) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 5a0b589e-71a6-490d-a024-ca7af24f2dbd)
+    )
+    (fp_text value "C" (at 0 1.16) (layer "F.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 419775ea-3844-4240-88c5-b8ba809fdcb1)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+        (effects (font (size 0.25 0.25) (thickness 0.04)))
+      (tstamp 614685da-b7d2-4e2f-b41f-b398f94a193c)
+    )
+    (fp_line (start -0.115835 -0.36) (end 0.115835 -0.36)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 18528b03-e36a-4053-ad68-39e078b78703))
+    (fp_line (start -0.115835 0.36) (end 0.115835 0.36)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp edcfa68f-3402-4fcd-bfcc-64d33327c83f))
+    (fp_line (start -1.08 -0.46) (end 1.08 -0.46)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 0c37469e-de0e-47ab-a24d-3a62e65ea1a9))
+    (fp_line (start -1.08 0.46) (end -1.08 -0.46)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 6d65aa20-c658-4452-9943-9278e5775a12))
+    (fp_line (start 1.08 -0.46) (end 1.08 0.46)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 5d456d5a-1b0b-4f20-bcf8-7d445c6fb060))
+    (fp_line (start 1.08 0.46) (end -1.08 0.46)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 8237228b-e75f-4e22-b009-d967df2357b2))
+    (fp_line (start -0.5 -0.25) (end 0.5 -0.25)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f571209e-81a1-4867-bfc1-8245e4e06470))
+    (fp_line (start -0.5 0.25) (end -0.5 -0.25)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 867ce4ee-744a-4bd9-9703-ff14190ebe32))
+    (fp_line (start 0.5 -0.25) (end 0.5 0.25)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f8b4c680-d831-4d69-aa41-7c63696eb00b))
+    (fp_line (start 0.5 0.25) (end -0.5 0.25)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 4a9e103a-c185-4f5f-8270-731e6dad8c80))
+    (pad "1" smd roundrect (at -0.5675 0) (size 0.735 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 8 "Net-(D16-Conn)") (pintype "passive") (tstamp 1665b2eb-f20c-4295-b7d3-fd86142f7eda))
+    (pad "2" smd roundrect (at 0.5675 0) (size 0.735 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 39 "Net-(U3-FB)") (pintype "passive") (tstamp 0c5d60d8-62bb-46a0-b56c-e56c7ddd1909))
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "F.Cu")
@@ -8852,15 +9016,15 @@
     (property "ki_keywords" "R res resistor")
     (path "/dd43fa8f-6f96-4cc9-88c7-b1d3a05f726e")
     (attr smd)
-    (fp_text reference "R16" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R16" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2b52797e-e116-4591-a7f9-3d66ef9f8135)
     )
-    (fp_text value "R" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.17) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c8e7b719-fa4e-47ae-954c-f05fac12ef94)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.26 0.26) (thickness 0.04)))
       (tstamp db00ac6e-32ef-42c4-8dfc-cd1e5080bce5)
     )
@@ -8895,6 +9059,60 @@
     )
   )
 
+  (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
+    (tstamp fb073cb7-8fea-4180-915a-2da7330d8e84)
+    (at 48.0568 46.8376 90)
+    (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "capacitor")
+    (property "Sheetfile" "Main_PCB_002.kicad_sch")
+    (property "Sheetname" "")
+    (property "ki_description" "Unpolarized capacitor")
+    (property "ki_keywords" "cap capacitor")
+    (path "/51ad98c0-f767-4dfc-a43d-e9ad6a7208e8")
+    (attr smd)
+    (fp_text reference "C15" (at 0 -1.16 90) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 9a33c690-58f7-4d04-a8ef-d86f4f676de0)
+    )
+    (fp_text value "C" (at 0 1.16 90) (layer "F.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp a3f5513a-28ad-4c39-a8be-7d942ddc1145)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab") hide
+        (effects (font (size 0.25 0.25) (thickness 0.04)))
+      (tstamp 752a8e3f-188e-4e16-9923-55ee730c78bc)
+    )
+    (fp_line (start -0.107836 -0.36) (end 0.107836 -0.36)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp eac1d57c-50b1-4ab8-bef3-c72ff9aa3717))
+    (fp_line (start -0.107836 0.36) (end 0.107836 0.36)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp d5762cf9-8cdb-42b5-92d6-69d9c0f476f3))
+    (fp_line (start -0.91 -0.46) (end 0.91 -0.46)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 39697cda-bf7d-46b7-9180-3f17a448fa68))
+    (fp_line (start -0.91 0.46) (end -0.91 -0.46)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp efafb036-a9c3-4c90-8f82-541183e100c0))
+    (fp_line (start 0.91 -0.46) (end 0.91 0.46)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp ae764b2c-a4df-4d86-9df3-78482a55c6d3))
+    (fp_line (start 0.91 0.46) (end -0.91 0.46)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 3d39ae9e-dd84-49ac-8868-f8adc9fc8b4f))
+    (fp_line (start -0.5 -0.25) (end 0.5 -0.25)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 11a60004-0538-4889-b675-e4d5a7e79e08))
+    (fp_line (start -0.5 0.25) (end -0.5 -0.25)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp dc1fc5be-5016-4cac-a817-2e5fc95d3a0e))
+    (fp_line (start 0.5 -0.25) (end 0.5 0.25)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a2d97305-2457-4583-85cc-f2c7e5d14c00))
+    (fp_line (start 0.5 0.25) (end -0.5 0.25)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e43646ab-1bb6-4c58-8cfc-7273e3dd758d))
+    (pad "1" smd roundrect (at -0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 65 "Net-(D22-Conn)") (pintype "passive") (tstamp fa86ddcb-aca8-433f-9fd8-aca23457b4f1))
+    (pad "2" smd roundrect (at 0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 81 "Net-(U2-FB)") (pintype "passive") (tstamp a3c49c8c-85e6-45ac-aa9a-ff0f2d83aa28))
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (footprint "Wire_holes:WireHole_1p2" (layer "F.Cu")
     (tstamp fb0f57fc-6f06-40ad-9b11-73bf64e13b6d)
     (at 100.965 152.4)
@@ -8902,15 +9120,15 @@
     (property "Sheetname" "")
     (path "/21192ffc-6c52-47fa-905c-6601b53708c5")
     (attr smd)
-    (fp_text reference "D6" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS")
+    (fp_text reference "D6" (at -0.95298 -1.169382 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc91dd81-e9e5-4fdf-9105-0c216ad79d80)
     )
-    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab")
+    (fp_text value "WireHole_1p5" (at -1.74649 1.433885 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ba033ad2-21ac-4ea3-8012-7eea228b536a)
     )
-    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.95298 -1.169382 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3b834495-2f49-4dcd-b6e1-403fdc164669)
     )
@@ -8929,15 +9147,15 @@
     (property "ki_keywords" "cap capacitor")
     (path "/06376616-da48-4163-8c18-e8483fd7ddcd")
     (attr smd)
-    (fp_text reference "C3" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C3" (at 0 -1.68) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5f03e1c6-c94d-4c1d-bd33-9d7b9deeb823)
     )
-    (fp_text value "C" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "C" (at 0 1.68) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 926e98d7-e979-47f5-b60f-e47a0788e900)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 500770d6-acd1-4e91-aa5a-bfaa9f788d99)
     )
@@ -8981,31 +9199,31 @@
     (property "ki_keywords" "DMT10H009LK3-13")
     (path "/5221b33a-6fff-4456-a974-ad56ee53df58")
     (attr smd)
-    (fp_text reference "Q2" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "Q2" (at 0 0 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f420be2d-b41b-44f7-8ca6-cd917822c7f9)
     )
-    (fp_text value "DMT10H009LK3-13" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "DMT10H009LK3-13" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dbea77e5-bd5d-47a1-a95b-eb59ef19ad08)
     )
-    (fp_text user "*" (at -5.207 5.1562) (layer "F.SilkS")
+    (fp_text user "*" (at -5.207 5.1562) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1f52d37f-8ffd-4918-ba96-ac3a36294383)
     )
-    (fp_text user "*" (at -5.207 5.1562 unlocked) (layer "F.SilkS")
+    (fp_text user "*" (at -5.207 5.1562 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d3f13e79-343e-4d73-9dc4-13a2e3f9c885)
     )
-    (fp_text user "*" (at -2.286 2.8448 unlocked) (layer "F.Fab")
+    (fp_text user "*" (at -2.286 2.8448 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2d61cd12-a509-4d4b-a0e2-618b95bc833e)
     )
-    (fp_text user "*" (at -2.286 2.8448) (layer "F.Fab")
+    (fp_text user "*" (at -2.286 2.8448) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7a16b228-956a-4713-b153-f621a5a83a28)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e9eadd9b-5629-431f-8c41-a5496290a9d6)
     )
@@ -9100,15 +9318,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/e4200ec0-f255-41a6-8c20-0f711571f25b")
     (attr smd)
-    (fp_text reference "LED14" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED14" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9d193bed-efd3-4c6d-8372-0c1fdea7c07f)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e79f87de-ebce-4a2e-8472-a584b5006bc5)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ff5ad543-bd02-4a55-9bb6-9c1b11101143)
     )
@@ -9225,15 +9443,15 @@
     (property "ki_keywords" "HSMW-C191-U0000")
     (path "/dbb96165-8844-4704-9da2-3df8c81553fa")
     (attr smd)
-    (fp_text reference "LED24" (at 0 0 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "LED24" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a669e140-4104-4db9-a48e-67bee4883e94)
     )
-    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text value "HSMW-C191-U0000" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 148b3eaf-cd24-47a8-8781-9990e64a1282)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0f998089-fd36-4938-bf72-f25c36085848)
     )
@@ -9340,5 +9558,32 @@
       )
     )
   )
+
+  (segment (start 47.9552 44.9061) (end 47.6493 44.9061) (width 0.25) (layer "F.Cu") (net 12) (tstamp 07ef1d67-af2b-46c2-9c31-b7309f3b88a2))
+  (segment (start 47.6493 44.9061) (end 47.1932 44.45) (width 0.25) (layer "F.Cu") (net 12) (tstamp 486accf3-5b6a-4de1-ab17-fe6681ebc6e1))
+  (segment (start 47.1932 44.45) (end 45.94 44.45) (width 0.25) (layer "F.Cu") (net 12) (tstamp e0b8be4b-ffc5-41cf-93e6-5db12919590e))
+  (segment (start 50.3925 43.1811) (end 50.4952 43.0784) (width 0.25) (layer "F.Cu") (net 13) (tstamp 00d7cc10-51ae-4a5e-b114-f8c05b4351c0))
+  (segment (start 45.9411 43.1811) (end 45.94 43.18) (width 0.25) (layer "F.Cu") (net 13) (tstamp 15227bd3-b02c-4e1a-9975-7ebf7d37702b))
+  (segment (start 47.9552 43.1811) (end 50.3925 43.1811) (width 0.25) (layer "F.Cu") (net 13) (tstamp 30bc577b-794a-497e-8b1c-98806700c1d8))
+  (segment (start 47.9552 43.1811) (end 45.9411 43.1811) (width 0.25) (layer "F.Cu") (net 13) (tstamp 940213e8-f72c-472f-8588-75e45f24bfdf))
+  (segment (start 40.64 44.45) (end 40.64 45.72) (width 0.25) (layer "F.Cu") (net 64) (tstamp a986a3cb-2c98-4fa7-b03c-cbd51c6bd1be))
+  (segment (start 46.9392 48.4632) (end 47.6504 47.752) (width 0.25) (layer "F.Cu") (net 65) (tstamp 1762cf13-4d15-497d-860b-584f79820e59))
+  (segment (start 48.7559 47.2561) (end 50.4952 45.5168) (width 0.25) (layer "F.Cu") (net 65) (tstamp 88721b42-dc18-4c1b-81bf-66dd8957dbc1))
+  (segment (start 47.6504 47.752) (end 47.6504 47.3176) (width 0.25) (layer "F.Cu") (net 65) (tstamp 9628a24f-4427-41d5-8d7b-42e4e3f33217))
+  (segment (start 46.3683 48.4632) (end 46.9392 48.4632) (width 0.25) (layer "F.Cu") (net 65) (tstamp 99102ec0-0c77-4454-856b-4143d98855ff))
+  (segment (start 47.7119 47.2561) (end 48.7172 47.2561) (width 0.25) (layer "F.Cu") (net 65) (tstamp a3e6a079-7fa2-489d-ae85-07c6015c04d2))
+  (segment (start 47.6504 47.3176) (end 47.7119 47.2561) (width 0.25) (layer "F.Cu") (net 65) (tstamp b20443fa-7252-42dc-8e97-e9e4c9191092))
+  (segment (start 48.7172 47.2561) (end 48.7559 47.2561) (width 0.25) (layer "F.Cu") (net 65) (tstamp c2cfbc6b-1e16-4a18-9db7-296ceb9c2551))
+  (segment (start 40.0933 48.514) (end 40.0933 47.5367) (width 0.25) (layer "F.Cu") (net 79) (tstamp 0a87c505-9372-4dd4-8540-c9318ef6da36))
+  (segment (start 40.0933 47.5367) (end 40.64 46.99) (width 0.25) (layer "F.Cu") (net 79) (tstamp 692c5dc7-e997-42c0-b931-3d93901705b5))
+  (segment (start 47.3176 46.3576) (end 46.6852 46.99) (width 0.25) (layer "F.Cu") (net 81) (tstamp 1bf42699-d696-4c9c-afbd-f63cd83d21d9))
+  (segment (start 43.8791 48.514) (end 45.1225 48.514) (width 0.25) (layer "F.Cu") (net 81) (tstamp 26046933-1979-467c-bdcd-198b48a1feeb))
+  (segment (start 46.6852 46.99) (end 45.94 46.99) (width 0.25) (layer "F.Cu") (net 81) (tstamp 2f743a1a-5c6c-4355-9bba-565270e06686))
+  (segment (start 45.1225 48.514) (end 45.1733 48.4632) (width 0.25) (layer "F.Cu") (net 81) (tstamp 427233d5-200c-4d2f-86cf-ba2a13e2b985))
+  (segment (start 45.1733 48.4632) (end 45.1733 47.7567) (width 0.25) (layer "F.Cu") (net 81) (tstamp 7253a4db-105c-4730-8992-98fd91e5476c))
+  (segment (start 45.1733 47.7567) (end 45.94 46.99) (width 0.25) (layer "F.Cu") (net 81) (tstamp 7a7419dd-394e-4e40-ae90-70453cc7cece))
+  (segment (start 48.0568 46.3576) (end 47.3176 46.3576) (width 0.25) (layer "F.Cu") (net 81) (tstamp d55daf89-368f-4411-a161-88ca741fca98))
+  (segment (start 49.5573 48.4511) (end 50.0532 47.9552) (width 0.25) (layer "F.Cu") (net 87) (tstamp 9226ba88-261c-4a1d-a171-5b54837734f9))
+  (segment (start 48.7172 48.4511) (end 49.5573 48.4511) (width 0.25) (layer "F.Cu") (net 87) (tstamp f9bd5d1a-3d0a-44b9-a70d-a89492b35b4a))
 
 )
