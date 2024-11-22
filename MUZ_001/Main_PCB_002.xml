@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Projects\BANO_Working\MUZ_001\Main_PCB_002.kicad_sch</source>
-    <date>20.11.2024 18:12:47</date>
+    <date>22.11.2024 18:24:36</date>
     <tool>Eeschema 7.0.11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -843,17 +843,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>53eb4134-1766-4e07-b414-28cd62361aaa</tstamps>
     </comp>
-    <comp ref="Q5">
-      <value>DMT10H009LK3-13</value>
-      <footprint>ul_DMT10H009LK3-13:QPMOS1G2S3D_TO252_DIO</footprint>
-      <datasheet>DMT10H009LK3-13</datasheet>
-      <libsource lib="DMT10H009LK3" part="DMT10H009LK3-13" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
-      <property name="ki_keywords" value="DMT10H009LK3-13"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c1afd018-3ed2-4f88-98b0-dc0eee7bbe0c</tstamps>
-    </comp>
     <comp ref="Q6">
       <value>BSS123</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
@@ -890,16 +879,29 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>eb658a90-694a-4543-a639-f06535308409</tstamps>
     </comp>
-    <comp ref="Q9">
-      <value>DMT10H009LK3-13</value>
-      <footprint>ul_DMT10H009LK3-13:QPMOS1G2S3D_TO252_DIO</footprint>
-      <datasheet>DMT10H009LK3-13</datasheet>
-      <libsource lib="DMT10H009LK3" part="DMT10H009LK3-13" description=""/>
+    <comp ref="Q10">
+      <value>BSS123</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30366.pdf</datasheet>
+      <libsource lib="" part="BSS123_1" description="0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
-      <property name="ki_keywords" value="DMT10H009LK3-13"/>
+      <property name="ki_description" value="0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>45ac5e9c-167b-45d0-a309-86249f10fee8</tstamps>
+      <tstamps>40129bd1-f3b0-4fb0-bba8-6b47292242f8</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>BSS123</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30366.pdf</datasheet>
+      <libsource lib="" part="BSS123_1" description="0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
+      <property name="ki_description" value="0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb431708-7b03-4c47-acf2-decbd7e0a40e</tstamps>
     </comp>
     <comp ref="R1">
       <value>R</value>
@@ -936,7 +938,7 @@
     </comp>
     <comp ref="R4">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -969,7 +971,7 @@
     </comp>
     <comp ref="R7">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -1222,7 +1224,7 @@
     </comp>
     <comp ref="R30">
       <value>R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Main_PCB_002.kicad_sch"/>
@@ -1412,6 +1414,24 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="" part="BSS123_1">
+      <description>0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.diodes.com/assets/Datasheets/ds30366.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS123</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.diodes.com/assets/Datasheets/ds30366.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="BLM18KG102SH1D" part="BLM18KG102SH1D">
       <docs>BLM18KG102SH1D</docs>
       <footprints>
@@ -1771,12 +1791,12 @@
       <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="LED1" pin="1" pintype="unspecified"/>
+      <node ref="Q11" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="S" pintype="unspecified"/>
       <node ref="Q4" pin="2" pinfunction="S" pintype="unspecified"/>
       <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q8" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q9" pin="2" pinfunction="S" pintype="unspecified"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
@@ -1851,7 +1871,7 @@
     </net>
     <net code="13" name="Net-(CR2-HVG)">
       <node ref="CR2" pin="7" pinfunction="HVG" pintype="output"/>
-      <node ref="Q5" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="Q10" pin="1" pinfunction="G" pintype="input"/>
     </net>
     <net code="14" name="Net-(CR2-LIN)">
       <node ref="CR2" pin="1" pinfunction="LIN" pintype="input"/>
@@ -1859,14 +1879,14 @@
     </net>
     <net code="15" name="Net-(CR2-LVG)">
       <node ref="CR2" pin="5" pinfunction="LVG" pintype="output"/>
-      <node ref="Q9" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="Q11" pin="1" pinfunction="G" pintype="input"/>
     </net>
     <net code="16" name="Net-(CR2-OUT)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="CR2" pin="6" pinfunction="OUT" pintype="output"/>
       <node ref="D14" pin="1" pinfunction="Conn" pintype="bidirectional"/>
-      <node ref="Q5" pin="2" pinfunction="S" pintype="unspecified"/>
-      <node ref="Q9" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="Q10" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="17" name="Net-(CR3-HIN)">
       <node ref="CR3" pin="2" pinfunction="HIN" pintype="input"/>
@@ -1974,8 +1994,8 @@
     <net code="36" name="Net-(D24-Conn)">
       <node ref="D24" pin="1" pinfunction="Conn" pintype="bidirectional"/>
       <node ref="Q1" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="Q10" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="D" pintype="unspecified"/>
-      <node ref="Q5" pin="3" pinfunction="D" pintype="unspecified"/>
       <node ref="R31" pin="2" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="VIN" pintype="power_in"/>
       <node ref="U2" pin="3" pinfunction="EN/UVLO" pintype="input"/>
